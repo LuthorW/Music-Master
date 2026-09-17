@@ -3835,8 +3835,283 @@ const PLAYLIST_SPOTIFY = [
   }
 ];
 
+
+// Playlist exclusiva do modo Descendentes:
+// https://open.spotify.com/playlist/44xYNTfmisUBtQ1oYuEWYe
+const PLAYLIST_Descendentes = [
+  {
+    "album": "Descendants 2 (Original TV Movie Soundtrack)",
+    "artistas": [
+      "Descendentes"
+    ],
+    "index": 1,
+    "spotifyId": "53xAT6jud1w0NqlBjSW4VB",
+    "titulo": "What's My Name"
+  },
+  {
+    "album": "Descendants 2 (Original TV Movie Soundtrack)",
+    "artistas": [
+      "Descendentes"
+    ],
+    "index": 2,
+    "spotifyId": "2ziVTVizQdVNC2QhQhNGvg",
+    "titulo": "Ways to Be Wicked"
+  },
+  {
+    "album": "Descendants 2 (Original TV Movie Soundtrack)",
+    "artistas": [
+      "Descendentes"
+    ],
+    "index": 3,
+    "spotifyId": "3N1V03yrqyNPo5A4Fu2Wd7",
+    "titulo": "Space Between"
+  },
+  {
+    "album": "Descendants 2 (Original TV Movie Soundtrack)",
+    "artistas": [
+      "Descendentes"
+    ],
+    "index": 4,
+    "spotifyId": "537mRuCCiKQNFlN1vdSl1k",
+    "titulo": "It's Goin' Down"
+  },
+  {
+    "album": "Descendants 2 (Original TV Movie Soundtrack)",
+    "artistas": [
+      "Descendentes"
+    ],
+    "index": 5,
+    "spotifyId": "5AiD2doxfh5xlfkNc63WPV",
+    "titulo": "You and Me"
+  },
+  {
+    "album": "Descendants 2 (Original TV Movie Soundtrack)",
+    "artistas": [
+      "Descendentes"
+    ],
+    "index": 6,
+    "spotifyId": "1rM0CnyUiiw6A9CHJRXjZA",
+    "titulo": "Chillin' Like a Villain"
+  },
+  {
+    "album": "Descendants 3 (Original TV Movie Soundtrack)",
+    "artistas": [
+      "Descendentes"
+    ],
+    "index": 7,
+    "spotifyId": "6ATDrk56ouL2eCxrgfDeHE",
+    "titulo": "Do What You Gotta Do"
+  },
+  {
+    "album": "Descendants 3 (Original TV Movie Soundtrack)",
+    "artistas": [
+      "Descendentes"
+    ],
+    "index": 8,
+    "spotifyId": "3doNvO8zrwzcM0PJrcn8Rb",
+    "titulo": "Night Falls"
+  },
+  {
+    "album": "Descendants 3 (Original TV Movie Soundtrack)",
+    "artistas": [
+      "Descendentes"
+    ],
+    "index": 9,
+    "spotifyId": "6NyXDWD1bH0fwBrShjSydJ",
+    "titulo": "My Once Upon a Time"
+  },
+  {
+    "album": "Descendants 3 (Original TV Movie Soundtrack)",
+    "artistas": [
+      "Descendentes"
+    ],
+    "index": 10,
+    "spotifyId": "1KB9t6oaVG99L1DIkMfyrx",
+    "titulo": "Break This Down"
+  },
+  {
+    "album": "Descendants 3 (Original TV Movie Soundtrack)",
+    "artistas": [
+      "Descendentes"
+    ],
+    "index": 11,
+    "spotifyId": "35mP1AOFEpTrChN5H4r2u7",
+    "titulo": "Rotten to the Core (D3 Remix)"
+  },
+  {
+    "album": "Descendants 3 (Original TV Movie Soundtrack)",
+    "artistas": [
+      "Descendentes"
+    ],
+    "index": 12,
+    "spotifyId": "7Ci4hHa9wvMajOqt5EpOQK",
+    "titulo": "VK Mashup"
+  },
+  {
+    "album": "Descendants (Original TV Movie Soundtrack)",
+    "artistas": [
+      "Descendentes"
+    ],
+    "index": 13,
+    "spotifyId": "1YekSxsAlGlYvm9zjLsKdh",
+    "titulo": "Did I Mention"
+  },
+  {
+    "album": "Descendants 3 (Original TV Movie Soundtrack)",
+    "artistas": [
+      "Descendentes"
+    ],
+    "index": 14,
+    "spotifyId": "4o05DiC0RQ9DNtGJGauwna",
+    "titulo": "Queen of Mean"
+  },
+  {
+    "album": "Descendants 3 (Original TV Movie Soundtrack)",
+    "artistas": [
+      "Descendentes"
+    ],
+    "index": 15,
+    "spotifyId": "0v2gYvWbmabBYaTlOWi5fi",
+    "titulo": "One Kiss"
+  },
+  {
+    "album": "Descendants (Original TV Movie Soundtrack)",
+    "artistas": [
+      "Descendentes"
+    ],
+    "index": 16,
+    "spotifyId": "0tA3r8h5RZp9xSPrZe8fcK",
+    "titulo": "Night Is Young - From \"Descendants: Wicked World\""
+  },
+  {
+    "album": "Descendants (Original TV Movie Soundtrack)",
+    "artistas": [
+      "Descendentes"
+    ],
+    "index": 17,
+    "spotifyId": "2bNxCVI4Fub8BAwr0CQDyd",
+    "titulo": "Rotten to the Core"
+  },
+  {
+    "album": "Descendants (Original TV Movie Soundtrack)",
+    "artistas": [
+      "Descendentes"
+    ],
+    "index": 18,
+    "spotifyId": "1mRBJdpIgc3jZH8C3cN2WV",
+    "titulo": "If Only"
+  },
+  {
+    "album": "Descendants (Original TV Movie Soundtrack)",
+    "artistas": [
+      "Descendentes"
+    ],
+    "index": 19,
+    "spotifyId": "0xlHBT4TViZJGdEPi5M4pm",
+    "titulo": "If Only (Reprise)"
+  },
+  {
+    "album": "Descendants (Original TV Movie Soundtrack)",
+    "artistas": [
+      "Descendentes"
+    ],
+    "index": 20,
+    "spotifyId": "7I80zTBTDNnbOiJQ0JLjZr",
+    "titulo": "Set It Off"
+  },
+  {
+    "album": "Descendants (Original TV Movie Soundtrack)",
+    "artistas": [
+      "Descendentes"
+    ],
+    "index": 21,
+    "spotifyId": "0PslQwFjnu3nTm9ka7d0xL",
+    "titulo": "Good Is the New Bad - From \"Descendants: Wicked World\""
+  },
+  {
+    "album": "Descendants (Original TV Movie Soundtrack)",
+    "artistas": [
+      "Descendentes"
+    ],
+    "index": 22,
+    "spotifyId": "1YekSxsAlGlYvm9zjLsKdh",
+    "titulo": "Did I Mention"
+  },
+  {
+    "album": "Descendants (Original TV Movie Soundtrack)",
+    "artistas": [
+      "Descendentes"
+    ],
+    "index": 23,
+    "spotifyId": "0oe0UYSKAESBUR12I1ESXQ",
+    "titulo": "Evil Like Me"
+  },
+  {
+    "album": "Descendants (Original TV Movie Soundtrack)",
+    "artistas": [
+      "Descendentes"
+    ],
+    "index": 24,
+    "spotifyId": "5bIaUFqwok97vCXAoTqFkj",
+    "titulo": "Be Our Guest"
+  },
+  {
+    "album": "Descendants (Original TV Movie Soundtrack)",
+    "artistas": [
+      "Descendentes"
+    ],
+    "index": 25,
+    "spotifyId": "01vWrOtEdzlQorEhifVUo3",
+    "titulo": "Rotten to the Core - From \"Descendants: Wicked World\""
+  },
+  {
+    "album": "Genie in a Bottle",
+    "artistas": [
+      "Descendentes"
+    ],
+    "index": 26,
+    "spotifyId": "7o6oQ3TTOAdMe46Hg7ijDh",
+    "titulo": "Genie in a Bottle"
+  },
+  {
+    "album": "Good to Be Bad (From \"Descendants 3\")",
+    "artistas": [
+      "Descendentes"
+    ],
+    "index": 27,
+    "spotifyId": "3EJhGXM0fa6nVb6MfgTauX",
+    "titulo": "Good to Be Bad - From \"Descendants 3\""
+  },
+  {
+    "album": "Queen of Mean/What's My Name CLOUDxCITY...",
+    "artistas": [
+      "Descendentes"
+    ],
+    "index": 28,
+    "spotifyId": "2oJG54pCeFBlc63HuZrOX8",
+    "titulo": "Queen of Mean/What's My Name CLOUDxCITY Mashup - From \"Descendants...\""
+  },
+  {
+    "album": "Rather Be With You (From \"Descendants: Wicked World\")",
+    "artistas": [
+      "Descendentes"
+    ],
+    "index": 29,
+    "spotifyId": "06FtGanSUKMJ0ZYak6V1FR",
+    "titulo": "Rather Be With You - From \"Descendants: Wicked World\""
+  },
+  {
+    "album": "Stronger (From \"Under the Sea: A Descendant...)",
+    "artistas": [
+      "Descendentes"
+    ],
+    "index": 30,
+    "spotifyId": "6xjTZCCyLNEOw7AsGV8A5e",
+    "titulo": "Stronger - From \"Under the Sea: A Descendants Short Story\""
+  }
+];
+
 // Playlist exclusiva do modo Ana Carolina:
-// https://open.spotify.com/playlist/726cGSYdYtIVPaUNlQinfp
 const PLAYLIST_ANA_CAROLINA = [
   {
     "album": "Ana E Jorge (Ao Vivo)",
