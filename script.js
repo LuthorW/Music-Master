@@ -3838,7 +3838,7 @@ const PLAYLIST_SPOTIFY = [
 
 // Playlist exclusiva do modo Descendentes:
 // https://open.spotify.com/playlist/44xYNTfmisUBtQ1oYuEWYe
-const PLAYLIST_Descendentes = [
+const PLAYLIST_DESCENDENTES = [
   {
     "album": "Descendants 2 (Original TV Movie Soundtrack)",
     "artistas": [
@@ -6782,6 +6782,9 @@ const MUSICAS = [
   ...PLAYLIST_ANA_CAROLINA.map((faixa) =>
     criarFaixa(faixa, { exclusiva: true, artistaModo: "Ana Carolina" }),
   ),
+  ...PLAYLIST_DESCENDENTES.map((faixa) =>
+    criarFaixa(faixa, { exclusiva: true, artistaModo: "Descendentes" }),
+  ),
   ...PLAYLIST_LUDMILLA.map((faixa) =>
     criarFaixa(faixa, { exclusiva: true, artistaModo: "Ludmilla" }),
   ),
@@ -6809,7 +6812,7 @@ function indicesDoArtista(artista) {
   }, []);
 }
 
-const ARTISTAS_FIXOS = ["Ana Carolina", "Ludmilla"];
+const ARTISTAS_FIXOS = ["Ana Carolina", "Descendentes", "Ludmilla"];
 const mapaArtistas = new Map(ARTISTAS_FIXOS.map((artista) => [normalizar(artista), artista]));
 MUSICAS_ALEATORIAS.flatMap((faixa) => faixa.artistas).forEach((artista) => {
   const chave = normalizar(artista);
