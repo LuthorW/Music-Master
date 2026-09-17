@@ -3815,6 +3815,16 @@ const PLAYLIST_SPOTIFY = [
     "titulo": "Rehab - Live From The Album Chart Show / 2006"
   },
   {
+    "album": "Trilha das Indias",
+    "artistas": [
+      " Sukhwinder Singh", 
+      "Sunidhi Chauhan"
+    ],
+    "index": 421,
+    "spotifyId": "3FBhYM0JzI6hcl9f5qAXXL",
+    "titulo": "Beedi"
+  },
+  {
     "album": "Neither One Of Us",
     "artistas": [
       "Gladys Knight & The Pips"
