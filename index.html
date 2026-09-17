@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Adivinhe a música ouvindo apenas meio segundo e use dicas progressivas se precisar."
+    />
+    <meta name="theme-color" content="#0a0b0e" />
+    <title>Ouvido Relâmpago — Adivinhe a música</title>
+
+    <!-- FAVICON: troque o href abaixo por "./favicon.ico" quando tiver o seu arquivo. -->
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a0b0e'/%3E%3Ccircle cx='32' cy='32' r='21' fill='%23d8ff52'/%3E%3Ccircle cx='32' cy='32' r='8' fill='%230a0b0e'/%3E%3Ccircle cx='32' cy='32' r='3' fill='%23ffffff'/%3E%3C/svg%3E"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="ambient-grid" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#game" aria-label="Ouvido Relâmpago — início">
+        <span class="brand-mark" aria-hidden="true">
+          <span></span>
+        </span>
+        <span class="brand-copy">
+          <strong>OUVIDO</strong>
+          <em>RELÂMPAGO</em>
+        </span>
+      </a>
+
+      <div class="round-meta" aria-label="Progresso da partida">
+        <span class="round-counter" id="roundCounter">FAIXA 01 / 08</span>
+        <div class="streak-pill" title="Sua sequência fica salva neste navegador">
+          <span class="streak-icon" aria-hidden="true">↗</span>
+          <span>
+            <small>SEQUÊNCIA</small>
+            <strong><span id="streakValue">0</span> acertos</strong>
+          </span>
+        </div>
+      </div>
+    </header>
+
+    <main id="game" class="game-layout">
+      <section class="game-panel" aria-labelledby="gameTitle">
+        <div class="panel-heading">
+          <div>
+            <span class="eyebrow">DESAFIO ATUAL</span>
+            <h1 id="gameTitle">Reconhece em <span>0,5 segundo?</span></h1>
+          </div>
+          <div class="catalog-status" id="catalogStatus" role="status">
+            <span aria-hidden="true"></span>
+            CARREGANDO PRÉVIA
+          </div>
+        </div>
+
+        <div class="player-stage">
+          <div class="cover-frame is-concealed" id="coverFrame">
+            <img id="coverImage" alt="Capa do álbum oculta" />
+            <div class="cover-veil" aria-hidden="true">
+              <span class="cover-index">?</span>
+              <span>CAPA BLOQUEADA</span>
+            </div>
+            <div class="cover-corner cover-corner--top" aria-hidden="true"></div>
+            <div class="cover-corner cover-corner--bottom" aria-hidden="true"></div>
+          </div>
+
+          <div class="audio-console">
+            <div class="console-topline">
+              <span id="clipLabel">TRECHO LIBERADO · 0,5 S</span>
+              <span class="audio-time" id="audioTime">00:00.0</span>
+            </div>
+
+            <button
+              class="play-button"
+              id="playButton"
+              type="button"
+              disabled
+              aria-label="Tocar trecho de 0,5 segundo"
+            >
+              <span class="play-button__icon" aria-hidden="true"></span>
+              <span class="play-button__copy">
+                <small>OUVIR AGORA</small>
+                <strong id="playDuration">0,5 S</strong>
+              </span>
+            </button>
+
+            <div class="wave-shell" aria-label="Visualização do trecho liberado">
+              <div class="waveform" id="waveform" aria-hidden="true"></div>
+              <div class="heard-marker" id="heardMarker" aria-hidden="true"></div>
+            </div>
+
+            <div
+              class="duration-progress"
+              id="durationProgress"
+              role="progressbar"
+              aria-label="Duração de áudio liberada"
+              aria-valuemin="0.5"
+              aria-valuemax="5"
+              aria-valuenow="0.5"
+            >
+              <span id="durationFill"></span>
+            </div>
+            <div class="duration-scale" aria-hidden="true">
+              <span>0 S</span>
+              <span>5 S</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hint-section" aria-labelledby="hintTitle">
+          <div class="section-label">
+            <span id="hintTitle">TRILHA DE DICAS</span>
+            <span id="hintCount">0 DE 7 USADAS</span>
+          </div>
+          <ol class="hint-track" id="hintTrack">
+            <li class="is-current" data-stage="0"><span>0,5s</span><small>INÍCIO</small></li>
+            <li data-stage="1"><span>1s</span><small>ÁUDIO</small></li>
+            <li data-stage="2"><span>2s</span><small>ÁUDIO</small></li>
+            <li data-stage="3"><span>3s</span><small>ÁUDIO</small></li>
+            <li data-stage="4"><span>4s</span><small>ÁUDIO</small></li>
+            <li data-stage="5"><span>5s</span><small>ÁUDIO</small></li>
+            <li data-stage="6"><span>Aa</span><small>ARTISTA</small></li>
+            <li data-stage="7"><span>A</span><small>INICIAL</small></li>
+          </ol>
+
+          <div class="revealed-hints" id="revealedHints" aria-live="polite">
+            <span>Nenhuma pista extra revelada.</span>
+          </div>
+        </div>
+
+        <form class="guess-form" id="guessForm" novalidate>
+          <label for="guessInput">QUAL É A MÚSICA?</label>
+          <div class="guess-row">
+            <div class="input-shell">
+              <input
+                id="guessInput"
+                name="guess"
+                type="text"
+                list="songOptions"
+                placeholder="Digite o título da faixa"
+                autocomplete="off"
+                maxlength="120"
+                required
+              />
+              <datalist id="songOptions"></datalist>
+            </div>
+            <button class="submit-button" id="submitButton" type="submit">
+              CONFIRMAR
+              <span aria-hidden="true">↗</span>
+            </button>
+          </div>
+          <p class="form-feedback" id="formFeedback" aria-live="polite">
+            Você pode tentar quantas vezes quiser antes de desistir.
+          </p>
+        </form>
+
+        <div class="round-actions">
+          <button class="secondary-button" id="hintButton" type="button">
+            <span aria-hidden="true">＋</span>
+            PRECISO DE UMA DICA
+          </button>
+          <button class="text-button" id="giveUpButton" type="button">
+            NÃO SEI
+          </button>
+        </div>
+      </section>
+
+      <aside class="metadata-panel" aria-labelledby="metadataTitle">
+        <div class="metadata-heading">
+          <span class="eyebrow">ARQUIVO DA RODADA</span>
+          <span class="file-number" id="fileNumber">#001</span>
+        </div>
+        <h2 id="metadataTitle">Ficha da faixa</h2>
+
+        <dl class="metadata-list">
+          <div>
+            <dt>TÍTULO</dt>
+            <dd id="metaTitle">••••••••••••</dd>
+          </div>
+          <div>
+            <dt>ARTISTA</dt>
+            <dd id="metaArtist">••••••••••••</dd>
+          </div>
+          <div>
+            <dt>ÁLBUM</dt>
+            <dd id="metaAlbum">••••••••••••</dd>
+          </div>
+          <div>
+            <dt>ANO</dt>
+            <dd id="metaYear">••••</dd>
+          </div>
+        </dl>
+
+        <div class="file-preview" id="filePreview">
+          <div class="file-icon" aria-hidden="true">
+            <span></span>
+          </div>
+          <div>
+            <small>ESTADO DO ARQUIVO</small>
+            <strong id="fileState">IDENTIDADE OCULTA</strong>
+          </div>
+        </div>
+
+        <div class="rules-note">
+          <span aria-hidden="true">i</span>
+          <p>
+            Cada ajuda aumenta o trecho. Depois de 5 segundos, as últimas pistas
+            revelam o artista e a primeira letra.
+          </p>
+        </div>
+      </aside>
+    </main>
+
+    <footer class="site-footer">
+      <span>OUVIDO RELÂMPAGO</span>
+      <span>0,5 S · 7 DICAS · 1 RESPOSTA</span>
+    </footer>
+
+    <dialog class="result-dialog" id="resultDialog" aria-labelledby="resultTitle">
+      <div class="result-card">
+        <div class="result-stripe" aria-hidden="true"></div>
+        <div class="result-content">
+          <span class="result-kicker" id="resultKicker">VOCÊ ACERTOU</span>
+          <h2 id="resultTitle">Muito bem.</h2>
+
+          <div class="result-track">
+            <img id="resultCover" alt="" />
+            <div>
+              <strong id="resultSong">—</strong>
+              <span id="resultArtist">—</span>
+              <small id="resultAlbum">—</small>
+            </div>
+          </div>
+
+          <p class="result-message" id="resultMessage"></p>
+
+          <div class="result-actions">
+            <button class="preview-button" id="previewButton" type="button">
+              <span aria-hidden="true">▶</span>
+              OUVIR PRÉVIA
+            </button>
+            <button class="next-button" id="nextButton" type="button">
+              PRÓXIMA FAIXA
+              <span aria-hidden="true">→</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </dialog>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <audio id="audioPlayer" preload="auto"></audio>
+    <script src="./script.js"></script>
+  </body>
+</html>
