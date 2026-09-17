@@ -5,17 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Adivinhe a música ouvindo apenas meio segundo e use dicas progressivas se precisar."
+      content="Adivinhe a música ouvindo 0,5 ou 1 segundo e use dicas progressivas se precisar."
     />
-    <meta name="theme-color" content="#0a0b0e" />
-    <title>Ouvido Relâmpago — Adivinhe a música</title>
+    <meta name="theme-color" content="#16091f" />
+    <title>Music Master</title>
 
-    <!-- FAVICON: troque o href abaixo por "./favicon.ico" quando tiver o seu arquivo. -->
-    <link
-      rel="icon"
-      type="image/svg+xml"
-      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a0b0e'/%3E%3Ccircle cx='32' cy='32' r='21' fill='%23d8ff52'/%3E%3Ccircle cx='32' cy='32' r='8' fill='%230a0b0e'/%3E%3Ccircle cx='32' cy='32' r='3' fill='%23ffffff'/%3E%3C/svg%3E"
-    />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
 
     <link rel="stylesheet" href="./style.css" />
   </head>
@@ -23,18 +18,18 @@
     <div class="ambient-grid" aria-hidden="true"></div>
 
     <header class="site-header">
-      <a class="brand" href="#game" aria-label="Ouvido Relâmpago — início">
+      <a class="brand" href="#game" aria-label="Music Master — início">
         <span class="brand-mark" aria-hidden="true">
-          <span></span>
+          <img src="./favicon.ico" alt="" width="44" height="44" />
         </span>
         <span class="brand-copy">
-          <strong>OUVIDO</strong>
-          <em>RELÂMPAGO</em>
+          <strong>MUSIC</strong>
+          <em>MASTER</em>
         </span>
       </a>
 
       <div class="round-meta" aria-label="Progresso da partida">
-        <span class="round-counter" id="roundCounter">FAIXA 01 / 08</span>
+        <span class="round-counter" id="roundCounter">FAIXA 001 / 420</span>
         <div class="streak-pill" title="Sua sequência fica salva neste navegador">
           <span class="streak-icon" aria-hidden="true">↗</span>
           <span>
@@ -46,11 +41,68 @@
     </header>
 
     <main id="game" class="game-layout">
-      <section class="game-panel" aria-labelledby="gameTitle">
+      <nav class="mode-switcher" aria-label="Modo de jogo">
+        <div class="mode-tabs" role="tablist" aria-label="Escolha o modo">
+          <button
+            class="mode-tab is-active"
+            id="randomTab"
+            type="button"
+            role="tab"
+            aria-selected="true"
+            aria-controls="gamePanel"
+          >
+            ALEATÓRIAS
+          </button>
+          <button
+            class="mode-tab"
+            id="specificTab"
+            type="button"
+            role="tab"
+            aria-selected="false"
+            aria-controls="gamePanel"
+          >
+            ESPECÍFICAS
+          </button>
+        </div>
+
+        <div class="start-setting" aria-label="Configuração do trecho inicial">
+          <span>COMEÇAR COM</span>
+          <div class="duration-options" role="group" aria-label="Duração inicial padrão">
+            <button
+              class="duration-option is-active"
+              id="startHalfButton"
+              type="button"
+              data-duration="0.5"
+              aria-pressed="true"
+            >
+              0,5 S
+            </button>
+            <button
+              class="duration-option"
+              id="startOneButton"
+              type="button"
+              data-duration="1"
+              aria-pressed="false"
+            >
+              1 S
+            </button>
+          </div>
+        </div>
+
+        <div class="specific-picker" id="specificControls" hidden>
+          <label for="artistSelect">ESCOLHA O CANTOR</label>
+          <select id="artistSelect" name="artist"></select>
+          <span id="artistTrackCount">—</span>
+        </div>
+
+        <p class="mode-summary" id="modeSummary">420 faixas da playlist · ordem aleatória</p>
+      </nav>
+
+      <section class="game-panel" id="gamePanel" aria-labelledby="gameTitle">
         <div class="panel-heading">
           <div>
             <span class="eyebrow">DESAFIO ATUAL</span>
-            <h1 id="gameTitle">Reconhece em <span>0,5 segundo?</span></h1>
+            <h1 id="gameTitle">Reconhece em <span id="challengeDuration">0,5 segundo?</span></h1>
           </div>
           <div class="catalog-status" id="catalogStatus" role="status">
             <span aria-hidden="true"></span>
@@ -72,6 +124,7 @@
           <div class="audio-console">
             <div class="console-topline">
               <span id="clipLabel">TRECHO LIBERADO · 0,5 S</span>
+              <span class="clip-origin">SEMPRE DE 0:00</span>
               <span class="audio-time" id="audioTime">00:00.0</span>
             </div>
 
@@ -141,13 +194,22 @@
                 id="guessInput"
                 name="guess"
                 type="text"
-                list="songOptions"
                 placeholder="Digite o título da faixa"
                 autocomplete="off"
+                role="combobox"
+                aria-autocomplete="list"
+                aria-controls="songSuggestions"
+                aria-expanded="false"
                 maxlength="120"
                 required
               />
-              <datalist id="songOptions"></datalist>
+              <ul
+                class="song-suggestions"
+                id="songSuggestions"
+                role="listbox"
+                aria-label="Sugestões de músicas"
+                hidden
+              ></ul>
             </div>
             <button class="submit-button" id="submitButton" type="submit">
               CONFIRMAR
@@ -155,7 +217,7 @@
             </button>
           </div>
           <p class="form-feedback" id="formFeedback" aria-live="polite">
-            Você pode tentar quantas vezes quiser antes de desistir.
+            Pressione Enter para usar a primeira sugestão.
           </p>
         </form>
 
@@ -209,15 +271,15 @@
         <div class="rules-note">
           <span aria-hidden="true">i</span>
           <p>
-            Cada ajuda aumenta o trecho. Depois de 5 segundos, as últimas pistas
-            revelam o artista e a primeira letra.
+            Todos os trechos começam no início da música. Depois de 5 segundos,
+            as últimas pistas revelam o artista e a primeira letra.
           </p>
         </div>
       </aside>
     </main>
 
     <footer class="site-footer">
-      <span>OUVIDO RELÂMPAGO</span>
+      <span>MUSIC MASTER</span>
       <span>0,5 S · 7 DICAS · 1 RESPOSTA</span>
     </footer>
 
