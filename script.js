@@ -6834,6 +6834,9 @@ const ESTAGIOS = [
 ];
 
 const INICIO_TRECHO = 0;
+const EH_IOS =
+  /iPad|iPhone|iPod/.test(navigator.userAgent) ||
+  (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
 const STORAGE_KEY = "ouvido-relampago:winstreak";
 const START_DURATION_STORAGE_KEY = "ouvido-relampago:duracao-inicial";
 const DURACAO_INICIAL_SALVA = lerDuracaoInicial();
@@ -6901,7 +6904,7 @@ const state = {
   ),
   posicao: 0,
   modo: "random",
-  artistaSelecionado: ARTISTAS.includes("Ana Carolina") ? "Ana Carolina" : ARTISTAS[0],
+  artistaSelecionado: ARTISTAS.includes("ABBA") ? "ABBA" : ARTISTAS[0],
   duracaoInicial: DURACAO_INICIAL_SALVA,
   estagio: DURACAO_INICIAL_SALVA === 1 ? 1 : 0,
   faixa: null,
@@ -7432,7 +7435,7 @@ async function prepararAudio(resolvida, pedido) {
   refs.previewButton.disabled = true;
   pararAudio();
   refs.audio.removeAttribute("src");
-  refs.audio.load();
+  if (!EH_IOS) refs.audio.load();
 
   if (!resolvida.audio) {
     if (pedido === state.pedidoAtual) {
@@ -7450,6 +7453,18 @@ async function prepararAudio(resolvida, pedido) {
 
   try {
     refs.audio.src = resolvida.audio;
+
+    // No Safari do iPhone, load() pode permanecer bloqueado até um toque do
+    // usuário. A URL já está pronta; o próprio play() do botão fará a carga.
+    if (EH_IOS) {
+      if (pedido !== state.pedidoAtual) return { pronto: false, motivo: "cancelado" };
+      state.audioPronto = true;
+      refs.playButton.disabled = false;
+      refs.previewButton.disabled = false;
+      definirStatus("ready", "TOQUE PARA CARREGAR");
+      return { pronto: true, motivo: null };
+    }
+
     refs.audio.load();
     const carregamento = await aguardarAudioCarregar();
     if (pedido !== state.pedidoAtual) return { pronto: false, motivo: "cancelado" };
@@ -8059,8 +8074,9 @@ function registrarWebMcp() {
 }
 
 function iniciar() {
-  refs.audio.preload = "metadata";
+  refs.audio.preload = EH_IOS ? "none" : "metadata";
   refs.audio.setAttribute("playsinline", "");
+  refs.audio.setAttribute("webkit-playsinline", "");
   refs.streakValue.textContent = String(state.streak);
   gerarWaveform();
   popularArtistas();
