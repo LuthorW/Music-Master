@@ -7300,42 +7300,65 @@ async function buscarNoItunes(faixa) {
   const chaveCache = faixa.spotifyId || faixa.busca;
   if (state.cache.has(chaveCache)) return state.cache.get(chaveCache);
 
-  const params = new URLSearchParams({
-    term: faixa.busca,
-    country: "BR",
-    media: "music",
-    entity: "song",
-    limit: "8",
-  });
-  const dados = await buscarJsonp(`https://itunes.apple.com/search?${params}`);
-  const resultados = Array.isArray(dados.results) ? dados.results : [];
-  if (!resultados.length) throw new Error("Prévia não encontrada");
-
   const tituloEsperado = normalizar(faixa.titulo);
   const artistaEsperado = normalizar(faixa.artistas[0] || faixa.artista);
-  const melhor =
-    resultados.find(
-      (item) =>
-        normalizar(item.trackName) === tituloEsperado &&
-        normalizar(item.artistName).includes(artistaEsperado),
-    ) ||
-    resultados.find((item) => normalizar(item.trackName) === tituloEsperado) ||
-    resultados[0];
+  const termoComAlbum = `${faixa.titulo} ${faixa.album || ""}`.trim();
+  const consultas = [
+    { termo: faixa.busca, pais: "BR" },
+    { termo: termoComAlbum, pais: "BR" },
+    { termo: faixa.titulo, pais: "BR" },
+    { termo: termoComAlbum, pais: "US" },
+  ];
 
-  const resolvida = {
-    ...faixa,
-    titulo: faixa.titulo,
-    artista: faixa.artista,
-    album: faixa.album || melhor.collectionName,
-    ano: melhor.releaseDate ? String(new Date(melhor.releaseDate).getUTCFullYear()) : faixa.ano,
-    audio: melhor.previewUrl || "",
-    capa:
-      (melhor.artworkUrl100 || "")
-        .replace("100x100bb", "600x600bb")
-        .replace("100x100-75", "600x600-75") || criarCapaFallback(faixa),
-  };
-  state.cache.set(chaveCache, resolvida);
-  return resolvida;
+  for (const consulta of consultas) {
+    const params = new URLSearchParams({
+      term: consulta.termo,
+      country: consulta.pais,
+      media: "music",
+      entity: "song",
+      limit: "25",
+    });
+    const dados = await buscarJsonp(`https://itunes.apple.com/search?${params}`);
+    const resultados = Array.isArray(dados.results) ? dados.results : [];
+    const candidatos = resultados
+      .filter((item) => typeof item.previewUrl === "string" && item.previewUrl.startsWith("https://"))
+      .map((item) => {
+        const titulo = normalizar(item.trackName);
+        const artista = normalizar(item.artistName);
+        const tituloCompativel =
+          titulo === tituloEsperado ||
+          titulo.includes(tituloEsperado) ||
+          tituloEsperado.includes(titulo);
+        const pontosTitulo = titulo === tituloEsperado ? 0 : tituloCompativel ? 8 : 100;
+        const pontosArtista =
+          artista.includes(artistaEsperado) || artistaEsperado.includes(artista) ? 0 : 20;
+        return { item, pontos: pontosTitulo + pontosArtista };
+      })
+      .filter(({ pontos }) => pontos < 100)
+      .sort((a, b) => a.pontos - b.pontos);
+
+    const melhor = candidatos[0]?.item;
+    if (!melhor) continue;
+
+    const resolvida = {
+      ...faixa,
+      titulo: faixa.titulo,
+      artista: faixa.artista,
+      album: faixa.album || melhor.collectionName,
+      ano: melhor.releaseDate ? String(new Date(melhor.releaseDate).getUTCFullYear()) : faixa.ano,
+      audio: melhor.previewUrl,
+      capa:
+        (melhor.artworkUrl100 || "")
+          .replace("100x100bb", "600x600bb")
+          .replace("100x100-75", "600x600-75") || criarCapaFallback(faixa),
+    };
+    state.cache.set(chaveCache, resolvida);
+    return resolvida;
+  }
+
+  const erro = new Error("Prévia não encontrada");
+  erro.codigo = "SEM_PREVIA";
+  throw erro;
 }
 
 async function resolverFaixa(faixa, pedido) {
@@ -7353,28 +7376,40 @@ async function resolverFaixa(faixa, pedido) {
     if (pedido === state.pedidoAtual) {
       console.warn("Não foi possível carregar a prévia:", erro);
     }
-    return fallback;
+    return {
+      ...fallback,
+      indisponibilidade: erro?.codigo === "SEM_PREVIA" ? "sem_previa" : "catalogo",
+    };
   }
 }
 
 function aguardarAudioCarregar() {
   return new Promise((resolve, reject) => {
-    if (refs.audio.readyState >= 2) {
-      resolve();
+    if (refs.audio.readyState >= 1) {
+      resolve("carregado");
       return;
     }
+    const timer = window.setTimeout(() => finalizar(null, "adiado"), 4500);
     const limpar = () => {
+      window.clearTimeout(timer);
+      refs.audio.removeEventListener("loadedmetadata", sucesso);
+      refs.audio.removeEventListener("loadeddata", sucesso);
       refs.audio.removeEventListener("canplay", sucesso);
       refs.audio.removeEventListener("error", falha);
     };
-    const sucesso = () => {
+    const finalizar = (erro, estado) => {
       limpar();
-      resolve();
+      if (erro) reject(erro);
+      else resolve(estado);
+    };
+    const sucesso = () => {
+      finalizar(null, "carregado");
     };
     const falha = () => {
-      limpar();
-      reject(new Error("Falha ao carregar o áudio"));
+      finalizar(new Error("Falha ao carregar o áudio"));
     };
+    refs.audio.addEventListener("loadedmetadata", sucesso, { once: true });
+    refs.audio.addEventListener("loadeddata", sucesso, { once: true });
     refs.audio.addEventListener("canplay", sucesso, { once: true });
     refs.audio.addEventListener("error", falha, { once: true });
   });
@@ -7391,26 +7426,41 @@ async function prepararAudio(resolvida, pedido) {
   if (!resolvida.audio) {
     if (pedido === state.pedidoAtual) {
       definirStatus("error", "PRÉVIA INDISPONÍVEL");
-      refs.fileState.textContent = "ADICIONE O ÁUDIO NO SCRIPT";
+      refs.fileState.textContent =
+        resolvida.indisponibilidade === "catalogo"
+          ? "CATÁLOGO FORA DO AR"
+          : "PROCURANDO OUTRA FAIXA";
     }
-    return;
+    return {
+      pronto: false,
+      motivo: resolvida.indisponibilidade || "sem_previa",
+    };
   }
 
   try {
     refs.audio.src = resolvida.audio;
     refs.audio.load();
-    await aguardarAudioCarregar();
-    if (pedido !== state.pedidoAtual) return;
+    const carregamento = await aguardarAudioCarregar();
+    if (pedido !== state.pedidoAtual) return { pronto: false, motivo: "cancelado" };
     state.audioPronto = true;
     refs.playButton.disabled = false;
     refs.previewButton.disabled = false;
-    definirStatus("ready", resolvida.audio === state.faixa.audioLocal ? "ARQUIVO LOCAL" : "PRÉVIA CONECTADA");
+    definirStatus(
+      "ready",
+      resolvida.audio === state.faixa.audioLocal
+        ? "ARQUIVO LOCAL"
+        : carregamento === "adiado"
+          ? "TOQUE PARA CARREGAR"
+          : "PRÉVIA CONECTADA",
+    );
+    return { pronto: true, motivo: null };
   } catch {
-    if (pedido !== state.pedidoAtual) return;
+    if (pedido !== state.pedidoAtual) return { pronto: false, motivo: "cancelado" };
     state.audioPronto = false;
     refs.playButton.disabled = true;
     refs.previewButton.disabled = true;
     definirStatus("error", "PRÉVIA INDISPONÍVEL");
+    return { pronto: false, motivo: "arquivo" };
   }
 }
 
@@ -7450,7 +7500,7 @@ async function tocarTrecho() {
   pararAudio();
   const segundos = ESTAGIOS[state.estagio].segundos;
   try {
-    refs.audio.currentTime = INICIO_TRECHO;
+    if (refs.audio.readyState > 0) refs.audio.currentTime = INICIO_TRECHO;
     await refs.audio.play();
     state.tocandoTrecho = true;
     refs.playButton.classList.add("is-playing");
@@ -7471,7 +7521,7 @@ async function tocarTrecho() {
 
     state.timerTrecho = window.setTimeout(() => {
       refs.audio.pause();
-      refs.audio.currentTime = INICIO_TRECHO;
+      if (refs.audio.readyState > 0) refs.audio.currentTime = INICIO_TRECHO;
       state.tocandoTrecho = false;
       refs.playButton.classList.remove("is-playing");
       refs.waveform.classList.remove("is-playing");
@@ -7497,7 +7547,7 @@ async function alternarPreviaCompleta() {
   }
   pararAudio();
   try {
-    refs.audio.currentTime = INICIO_TRECHO;
+    if (refs.audio.readyState > 0) refs.audio.currentTime = INICIO_TRECHO;
     await refs.audio.play();
     state.tocandoPrevia = true;
     refs.previewButton.innerHTML = '<span aria-hidden="true">Ⅱ</span> PAUSAR PRÉVIA';
@@ -7738,7 +7788,7 @@ function resetarInterface() {
   atualizarEstagio();
 }
 
-async function iniciarRodada() {
+async function iniciarRodada(tentativaDePrevia = 0) {
   pararAudio();
   resetarInterface();
 
@@ -7766,7 +7816,17 @@ async function iniciarRodada() {
 
   state.resolvida = resolvida;
   refs.coverImage.src = resolvida.capa;
-  await prepararAudio(resolvida, pedido);
+  const preparo = await prepararAudio(resolvida, pedido);
+  if (pedido !== state.pedidoAtual || preparo?.pronto) return;
+
+  const podeTentarOutra =
+    ["sem_previa", "arquivo"].includes(preparo?.motivo) &&
+    tentativaDePrevia < Math.min(5, state.ordem.length - 1);
+  if (!podeTentarOutra) return;
+
+  state.posicao = (state.posicao + 1) % state.ordem.length;
+  definirStatus("loading", "BUSCANDO OUTRA PRÉVIA");
+  await iniciarRodada(tentativaDePrevia + 1);
 }
 
 function proximaRodada() {
@@ -7968,6 +8028,8 @@ function registrarWebMcp() {
 }
 
 function iniciar() {
+  refs.audio.preload = "metadata";
+  refs.audio.setAttribute("playsinline", "");
   refs.streakValue.textContent = String(state.streak);
   gerarWaveform();
   popularArtistas();
