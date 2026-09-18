@@ -6759,13 +6759,3361 @@ const PLAYLIST_LUDMILLA = [
   }
 ];
 
+const PLAYLIST_LATINAS = [
+  {
+    "album": "Baila Morena (Reggaeton Mix)",
+    "artistas": [
+      "Hector & Tito",
+      "Luny Tunes",
+      "Noriega"
+    ],
+    "index": 1,
+    "spotifyId": "4qbi9JDziBh3cxi9SFUbeu",
+    "titulo": "Baila Morena (with Luny Tunes, Noriega) - Remix"
+  },
+  {
+    "album": "Motivando A La Yal (Special Edition)",
+    "artistas": [
+      "Zion & Lennox",
+      "Daddy Yankee"
+    ],
+    "index": 2,
+    "spotifyId": "2r7mfzeXCzyrysTya4Onwk",
+    "titulo": "Yo Voy (feat. Daddy Yankee)"
+  },
+  {
+    "album": "Sale el Sol",
+    "artistas": [
+      "Shakira",
+      "El Cata"
+    ],
+    "index": 3,
+    "spotifyId": "42k1KeBehAd83lrGt1okiC",
+    "titulo": "Loca (feat. El Cata)"
+  },
+  {
+    "album": "Barrio Fino (Bonus Track Version)",
+    "artistas": [
+      "Daddy Yankee"
+    ],
+    "index": 4,
+    "spotifyId": "40a82F3K2UTbeoLlXXXZBd",
+    "titulo": "Lo Que Pasó, Pasó"
+  },
+  {
+    "album": "Barrio Fino (Bonus Track Version)",
+    "artistas": [
+      "Daddy Yankee"
+    ],
+    "index": 5,
+    "spotifyId": "5YoITs1m0q8UOQ4AW7N5ga",
+    "titulo": "Gasolina"
+  },
+  {
+    "album": "Sale el Sol",
+    "artistas": [
+      "Shakira",
+      "Pitbull"
+    ],
+    "index": 6,
+    "spotifyId": "2Xh7dyCHCErCv3PmdVEGw4",
+    "titulo": "Rabiosa (feat. Pitbull)"
+  },
+  {
+    "album": "El Dorado",
+    "artistas": [
+      "Shakira",
+      "Maluma"
+    ],
+    "index": 7,
+    "spotifyId": "6mICuAdrwEjh6Y6lroV2Kg",
+    "titulo": "Chantaje (feat. Maluma)"
+  },
+  {
+    "album": "SEX AND LOVE",
+    "artistas": [
+      "Enrique Iglesias",
+      "Descemer Bueno",
+      "Gente De Zona"
+    ],
+    "index": 8,
+    "spotifyId": "6PSKhwo0mVcOdjUOhVJd5p",
+    "titulo": "Bailando - Spanish Version"
+  },
+  {
+    "album": "Sale el Sol",
+    "artistas": [
+      "Shakira"
+    ],
+    "index": 9,
+    "spotifyId": "4zy1s9GnxWsNzZp1688euA",
+    "titulo": "Addicted to You"
+  },
+  {
+    "album": "Oral Fixation, Vol. 2 (Expanded Edition)",
+    "artistas": [
+      "Shakira",
+      "Wyclef Jean"
+    ],
+    "index": 10,
+    "spotifyId": "3d0WouFnFmr0K3kjeza3fF",
+    "titulo": "Hips Don't Lie (feat. Wyclef Jean)"
+  },
+  {
+    "album": "B'Day Deluxe Edition",
+    "artistas": [
+      "Beyoncé",
+      "Shakira"
+    ],
+    "index": 11,
+    "spotifyId": "76Y07hjDi7fjJnZKsQbEaF",
+    "titulo": "Beautiful Liar"
+  },
+  {
+    "album": "Dangerously In Love",
+    "artistas": [
+      "Beyoncé",
+      "JAŸ-Z"
+    ],
+    "index": 12,
+    "spotifyId": "0TwBtDAWpkpM3srywFVOV5",
+    "titulo": "Crazy In Love (feat. JAŸ-Z)"
+  },
+  {
+    "album": "Barrio Fino (Bonus Track Version)",
+    "artistas": [
+      "Daddy Yankee",
+      "Wisin & Yandel"
+    ],
+    "index": 13,
+    "spotifyId": "4CjuGBDMwSDpjzWtWINN5g",
+    "titulo": "No Me Dejes Solo"
+  },
+  {
+    "album": "Christina Aguilera (Expanded Edition)",
+    "artistas": [
+      "Christina Aguilera"
+    ],
+    "index": 14,
+    "spotifyId": "11mwFrKvLXCbcVGNxffGyP",
+    "titulo": "Genie In a Bottle"
+  },
+  {
+    "album": "Loose",
+    "artistas": [
+      "Nelly Furtado",
+      "Timbaland"
+    ],
+    "index": 15,
+    "spotifyId": "2gam98EZKrF9XuOkU13ApN",
+    "titulo": "Promiscuous"
+  },
+  {
+    "album": "VIDA",
+    "artistas": [
+      "Luis Fonsi",
+      "Daddy Yankee"
+    ],
+    "index": 16,
+    "spotifyId": "6habFhsOp2NvshLv26DqMb",
+    "titulo": "Despacito"
+  },
+  {
+    "album": "VIDA",
+    "artistas": [
+      "Luis Fonsi",
+      "Demi Lovato"
+    ],
+    "index": 17,
+    "spotifyId": "0mlAOSILGRys2IbvyOT5VJ",
+    "titulo": "Échame La Culpa"
+  },
+  {
+    "album": "TQG",
+    "artistas": [
+      "KAROL G",
+      "Shakira"
+    ],
+    "index": 18,
+    "spotifyId": "2oMjKuKUEJFuLiVmTq7Vjx",
+    "titulo": "TQG"
+  },
+  {
+    "album": "Meet The Orphans",
+    "artistas": [
+      "Don Omar",
+      "Lucenzo"
+    ],
+    "index": 19,
+    "spotifyId": "2a1o6ZejUi8U3wzzOtCOYw",
+    "titulo": "Danza Kuduro"
+  },
+  {
+    "album": "Barrio Fino En Directo",
+    "artistas": [
+      "Daddy Yankee"
+    ],
+    "index": 20,
+    "spotifyId": "4Xtlw8oXkIOvzV7crUBKeZ",
+    "titulo": "Rompe"
+  },
+  {
+    "album": "The Fast And The Furious: Tokyo Drift (Original Motion Picture Soundtrack)",
+    "artistas": [
+      "Don Omar",
+      "Tego Calderón"
+    ],
+    "index": 21,
+    "spotifyId": "4BxzNZpcm1j3JczZzGNe2k",
+    "titulo": "Bandoleros"
+  },
+  {
+    "album": "Lean",
+    "artistas": [
+      "Super Yei",
+      "Sammy",
+      "Jone Quest",
+      "Towy",
+      "Osquel",
+      "Beltito",
+      "Sammy & Falsetto"
+    ],
+    "index": 22,
+    "spotifyId": "44BZWegR2TBYtgZdAHwaGH",
+    "titulo": "Lean"
+  }
+];
+
+const PLAYLIST_ITALIANAS = [
+  {
+    "album": "il filo rosso",
+    "artistas": [
+      "Alfa"
+    ],
+    "index": 1,
+    "spotifyId": "2403gCM2RluhMgBc9TSwp7",
+    "titulo": "il filo rosso"
+  },
+  {
+    "album": "Resta in ascolto",
+    "artistas": [
+      "Laura Pausini"
+    ],
+    "index": 2,
+    "spotifyId": "20jSmgTANwSWWv9YfFdnNn",
+    "titulo": "Vivimi"
+  },
+  {
+    "album": "MATERIA (PELLE)",
+    "artistas": [
+      "Marco Mengoni"
+    ],
+    "index": 3,
+    "spotifyId": "4eI0ncpnZuv4A3ssTJRSDY",
+    "titulo": "Due Vite"
+  },
+  {
+    "album": "Faccio un casino",
+    "artistas": [
+      "Coez"
+    ],
+    "index": 4,
+    "spotifyId": "7MMJa7cjMadOSR6CFWvB1x",
+    "titulo": "La musica non c'è"
+  },
+  {
+    "album": "Splende",
+    "artistas": [
+      "Annalisa"
+    ],
+    "index": 5,
+    "spotifyId": "7o34Mp5i0kSmAIJUCxVCFn",
+    "titulo": "Ti sento"
+  },
+  {
+    "album": "Canzoni - Deluxe Edition",
+    "artistas": [
+      "Chiara Civello",
+      "Gilberto Gil"
+    ],
+    "index": 6,
+    "spotifyId": "5HggJVnKKG973g32kVbJjd",
+    "titulo": "Io che non vivo senza te"
+  },
+  {
+    "album": "Laura Pausini",
+    "artistas": [
+      "Laura Pausini"
+    ],
+    "index": 7,
+    "spotifyId": "5bxQHscWvyaQbm37igKP4K",
+    "titulo": "La solitudine"
+  },
+  {
+    "album": "Laura Pausini",
+    "artistas": [
+      "Laura Pausini"
+    ],
+    "index": 8,
+    "spotifyId": "4gXSgEQeLRwCmpa6foSspX",
+    "titulo": "Strani amori"
+  },
+  {
+    "album": "Canzoni",
+    "artistas": [
+      "Chiara Civello"
+    ],
+    "index": 9,
+    "spotifyId": "6wmeVtM2RqSHu8ClChANqx",
+    "titulo": "Il mondo"
+  },
+  {
+    "album": "Michele",
+    "artistas": [
+      "Michele"
+    ],
+    "index": 10,
+    "spotifyId": "5EOoElhbLrRM4cWMTY8qgD",
+    "titulo": "Se Mi Vuoi Lasciare"
+  },
+  {
+    "album": "The Best Of...",
+    "artistas": [
+      "I Santo California"
+    ],
+    "index": 11,
+    "spotifyId": "5H32Yi9LcptPfuDna0tkAI",
+    "titulo": "Tornerò"
+  },
+  {
+    "album": "Destinazione Paradiso",
+    "artistas": [
+      "Gianluca Grignani"
+    ],
+    "index": 12,
+    "spotifyId": "5L4wJD8eyVhSrm4pbPuF2u",
+    "titulo": "La Mia Storia Tra Le Dita"
+  },
+  {
+    "album": "Peppino Di Capri In Tour",
+    "artistas": [
+      "Peppino Di Capri"
+    ],
+    "index": 13,
+    "spotifyId": "6qnQkIIFPFyTAhoyIFBrcR",
+    "titulo": "Champagne"
+  },
+  {
+    "album": "Io E Te",
+    "artistas": [
+      "Gianna Nannini"
+    ],
+    "index": 14,
+    "spotifyId": "7ae4OwBZnypVfR9WVesDaw",
+    "titulo": "Ti voglio tanto bene"
+  },
+  {
+    "album": "Dove c'è musica",
+    "artistas": [
+      "Eros Ramazzotti"
+    ],
+    "index": 15,
+    "spotifyId": "0KligwQn4Iy344p2Q5m6k6",
+    "titulo": "Più bella cosa"
+  },
+  {
+    "album": "Le Cose In Comune",
+    "artistas": [
+      "Alfa"
+    ],
+    "index": 16,
+    "spotifyId": "1rVPV7us0kW0mXBgoNKAYK",
+    "titulo": "Le Cose In Comune"
+  },
+  {
+    "album": "Melanchólia",
+    "artistas": [
+      "Matia Bazar"
+    ],
+    "index": 17,
+    "spotifyId": "72BnKkKnrOeCDY9vy2avFk",
+    "titulo": "Ti Sento"
+  },
+  {
+    "album": "Felicità (Ariola Express Gold-Serie)",
+    "artistas": [
+      "Al Bano And Romina Power"
+    ],
+    "index": 18,
+    "spotifyId": "7sXTcibuNYugjjYNfgf2kY",
+    "titulo": "Felicità"
+  },
+  {
+    "album": "Eclipse",
+    "artistas": [
+      "Chiara Civello"
+    ],
+    "index": 19,
+    "spotifyId": "6SHprqk9Cj4TaQF9p3K9s8",
+    "titulo": "Parole parole"
+  },
+  {
+    "album": "Profumo",
+    "artistas": [
+      "Gianna Nannini"
+    ],
+    "index": 20,
+    "spotifyId": "3dZHWv3IsAQLzAr7FLJoJA",
+    "titulo": "Bello e impossibile"
+  },
+  {
+    "album": "Chansons",
+    "artistas": [
+      "Chiara Civello"
+    ],
+    "index": 21,
+    "spotifyId": "7F0saRUakwxLCEI1MvGVQZ",
+    "titulo": "Col tempo sai"
+  },
+  {
+    "album": "LA MIA STORIA TRA LE DITA / All Versions",
+    "artistas": [
+      "Laura Pausini"
+    ],
+    "index": 22,
+    "spotifyId": "31eAijCejvmhSeou6L40Su",
+    "titulo": "LA MIA STORIA TRA LE DITA"
+  },
+  {
+    "album": "Primavera in anticipo",
+    "artistas": [
+      "Laura Pausini"
+    ],
+    "index": 23,
+    "spotifyId": "6RDrpNxQIKp6LULdQWd2Vl",
+    "titulo": "Invece no"
+  },
+  {
+    "album": "Laura Pausini",
+    "artistas": [
+      "Laura Pausini"
+    ],
+    "index": 24,
+    "spotifyId": "2I0mW1Ldu2FQ8qmhxqQjeA",
+    "titulo": "Non c'è"
+  },
+  {
+    "album": "LA DERNIÈRE CHANSON (DUE VITE) [con Julien Lieb]",
+    "artistas": [
+      "Laura Pausini",
+      "Julien Lieb"
+    ],
+    "index": 25,
+    "spotifyId": "1LfG7ZpbedtuXH1CKpyC97",
+    "titulo": "LA DERNIÈRE CHANSON (DUE VITE) [con Julien Lieb]"
+  },
+  {
+    "album": "Cinque Passi In Più",
+    "artistas": [
+      "Alessandra Amoroso"
+    ],
+    "index": 26,
+    "spotifyId": "7lOlFOWWGQrZ6l1mgj45X6",
+    "titulo": "Ti aspetto"
+  },
+  {
+    "album": "L'Incredibile Peppino Di Capri",
+    "artistas": [
+      "Peppino Di Capri"
+    ],
+    "index": 27,
+    "spotifyId": "0vRsoNQRw2HFYl8hXpVSJ1",
+    "titulo": "Roberta"
+  },
+  {
+    "album": "Made In Italy",
+    "artistas": [
+      "Pino Donaggio"
+    ],
+    "index": 28,
+    "spotifyId": "0q9no3CEFBmMP925KJMxTu",
+    "titulo": "Io Che Non Vivo - 2004 Remaster"
+  },
+  {
+    "album": "L'ascolteranno gli americani",
+    "artistas": [
+      "Amedeo Minghi"
+    ],
+    "index": 29,
+    "spotifyId": "24vLrig9eVLtfjD3vzYZ3Q",
+    "titulo": "Cantare È D'Amore"
+  }
+];
+
+const PLAYLIST_CHIARA_CIVELLO = [
+  {
+    "album": "Canzoni - Deluxe Edition",
+    "artistas": [
+      "Chiara Civello"
+    ],
+    "index": 1,
+    "spotifyId": "1xYpW2C6sX1RY9iYPAx0mz",
+    "titulo": "Via con me"
+  },
+  {
+    "album": "Canzoni - Deluxe Edition",
+    "artistas": [
+      "Chiara Civello",
+      "Gilberto Gil"
+    ],
+    "index": 2,
+    "spotifyId": "5HggJVnKKG973g32kVbJjd",
+    "titulo": "Io che non vivo senza te"
+  },
+  {
+    "album": "Canzoni - Deluxe Edition",
+    "artistas": [
+      "Chiara Civello"
+    ],
+    "index": 3,
+    "spotifyId": "5LGUuaDqOQOB2mbRW2Prsg",
+    "titulo": "Con una rosa"
+  },
+  {
+    "album": "Canzoni - Deluxe Edition",
+    "artistas": [
+      "Chiara Civello"
+    ],
+    "index": 4,
+    "spotifyId": "0XBheLbQP22VcatC0dMfPA",
+    "titulo": "Que me importa el mundo"
+  },
+  {
+    "album": "Canzoni - Deluxe Edition",
+    "artistas": [
+      "Chiara Civello"
+    ],
+    "index": 5,
+    "spotifyId": "5rymvhZn6ZFzwSP3odjGRo",
+    "titulo": "Va bene va bene così"
+  },
+  {
+    "album": "Canzoni - Deluxe Edition",
+    "artistas": [
+      "Chiara Civello",
+      "Chico Buarque"
+    ],
+    "index": 6,
+    "spotifyId": "4T8mrPnU2xqoGlC3oosvtC",
+    "titulo": "Io che amo solo te"
+  },
+  {
+    "album": "Canzoni - Deluxe Edition",
+    "artistas": [
+      "Chiara Civello"
+    ],
+    "index": 7,
+    "spotifyId": "2Iu47PhuGpEodarMQ3YBOX",
+    "titulo": "Never never never"
+  },
+  {
+    "album": "Canzoni - Deluxe Edition",
+    "artistas": [
+      "Chiara Civello"
+    ],
+    "index": 8,
+    "spotifyId": "02Rv7qkxG4SiKSQxxDuhLu",
+    "titulo": "Metti una sera a cena"
+  },
+  {
+    "album": "Canzoni - Deluxe Edition",
+    "artistas": [
+      "Chiara Civello"
+    ],
+    "index": 9,
+    "spotifyId": "43PZqVk0yWOJQtWIm3ep3N",
+    "titulo": "Una sigaretta"
+  },
+  {
+    "album": "Canzoni - Deluxe Edition",
+    "artistas": [
+      "Chiara Civello"
+    ],
+    "index": 10,
+    "spotifyId": "5QVTwHXseB5aHbURhfj8Ij",
+    "titulo": "Fortissimo"
+  },
+  {
+    "album": "Canzoni - Deluxe Edition",
+    "artistas": [
+      "Chiara Civello"
+    ],
+    "index": 11,
+    "spotifyId": "4bOM1hCaAZJ7P6JCIla00W",
+    "titulo": "Incantevole"
+  },
+  {
+    "album": "Canzoni - Deluxe Edition",
+    "artistas": [
+      "Chiara Civello",
+      "Ana Carolina"
+    ],
+    "index": 12,
+    "spotifyId": "0xc0EsnhWXBwVOoXqoMj2m",
+    "titulo": "E penso a te"
+  },
+  {
+    "album": "Canzoni - Deluxe Edition",
+    "artistas": [
+      "Chiara Civello"
+    ],
+    "index": 13,
+    "spotifyId": "3RpW0kHH7NlcUvm7F8HHZF",
+    "titulo": "Il mondo"
+  },
+  {
+    "album": "Canzoni - Deluxe Edition",
+    "artistas": [
+      "Chiara Civello"
+    ],
+    "index": 14,
+    "spotifyId": "2lRMPxNLgF7gFXBmRf5inl",
+    "titulo": "Senza fine"
+  },
+  {
+    "album": "Canzoni - Deluxe Edition",
+    "artistas": [
+      "Chiara Civello",
+      "Esperanza Spalding"
+    ],
+    "index": 15,
+    "spotifyId": "3eDT6yOCZNKyaxLnnRPhox",
+    "titulo": "I mulini dei ricordi - The windmills of your mind"
+  },
+  {
+    "album": "Canzoni - Deluxe Edition",
+    "artistas": [
+      "Chiara Civello"
+    ],
+    "index": 16,
+    "spotifyId": "43lC7VxkSMH8KBGXkXLONc",
+    "titulo": "Mentre tutto scorre"
+  },
+  {
+    "album": "Canzoni - Deluxe Edition",
+    "artistas": [
+      "Chiara Civello"
+    ],
+    "index": 17,
+    "spotifyId": "2WOsTS8MLy3f9rjOIsg3tW",
+    "titulo": "Arrivederci"
+  },
+  {
+    "album": "Canzoni - Deluxe Edition",
+    "artistas": [
+      "Chiara Civello"
+    ],
+    "index": 18,
+    "spotifyId": "0XzipnuSrizJLTMZ5zdAgV",
+    "titulo": "Estate"
+  },
+  {
+    "album": "Canzoni - Deluxe Edition",
+    "artistas": [
+      "Chiara Civello"
+    ],
+    "index": 19,
+    "spotifyId": "2lQEplvuHSse59XtWe5oJu",
+    "titulo": "Senza fine - English version"
+  },
+  {
+    "album": "Canzoni - Deluxe Edition",
+    "artistas": [
+      "Chiara Civello"
+    ],
+    "index": 20,
+    "spotifyId": "2Lctn0xxWEnXpAQV0ggSth",
+    "titulo": "Roma nun fa la stupida stasera"
+  },
+  {
+    "album": "Canzoni - Deluxe Edition",
+    "artistas": [
+      "Chiara Civello"
+    ],
+    "index": 21,
+    "spotifyId": "1FwCl4EXDGiIG1MKbWrvnf",
+    "titulo": "Hurry to me - Metti una sera a cena"
+  },
+  {
+    "album": "Canzoni - Deluxe Edition",
+    "artistas": [
+      "Chiara Civello"
+    ],
+    "index": 22,
+    "spotifyId": "4fkogoABTtsfBU7Ef5QhtA",
+    "titulo": "You don't have to say you love me"
+  },
+  {
+    "album": "Canzoni - Deluxe Edition",
+    "artistas": [
+      "Chiara Civello"
+    ],
+    "index": 23,
+    "spotifyId": "5pYtV3Ys1KYurhcad7ivVh",
+    "titulo": "Arrivederci - English version"
+  },
+  {
+    "album": "Canzoni - Deluxe Edition",
+    "artistas": [
+      "Chiara Civello"
+    ],
+    "index": 24,
+    "spotifyId": "3x3pBFa2vDFisoHeKlgwHU",
+    "titulo": "Grande grande grande"
+  },
+  {
+    "album": "Canzoni - Deluxe Edition",
+    "artistas": [
+      "Chiara Civello"
+    ],
+    "index": 25,
+    "spotifyId": "3VURxM6HGGMnUGd0aiflou",
+    "titulo": "Che m'importa del mondo"
+  }
+];
+
+const PLAYLIST_DAMIANO_DAVID = [
+  {
+    "album": "FUNNY little FEARS",
+    "artistas": [
+      "Damiano David"
+    ],
+    "index": 1,
+    "spotifyId": "36r085cj95tQcGaOoPLfc5",
+    "titulo": "Born With a Broken Heart"
+  },
+  {
+    "album": "FUNNY little FEARS",
+    "artistas": [
+      "Damiano David"
+    ],
+    "index": 2,
+    "spotifyId": "7ETIZFr7163zFcz3RxKk5O",
+    "titulo": "The First Time"
+  },
+  {
+    "album": "FUNNY little FEARS",
+    "artistas": [
+      "Damiano David"
+    ],
+    "index": 3,
+    "spotifyId": "71GABxN1QMc3RbtKqhYvXb",
+    "titulo": "Next Summer"
+  },
+  {
+    "album": "Nothing Breaks Like a Heart - Spotify Singles",
+    "artistas": [
+      "Damiano David"
+    ],
+    "index": 4,
+    "spotifyId": "5szvpZOIMuzCrwNrRwnB9B",
+    "titulo": "Nothing Breaks Like a Heart - Spotify Singles"
+  },
+  {
+    "album": "FUNNY little FEARS",
+    "artistas": [
+      "Damiano David",
+      "Labrinth"
+    ],
+    "index": 5,
+    "spotifyId": "0SXUbvefDczI7Z6hEhuJ8h",
+    "titulo": "Silverlines - prod. Labrinth"
+  },
+  {
+    "album": "FUNNY little FEARS",
+    "artistas": [
+      "Damiano David"
+    ],
+    "index": 6,
+    "spotifyId": "5hYP7TDRmkJPrgYdIy500S",
+    "titulo": "Zombie Lady"
+  },
+  {
+    "album": "FUNNY little FEARS",
+    "artistas": [
+      "Damiano David",
+      "Suki Waterhouse"
+    ],
+    "index": 7,
+    "spotifyId": "5Vsw47R4WEscYUBMaxR49w",
+    "titulo": "The Bruise (feat. Suki Waterhouse)"
+  },
+  {
+    "album": "FUNNY little FEARS",
+    "artistas": [
+      "Damiano David"
+    ],
+    "index": 8,
+    "spotifyId": "6CVZ6HkgRHtPXS2lA687Pl",
+    "titulo": "Perfect Life"
+  },
+  {
+    "album": "FUNNY little FEARS",
+    "artistas": [
+      "Damiano David"
+    ],
+    "index": 9,
+    "spotifyId": "45hkGAZiaUpBUOImcYA8aq",
+    "titulo": "Sick of Myself"
+  },
+  {
+    "album": "FUNNY little FEARS",
+    "artistas": [
+      "Damiano David"
+    ],
+    "index": 10,
+    "spotifyId": "0k8pxvparQzzOOyKdPDJHV",
+    "titulo": "Voices"
+  },
+  {
+    "album": "FUNNY little FEARS",
+    "artistas": [
+      "Damiano David"
+    ],
+    "index": 11,
+    "spotifyId": "7dJprvcMVBKkwM3b56kRL7",
+    "titulo": "Solitude (No One Understands Me)"
+  },
+  {
+    "album": "FUNNY little FEARS",
+    "artistas": [
+      "Damiano David"
+    ],
+    "index": 12,
+    "spotifyId": "5NtzNJi7EaiegUmVEkrkNd",
+    "titulo": "Tangerine"
+  },
+  {
+    "album": "FUNNY little FEARS (DREAMS)",
+    "artistas": [
+      "Damiano David"
+    ],
+    "index": 13,
+    "spotifyId": "5phdJ7rBNivQ6NxP7gX0DJ",
+    "titulo": "Naked"
+  },
+  {
+    "album": "FUNNY little FEARS (DREAMS)",
+    "artistas": [
+      "Damiano David"
+    ],
+    "index": 14,
+    "spotifyId": "4ec9Ql46MqyiEaszvOyLzG",
+    "titulo": "Mysterious Girl"
+  },
+  {
+    "album": "FUNNY little FEARS",
+    "artistas": [
+      "Damiano David"
+    ],
+    "index": 15,
+    "spotifyId": "1QcokKCMCs4AFFu1moOhcp",
+    "titulo": "Mars"
+  },
+  {
+    "album": "Teatro d'ira - Vol. I",
+    "artistas": [
+      "Måneskin"
+    ],
+    "index": 16,
+    "spotifyId": "7HMz8o0m7ASQ3ImFPfhWTY",
+    "titulo": "CORALINE"
+  },
+  {
+    "album": "Teatro d'ira - Vol. I",
+    "artistas": [
+      "Måneskin"
+    ],
+    "index": 17,
+    "spotifyId": "776AftMmFFAWUIEAb3lHhw",
+    "titulo": "ZITTI E BUONI"
+  },
+  {
+    "album": "RUSH!",
+    "artistas": [
+      "Måneskin"
+    ],
+    "index": 18,
+    "spotifyId": "7oJ3Nb3LIY1ond1fHF3xio",
+    "titulo": "MAMMAMIA"
+  }
+];
+
+const PREVIAS_SPOTIFY = {
+  "4qbi9JDziBh3cxi9SFUbeu": {
+    "audio": "https://p.scdn.co/mp3-preview/853dfe18457c8ccc75369341cdc9f43fc37be9e3",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273c7ba5334f0ac7d9a12fafe0d",
+    "ano": ""
+  },
+  "2r7mfzeXCzyrysTya4Onwk": {
+    "audio": "https://p.scdn.co/mp3-preview/6b3ccc28824fb284093ef5dd719daa79ce6ca5d8",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2735d23660914fab1299f3f0500",
+    "ano": ""
+  },
+  "42k1KeBehAd83lrGt1okiC": {
+    "audio": "https://p.scdn.co/mp3-preview/dd35a78fbf91334612763ce6747fa890b7cb94fd",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2734214ddc9e33e76de6a8ee888",
+    "ano": ""
+  },
+  "40a82F3K2UTbeoLlXXXZBd": {
+    "audio": "https://p.scdn.co/mp3-preview/d9f5483138d84f2fdc0a6fbc546db6aefd85c420",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27311b9999b620ef9bc0e957623",
+    "ano": ""
+  },
+  "5YoITs1m0q8UOQ4AW7N5ga": {
+    "audio": "https://p.scdn.co/mp3-preview/887b2e1f195333800d3c8a7537097cc7bd7bdc3d",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27311b9999b620ef9bc0e957623",
+    "ano": ""
+  },
+  "2Xh7dyCHCErCv3PmdVEGw4": {
+    "audio": "https://p.scdn.co/mp3-preview/03d1cffc4976472d995cc9d56076a3e3309b82b6",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2734214ddc9e33e76de6a8ee888",
+    "ano": ""
+  },
+  "6mICuAdrwEjh6Y6lroV2Kg": {
+    "audio": "https://p.scdn.co/mp3-preview/4c0d84343d1708200f745e1dfd7263b2e912f9e1",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273eec120f35546507f59f05c41",
+    "ano": ""
+  },
+  "6PSKhwo0mVcOdjUOhVJd5p": {
+    "audio": "https://p.scdn.co/mp3-preview/2257edbf82cdf3e12f796c65831fde10089275ca",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27390b2ea6298a6e5d98e60d6ec",
+    "ano": ""
+  },
+  "4zy1s9GnxWsNzZp1688euA": {
+    "audio": "https://p.scdn.co/mp3-preview/26b959479a00993c624ffe9859892cc29e28e3cc",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2734214ddc9e33e76de6a8ee888",
+    "ano": ""
+  },
+  "3d0WouFnFmr0K3kjeza3fF": {
+    "audio": "https://p.scdn.co/mp3-preview/6a46c302864c157a79346b485621a36305ceaaa2",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27385432abc16fd92be0d435cb9",
+    "ano": ""
+  },
+  "76Y07hjDi7fjJnZKsQbEaF": {
+    "audio": "https://p.scdn.co/mp3-preview/e44e2a5f591fb825804720daa8c5723888a6d8c9",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273f61dd5ef8754073b8a0a4aaf",
+    "ano": ""
+  },
+  "0TwBtDAWpkpM3srywFVOV5": {
+    "audio": "https://p.scdn.co/mp3-preview/bd7a8ff91250cb4b73e46fc37904667f2e1054c2",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273a9fd4a0405945cd51e8de130",
+    "ano": ""
+  },
+  "4CjuGBDMwSDpjzWtWINN5g": {
+    "audio": "https://p.scdn.co/mp3-preview/e74919fc453c66ab97835e33e19fffb4c53a209e",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27311b9999b620ef9bc0e957623",
+    "ano": ""
+  },
+  "11mwFrKvLXCbcVGNxffGyP": {
+    "audio": "https://p.scdn.co/mp3-preview/06d1b4ae1b631b29bbfd8b9a66a37f18dd73713a",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273f89996e214be1763b2a9e948",
+    "ano": ""
+  },
+  "2gam98EZKrF9XuOkU13ApN": {
+    "audio": "https://p.scdn.co/mp3-preview/bc151048f2138d6cd93d690fcbd95227a85ef5b9",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273a6f439c8957170652f9410e2",
+    "ano": ""
+  },
+  "6habFhsOp2NvshLv26DqMb": {
+    "audio": "https://p.scdn.co/mp3-preview/2ea246524bf5a1a6432d4cf1b911a98bd84e3e8e",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273ef0d4234e1a645740f77d59c",
+    "ano": ""
+  },
+  "0mlAOSILGRys2IbvyOT5VJ": {
+    "audio": "https://p.scdn.co/mp3-preview/4675c1959ff5640b190b40692f57ddaef11da981",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273ef0d4234e1a645740f77d59c",
+    "ano": ""
+  },
+  "2oMjKuKUEJFuLiVmTq7Vjx": {
+    "audio": "https://p.scdn.co/mp3-preview/dccb2a0753325e66059ddd11ef081cb7fac7cc12",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273aff21e7b9470ce4affb09498",
+    "ano": ""
+  },
+  "2a1o6ZejUi8U3wzzOtCOYw": {
+    "audio": "https://p.scdn.co/mp3-preview/283ea222e7b4af379ba32c62b165f0e80bb0951c",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2734640a26eb27649006be29a94",
+    "ano": ""
+  },
+  "4Xtlw8oXkIOvzV7crUBKeZ": {
+    "audio": "https://p.scdn.co/mp3-preview/de49e94a9bd90a86ae9e074fe2b81c5cbcdc4f48",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273f98b3d2d2e0c530ff1d43311",
+    "ano": ""
+  },
+  "4BxzNZpcm1j3JczZzGNe2k": {
+    "audio": "https://p.scdn.co/mp3-preview/dc9b27d07e24d2b66ba9310a44c3483b28733f4c",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2733892a55b29583746e1b4cd48",
+    "ano": ""
+  },
+  "44BZWegR2TBYtgZdAHwaGH": {
+    "audio": "https://p.scdn.co/mp3-preview/eaab119e61e9274937bd3b5d5c2400e7e1b9e2c3",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273f1ca4db65ddfa7c3f9e23dd3",
+    "ano": ""
+  },
+  "2403gCM2RluhMgBc9TSwp7": {
+    "audio": "https://p.scdn.co/mp3-preview/3cc4e7ed7553e001535fa7d15661961726ab40e7",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2731ba5e37f7f18eb3fa4591a04",
+    "ano": ""
+  },
+  "20jSmgTANwSWWv9YfFdnNn": {
+    "audio": "https://p.scdn.co/mp3-preview/9362ba86a69937a23ffe7510f9f4a8e1d1cae37b",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273d468642da373d84e7a3c2450",
+    "ano": ""
+  },
+  "4eI0ncpnZuv4A3ssTJRSDY": {
+    "audio": "https://p.scdn.co/mp3-preview/b3a7c440217ce345a23cd778c16a7ca782e2e1aa",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2730e61e4e997a3dc0ba273e732",
+    "ano": ""
+  },
+  "7MMJa7cjMadOSR6CFWvB1x": {
+    "audio": "https://p.scdn.co/mp3-preview/40b3e75ddc113790db6d8a66ccbfd4188894a892",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27387f01b35a5806d46277a4316",
+    "ano": ""
+  },
+  "7o34Mp5i0kSmAIJUCxVCFn": {
+    "audio": "https://p.scdn.co/mp3-preview/15a9d92ad7e2f7a9de22238d9df7e9d34380a024",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273ff9b8d24892544555f481985",
+    "ano": ""
+  },
+  "5HggJVnKKG973g32kVbJjd": {
+    "audio": "https://p.scdn.co/mp3-preview/0dd66c91f1c503fb14184f1b569dfe943bd29fd9",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2733647a9397d1dc3933cc6071d",
+    "ano": "2024"
+  },
+  "5bxQHscWvyaQbm37igKP4K": {
+    "audio": "https://p.scdn.co/mp3-preview/fccfbcdf7ee1671f5465be5ec193eb691900c0c8",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273be679b5ff450cd6f778d7217",
+    "ano": ""
+  },
+  "4gXSgEQeLRwCmpa6foSspX": {
+    "audio": "https://p.scdn.co/mp3-preview/f706bd8d5b91ed018b09af32e8a82122bba08692",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273be679b5ff450cd6f778d7217",
+    "ano": ""
+  },
+  "6wmeVtM2RqSHu8ClChANqx": {
+    "audio": "https://p.scdn.co/mp3-preview/56a5c1e4c7f88be1bbb72da505b00c6e174ad850",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273c3021f84080ef3c59750b903",
+    "ano": ""
+  },
+  "5EOoElhbLrRM4cWMTY8qgD": {
+    "audio": "https://p.scdn.co/mp3-preview/4761a5184ee240348e33b3a9006fb15625c06491",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273b1767ee9efcaca80a7117035",
+    "ano": ""
+  },
+  "5H32Yi9LcptPfuDna0tkAI": {
+    "audio": "https://p.scdn.co/mp3-preview/8a0694a485bee324131ba67453d6a4fcd0c61d4a",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27382f99a7f506715818b640095",
+    "ano": ""
+  },
+  "5L4wJD8eyVhSrm4pbPuF2u": {
+    "audio": "https://p.scdn.co/mp3-preview/65c29c962cf279fa8951a972dc01018dcc8bfbd1",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273c249380a1d1609c52e80b8bd",
+    "ano": ""
+  },
+  "6qnQkIIFPFyTAhoyIFBrcR": {
+    "audio": "https://p.scdn.co/mp3-preview/ee9011983731820e1527558fd2fdbd11936b9eb9",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2735473fe17a7ecbcdee3ff3a54",
+    "ano": ""
+  },
+  "7ae4OwBZnypVfR9WVesDaw": {
+    "audio": "https://p.scdn.co/mp3-preview/ea93cc786f812e92e94fdaa0f02d6d2d25007ede",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2733cf0a9e4e2ff43f8f02fdf3d",
+    "ano": ""
+  },
+  "0KligwQn4Iy344p2Q5m6k6": {
+    "audio": "https://p.scdn.co/mp3-preview/95f747aa5e302a4676d382bb13105d155f4ddc32",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2739a43a891fd44f224e09afd7b",
+    "ano": ""
+  },
+  "1rVPV7us0kW0mXBgoNKAYK": {
+    "audio": "https://p.scdn.co/mp3-preview/da1148295ab666580ba6beeaa0581bed7d65afd5",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273e2bcf2207fa1d23340d97de6",
+    "ano": ""
+  },
+  "72BnKkKnrOeCDY9vy2avFk": {
+    "audio": "https://p.scdn.co/mp3-preview/fb792ae214eef5dad35ac91cacbd52042c0d5ff1",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2735151b4752642e355c13ed72a",
+    "ano": ""
+  },
+  "7sXTcibuNYugjjYNfgf2kY": {
+    "audio": "https://p.scdn.co/mp3-preview/99a310a201557e7c0ae7659b00fc4f91be7206ed",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273228264ef165a3de1041d0c22",
+    "ano": ""
+  },
+  "6SHprqk9Cj4TaQF9p3K9s8": {
+    "audio": "https://p.scdn.co/mp3-preview/8a0834b17431c5bf181a5f230de2e84ec84b56f4",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27366f64b9378b0ded370d5016c",
+    "ano": ""
+  },
+  "3dZHWv3IsAQLzAr7FLJoJA": {
+    "audio": "https://p.scdn.co/mp3-preview/68bd7fe9dcb38b26eeb422923dda09e2eed73070",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2735ee0276a8cb48fff5608bea0",
+    "ano": ""
+  },
+  "7F0saRUakwxLCEI1MvGVQZ": {
+    "audio": "https://p.scdn.co/mp3-preview/a9413e6ee0ebef1c63a4741b0cf2297374c6710d",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273d51a551700ecbdcfb2488b74",
+    "ano": ""
+  },
+  "31eAijCejvmhSeou6L40Su": {
+    "audio": "https://p.scdn.co/mp3-preview/baa10c10721dc9358bf62446ed763b08d6a73092",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273263d1053f96f60e720210f33",
+    "ano": ""
+  },
+  "6RDrpNxQIKp6LULdQWd2Vl": {
+    "audio": "https://p.scdn.co/mp3-preview/044ece4b37f85acf7e8e1ca4a805baad0dd6aa67",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273e6b07b0712c8459ae5dd7a0a",
+    "ano": ""
+  },
+  "2I0mW1Ldu2FQ8qmhxqQjeA": {
+    "audio": "https://p.scdn.co/mp3-preview/9855818d667f6fd5d99ce0a2df561049e019401a",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273be679b5ff450cd6f778d7217",
+    "ano": ""
+  },
+  "1LfG7ZpbedtuXH1CKpyC97": {
+    "audio": "https://p.scdn.co/mp3-preview/d66727dacd993861824eb2be8866f2bca147b84e",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273a7abd83d17924ed7ff3ea252",
+    "ano": ""
+  },
+  "7lOlFOWWGQrZ6l1mgj45X6": {
+    "audio": "https://p.scdn.co/mp3-preview/9ee1102cacfacf7f3eeff03a8465ded3e6a0d80c",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273d3e2c48b1843cde1bfd5a190",
+    "ano": ""
+  },
+  "0vRsoNQRw2HFYl8hXpVSJ1": {
+    "audio": "https://p.scdn.co/mp3-preview/61ae046e5e5b72689800f1cda8b588acff00618e",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27338f317cb619bd5f2b2a5ed3a",
+    "ano": ""
+  },
+  "0q9no3CEFBmMP925KJMxTu": {
+    "audio": "https://p.scdn.co/mp3-preview/56dd1d29b9b65c3bde07501a60614d979ce6ce1a",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2737795a5fb973bb50f173684b3",
+    "ano": ""
+  },
+  "24vLrig9eVLtfjD3vzYZ3Q": {
+    "audio": "https://p.scdn.co/mp3-preview/a334ab7a2a980617accefb6dc844edab21a646a3",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2735de278ae89bc9aa3ba905dc7",
+    "ano": ""
+  },
+  "1xYpW2C6sX1RY9iYPAx0mz": {
+    "audio": "https://p.scdn.co/mp3-preview/6a31213043dc3ba94ab1ff28596cda42fd406f46",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2733647a9397d1dc3933cc6071d",
+    "ano": "2024"
+  },
+  "5LGUuaDqOQOB2mbRW2Prsg": {
+    "audio": "https://p.scdn.co/mp3-preview/543e8b948beba4b6a122234a45b039815f47e3b7",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2733647a9397d1dc3933cc6071d",
+    "ano": "2024"
+  },
+  "0XBheLbQP22VcatC0dMfPA": {
+    "audio": "https://p.scdn.co/mp3-preview/bcc3e775bb618e3e408ca769af90161478eb5862",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2733647a9397d1dc3933cc6071d",
+    "ano": "2024"
+  },
+  "5rymvhZn6ZFzwSP3odjGRo": {
+    "audio": "https://p.scdn.co/mp3-preview/187265e27358915440ae93b977450134263a7743",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2733647a9397d1dc3933cc6071d",
+    "ano": "2024"
+  },
+  "4T8mrPnU2xqoGlC3oosvtC": {
+    "audio": "https://p.scdn.co/mp3-preview/22b059ae3feda73d640c1257d60aec9b449a688e",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2733647a9397d1dc3933cc6071d",
+    "ano": "2024"
+  },
+  "2Iu47PhuGpEodarMQ3YBOX": {
+    "audio": "https://p.scdn.co/mp3-preview/cfaa3fb8208deba8f9438a0d00a26fcb7e677c84",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2733647a9397d1dc3933cc6071d",
+    "ano": "2024"
+  },
+  "02Rv7qkxG4SiKSQxxDuhLu": {
+    "audio": "https://p.scdn.co/mp3-preview/b3a6b2dcf1d12dbffa74bcd7c9d1d44280ef6805",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2733647a9397d1dc3933cc6071d",
+    "ano": "2024"
+  },
+  "43PZqVk0yWOJQtWIm3ep3N": {
+    "audio": "https://p.scdn.co/mp3-preview/f5411adbd5345768e0df601e579aa739fc5b23cd",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2733647a9397d1dc3933cc6071d",
+    "ano": "2024"
+  },
+  "5QVTwHXseB5aHbURhfj8Ij": {
+    "audio": "https://p.scdn.co/mp3-preview/f24435b75a14b73e5a35bf37555325267d24d868",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2733647a9397d1dc3933cc6071d",
+    "ano": "2024"
+  },
+  "4bOM1hCaAZJ7P6JCIla00W": {
+    "audio": "https://p.scdn.co/mp3-preview/c4a16b118c18db6667f30f9f9f79912edcbe7efc",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2733647a9397d1dc3933cc6071d",
+    "ano": "2024"
+  },
+  "0xc0EsnhWXBwVOoXqoMj2m": {
+    "audio": "https://p.scdn.co/mp3-preview/e6a5f8917b334313bbdcd2b0c74a05b7383370d9",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2733647a9397d1dc3933cc6071d",
+    "ano": "2024"
+  },
+  "3RpW0kHH7NlcUvm7F8HHZF": {
+    "audio": "https://p.scdn.co/mp3-preview/d8db1a1f56caf5b746634800b3305bcc24df413c",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2733647a9397d1dc3933cc6071d",
+    "ano": "2024"
+  },
+  "2lRMPxNLgF7gFXBmRf5inl": {
+    "audio": "https://p.scdn.co/mp3-preview/2966b94bdc4552d130d6dd1afd0ba344614c8564",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2733647a9397d1dc3933cc6071d",
+    "ano": "2024"
+  },
+  "3eDT6yOCZNKyaxLnnRPhox": {
+    "audio": "https://p.scdn.co/mp3-preview/717826d0aa8ef8ff01cc0b0913fad541b6d509dc",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2733647a9397d1dc3933cc6071d",
+    "ano": "2024"
+  },
+  "43lC7VxkSMH8KBGXkXLONc": {
+    "audio": "https://p.scdn.co/mp3-preview/f7ae80472fa34c6a906a376a9c977c13c4acc486",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2733647a9397d1dc3933cc6071d",
+    "ano": "2024"
+  },
+  "2WOsTS8MLy3f9rjOIsg3tW": {
+    "audio": "https://p.scdn.co/mp3-preview/0cdfafba8153e290551fe9c36dc4e59d9abd4228",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2733647a9397d1dc3933cc6071d",
+    "ano": "2024"
+  },
+  "0XzipnuSrizJLTMZ5zdAgV": {
+    "audio": "https://p.scdn.co/mp3-preview/4c0a9b4aa2c5eb93dbfa64e54a86d2aa93df2089",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2733647a9397d1dc3933cc6071d",
+    "ano": "2024"
+  },
+  "2lQEplvuHSse59XtWe5oJu": {
+    "audio": "https://p.scdn.co/mp3-preview/9c6b7bf1688e6c2d6aea5d92f415bffd506bfb1f",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2733647a9397d1dc3933cc6071d",
+    "ano": "2024"
+  },
+  "2Lctn0xxWEnXpAQV0ggSth": {
+    "audio": "https://p.scdn.co/mp3-preview/2570e97bb80c581dd69f4289d117f57678195bb2",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2733647a9397d1dc3933cc6071d",
+    "ano": "2024"
+  },
+  "1FwCl4EXDGiIG1MKbWrvnf": {
+    "audio": "https://p.scdn.co/mp3-preview/2fad7a02ef9aef6a2b438eb588cae070139a4719",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2733647a9397d1dc3933cc6071d",
+    "ano": "2024"
+  },
+  "4fkogoABTtsfBU7Ef5QhtA": {
+    "audio": "https://p.scdn.co/mp3-preview/33e9fabcf72289c5b2fed8401aa29366fdc03b0a",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2733647a9397d1dc3933cc6071d",
+    "ano": "2024"
+  },
+  "5pYtV3Ys1KYurhcad7ivVh": {
+    "audio": "https://p.scdn.co/mp3-preview/120d635ce4ab90fa4377a09cfd748abafd16fc45",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2733647a9397d1dc3933cc6071d",
+    "ano": "2024"
+  },
+  "3x3pBFa2vDFisoHeKlgwHU": {
+    "audio": "https://p.scdn.co/mp3-preview/a38be0bac7809d37774bc709827af67f84b55231",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2733647a9397d1dc3933cc6071d",
+    "ano": "2024"
+  },
+  "3VURxM6HGGMnUGd0aiflou": {
+    "audio": "https://p.scdn.co/mp3-preview/b6099c6e16d9dacaddbb2dd00557fd77e7de751d",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2733647a9397d1dc3933cc6071d",
+    "ano": "2024"
+  },
+  "36r085cj95tQcGaOoPLfc5": {
+    "audio": "https://p.scdn.co/mp3-preview/8be25cd1f70ebe763e50ca9ca85cac673adb8021",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273cd84a8be0da1523554f5dd5e",
+    "ano": ""
+  },
+  "7ETIZFr7163zFcz3RxKk5O": {
+    "audio": "https://p.scdn.co/mp3-preview/13883f7129252d4397cbe7cecb5e2851d821b20b",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273cd84a8be0da1523554f5dd5e",
+    "ano": ""
+  },
+  "71GABxN1QMc3RbtKqhYvXb": {
+    "audio": "https://p.scdn.co/mp3-preview/82ecb32c9c696f153964a521b796ea48cb502f35",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273cd84a8be0da1523554f5dd5e",
+    "ano": ""
+  },
+  "5szvpZOIMuzCrwNrRwnB9B": {
+    "audio": "https://p.scdn.co/mp3-preview/a28cb007ac30bf79930d29137cdaedad3820b8ac",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273635fa7f33863d9bafcbe8a65",
+    "ano": ""
+  },
+  "0SXUbvefDczI7Z6hEhuJ8h": {
+    "audio": "https://p.scdn.co/mp3-preview/6aa82ada5d3c3b9de08684ca271041c9a7f76bfc",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273cd84a8be0da1523554f5dd5e",
+    "ano": ""
+  },
+  "5hYP7TDRmkJPrgYdIy500S": {
+    "audio": "https://p.scdn.co/mp3-preview/827d995ceda259796f65691e7f41e84e93a87656",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27328b40925cffb9c193661272a",
+    "ano": ""
+  },
+  "5Vsw47R4WEscYUBMaxR49w": {
+    "audio": "https://p.scdn.co/mp3-preview/cf21b3579f64f965ff3f6def299c73722e4d71d2",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27328b40925cffb9c193661272a",
+    "ano": ""
+  },
+  "6CVZ6HkgRHtPXS2lA687Pl": {
+    "audio": "https://p.scdn.co/mp3-preview/2c00a79fb7d5f3bdcb063dcff69a28332a02158c",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27328b40925cffb9c193661272a",
+    "ano": ""
+  },
+  "45hkGAZiaUpBUOImcYA8aq": {
+    "audio": "https://p.scdn.co/mp3-preview/a786eb80ac0bc1afb77ffe1556534a1cf598d5f9",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27328b40925cffb9c193661272a",
+    "ano": ""
+  },
+  "0k8pxvparQzzOOyKdPDJHV": {
+    "audio": "https://p.scdn.co/mp3-preview/373f0b50c0cf57ac8cab328204d843a1546e7ea6",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27328b40925cffb9c193661272a",
+    "ano": ""
+  },
+  "7dJprvcMVBKkwM3b56kRL7": {
+    "audio": "https://p.scdn.co/mp3-preview/30563adcb5112997624efce4a4404ace0a3cb606",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27328b40925cffb9c193661272a",
+    "ano": ""
+  },
+  "5NtzNJi7EaiegUmVEkrkNd": {
+    "audio": "https://p.scdn.co/mp3-preview/c29cb403fc8133b87d63bb83400d7325951b9cba",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27328b40925cffb9c193661272a",
+    "ano": ""
+  },
+  "5phdJ7rBNivQ6NxP7gX0DJ": {
+    "audio": "https://p.scdn.co/mp3-preview/218cdced02cb3ef6ae7252e5e27cae73f3de60fb",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2738d61faf22820050ba330b2a3",
+    "ano": ""
+  },
+  "4ec9Ql46MqyiEaszvOyLzG": {
+    "audio": "https://p.scdn.co/mp3-preview/91b00d44698a16cc5b54cf0378b7fc40ab08261d",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2738d61faf22820050ba330b2a3",
+    "ano": ""
+  },
+  "1QcokKCMCs4AFFu1moOhcp": {
+    "audio": "https://p.scdn.co/mp3-preview/52424619bba8f885df552e1c7d66007d6e8e383e",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27328b40925cffb9c193661272a",
+    "ano": ""
+  },
+  "7HMz8o0m7ASQ3ImFPfhWTY": {
+    "audio": "https://p.scdn.co/mp3-preview/4a44ddd56de367918f6c46cb42ae498701a71538",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2735aa05015cfa7bd2943c29b21",
+    "ano": ""
+  },
+  "776AftMmFFAWUIEAb3lHhw": {
+    "audio": "https://p.scdn.co/mp3-preview/ea4a0a83d990ca24023ed7e067b66e45c8495a75",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2735aa05015cfa7bd2943c29b21",
+    "ano": ""
+  },
+  "7oJ3Nb3LIY1ond1fHF3xio": {
+    "audio": "https://p.scdn.co/mp3-preview/05ae9975099972c9c1d411b1fd87e1aeac96d9cc",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27346e72dff16a10e1b5062fdf7",
+    "ano": ""
+  },
+  "1L5tZi0izXsi5Kk5OJf4W0": {
+    "audio": "https://p.scdn.co/mp3-preview/a63833f43e8ed838a7c8af126c230d428d5868bb",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273dc65d5638a3de4a0bdf3c05f",
+    "ano": ""
+  },
+  "4zQuwW24dweWcaX0fEJkP2": {
+    "audio": "https://p.scdn.co/mp3-preview/1124c4cf93e45ce89cdf030c4856dc99345c262f",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273dc65d5638a3de4a0bdf3c05f",
+    "ano": ""
+  },
+  "7or26qS3BfpTtWO3BFw5GE": {
+    "audio": "https://p.scdn.co/mp3-preview/00cf9d8950cb3a51fb677e74769005c3ccd714a8",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273dc65d5638a3de4a0bdf3c05f",
+    "ano": ""
+  },
+  "0sSdFMuYrn3N9moumV466B": {
+    "audio": "https://p.scdn.co/mp3-preview/5039cb263f1739d99ad7557eb85451052ad3fac5",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273dc65d5638a3de4a0bdf3c05f",
+    "ano": ""
+  },
+  "0RatRR1mlxEVR6WATH4jV3": {
+    "audio": "https://p.scdn.co/mp3-preview/6224ad5a8fc0e9dfce8d373b6ec229675d8a4378",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273dc65d5638a3de4a0bdf3c05f",
+    "ano": ""
+  },
+  "37A5PvtftHtsISQUDFNGUk": {
+    "audio": "https://p.scdn.co/mp3-preview/3c01e6657fdf623548d44501f3fd5842216c77cd",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273dc65d5638a3de4a0bdf3c05f",
+    "ano": ""
+  },
+  "6yLX8QnxlnEqZfs3YKCfjF": {
+    "audio": "https://p.scdn.co/mp3-preview/32f1f38915f2f97d826c16e9456e25b8642b2bc3",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273dc65d5638a3de4a0bdf3c05f",
+    "ano": ""
+  },
+  "570ZDO2Lmh6NQChOU5xPUL": {
+    "audio": "https://p.scdn.co/mp3-preview/f055efa319ef27bea91500d2c5a2e4efc07f05d5",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273dc65d5638a3de4a0bdf3c05f",
+    "ano": ""
+  },
+  "30FURVTCpbKyykjSEQzGkH": {
+    "audio": "https://p.scdn.co/mp3-preview/861a4b365ca18beba184a0965cf08c5c28574e79",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273dc65d5638a3de4a0bdf3c05f",
+    "ano": ""
+  },
+  "2i1S5Dq9SaFGcnw8mnb4ks": {
+    "audio": "https://p.scdn.co/mp3-preview/c7bb7307005d231d51620c384064c3e1750743b1",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273dc65d5638a3de4a0bdf3c05f",
+    "ano": ""
+  },
+  "5RqIM2vv5nw2PGJBqPD8Rg": {
+    "audio": "https://p.scdn.co/mp3-preview/ba6b53968af6befcaae5a9ca4fada6a1ebbbe9b5",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273dc65d5638a3de4a0bdf3c05f",
+    "ano": ""
+  },
+  "5it9RIRXDwiLpJKdce6Z7e": {
+    "audio": "https://p.scdn.co/mp3-preview/b6b4c5a64434f5e5f9fac2538d933711db84ecca",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273bd8d74b33f8be9a6fef39e54",
+    "ano": ""
+  },
+  "12TAfwmQSufwlerS9UJaQB": {
+    "audio": "https://p.scdn.co/mp3-preview/ce1cf18a039389dac0499e7cc983c514245def2b",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273bd8d74b33f8be9a6fef39e54",
+    "ano": ""
+  },
+  "1DYCdxNAVNUCAOlAi7aP5o": {
+    "audio": "https://p.scdn.co/mp3-preview/17b0d2c180e883326eda9002a102ea2ccb24af84",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273bd8d74b33f8be9a6fef39e54",
+    "ano": ""
+  },
+  "1w3KJgj6x75PiQm8Ppe0sS": {
+    "audio": "https://p.scdn.co/mp3-preview/124297fd4ba2bc0b368b6f2601880127c02835b6",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273bd8d74b33f8be9a6fef39e54",
+    "ano": ""
+  },
+  "1MdMYZN0VnpjTy6nBCM2Qf": {
+    "audio": "https://p.scdn.co/mp3-preview/b6c3f4f5b63bcc3efc1e27df7277d36a55f7e151",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273bd8d74b33f8be9a6fef39e54",
+    "ano": ""
+  },
+  "7taSJbOhxfc7Vfto48gFKj": {
+    "audio": "https://p.scdn.co/mp3-preview/8f243d8afcdc50a9b11f995ec1380117d597793b",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273bd8d74b33f8be9a6fef39e54",
+    "ano": ""
+  },
+  "7E4dtl5gWROiMKibvedh0i": {
+    "audio": "https://p.scdn.co/mp3-preview/2fe0f34b7ee51455d47141a3c755d36b675f802f",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273bd8d74b33f8be9a6fef39e54",
+    "ano": ""
+  },
+  "4vCyAAMCZZ9r4443negeQO": {
+    "audio": "https://p.scdn.co/mp3-preview/27d8614360dd1c80a6ca5b39abfeacedaa2360ec",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273bd8d74b33f8be9a6fef39e54",
+    "ano": ""
+  },
+  "3GnlbPpTLBwz35Cg5sdxuX": {
+    "audio": "https://p.scdn.co/mp3-preview/0391b4fe024b8fedd044fe43cff8783cca6d69e7",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273bd8d74b33f8be9a6fef39e54",
+    "ano": ""
+  },
+  "6OaexwzJ7LXIykBzRqpOmD": {
+    "audio": "https://p.scdn.co/mp3-preview/d800f05acccb6e6c0562ef63ae5d8bcf65f243f3",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273bd8d74b33f8be9a6fef39e54",
+    "ano": ""
+  },
+  "34Owb4rZbbKapQ4YFeuhVl": {
+    "audio": "https://p.scdn.co/mp3-preview/0e101211f8213e051a20f03875775a72e54271e4",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273bd8d74b33f8be9a6fef39e54",
+    "ano": ""
+  },
+  "40GTKaedGtzka8dlV4NuqI": {
+    "audio": "https://p.scdn.co/mp3-preview/395ec7df0b7c71ced3fd4006cae1534b9c989aa7",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273bd8d74b33f8be9a6fef39e54",
+    "ano": ""
+  },
+  "5LC7nItIEFp4nzdFdEGbf9": {
+    "audio": "https://p.scdn.co/mp3-preview/108e19726cd155f10cbeaceb687313727a369df0",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273bd8d74b33f8be9a6fef39e54",
+    "ano": ""
+  },
+  "4NDpn6yfD5aqafYWFEaJDz": {
+    "audio": "https://p.scdn.co/mp3-preview/a082959512f53d540047077459b1c15daca49dc0",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2734c896e873306c17847c254e9",
+    "ano": ""
+  },
+  "0IEGGuRHP8ylbCXausRF9p": {
+    "audio": "https://p.scdn.co/mp3-preview/b262d52f076ae729a600c739f223206d400b3d0e",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2734c896e873306c17847c254e9",
+    "ano": ""
+  },
+  "0LbK1bodGLc9xmV1cS9jvL": {
+    "audio": "https://p.scdn.co/mp3-preview/4c9514fc2696b0b027c69389f98b7cc7688a0c0c",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2734c896e873306c17847c254e9",
+    "ano": ""
+  },
+  "2r45rookK2awLkiOHOef1o": {
+    "audio": "https://p.scdn.co/mp3-preview/98f13f311ee89d8fd89238163eb646eaf98289ca",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2734c896e873306c17847c254e9",
+    "ano": ""
+  },
+  "77RrNbeBUXb1Dtewp0HQuR": {
+    "audio": "https://p.scdn.co/mp3-preview/714bb0cb460385b72b5db39422dd939ba19afa8e",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2734c896e873306c17847c254e9",
+    "ano": ""
+  },
+  "7F5rIyOI88zk36AiBXC8xq": {
+    "audio": "https://p.scdn.co/mp3-preview/7022993c14feaa1b6c64d7684920246c2cdb877d",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2734c896e873306c17847c254e9",
+    "ano": ""
+  },
+  "1SCHnL226Vc4S4lyoGeeSf": {
+    "audio": "https://p.scdn.co/mp3-preview/059a69be7b76e7741fa241a0b57df536c08d47b3",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27334a6489b2e9ae80ad3b57cbf",
+    "ano": ""
+  },
+  "1tnFctXBWxcl4bynuz88SV": {
+    "audio": "https://p.scdn.co/mp3-preview/4a62ec1b3244dfcfe5396b8b80ac46832e4577aa",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27334a6489b2e9ae80ad3b57cbf",
+    "ano": ""
+  },
+  "6fXhVRbRgeDUyeckTYhzwd": {
+    "audio": "https://p.scdn.co/mp3-preview/d055009535981e8b905737c9365229ce59c48c0b",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27334a6489b2e9ae80ad3b57cbf",
+    "ano": ""
+  },
+  "7tGvQQ0GmZVPbk0eaJy90F": {
+    "audio": "https://p.scdn.co/mp3-preview/b63be6496f3a1624ba93f3ac69474356b1ee5a14",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27334a6489b2e9ae80ad3b57cbf",
+    "ano": ""
+  },
+  "39Yhrx9ZZCkwM4erwUx72E": {
+    "audio": "https://p.scdn.co/mp3-preview/cca71339a3b28c3b3bfb0c68a6468857eb51b4cf",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27334a6489b2e9ae80ad3b57cbf",
+    "ano": ""
+  },
+  "2CvrbVzGLqAJSeRkh4XvW5": {
+    "audio": "https://p.scdn.co/mp3-preview/6aede52ed3fa4d6f80befe808a191320cc5402cf",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27334a6489b2e9ae80ad3b57cbf",
+    "ano": ""
+  },
+  "3yx8ZoQRZQUiIUpSS4xhMP": {
+    "audio": "https://p.scdn.co/mp3-preview/20d6d545037a35327b1b4432fdf8c9b4cda5f181",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27334a6489b2e9ae80ad3b57cbf",
+    "ano": ""
+  },
+  "6sgNwn5AMtjFWF2W8920yB": {
+    "audio": "https://p.scdn.co/mp3-preview/b6cb0a75a96e8311f4599b95119890c55c04bd2b",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27334a6489b2e9ae80ad3b57cbf",
+    "ano": ""
+  },
+  "0Z96ZExECrYSQo03nfCak0": {
+    "audio": "https://p.scdn.co/mp3-preview/25b9132251b5db1ef2ec9288ab017fb579b62281",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27334a6489b2e9ae80ad3b57cbf",
+    "ano": ""
+  },
+  "6tvnj77OJD0DJTgSIi6fQ3": {
+    "audio": "https://p.scdn.co/mp3-preview/b3550a31bd4471a339e8f9fd6e564d31e955582a",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27334a6489b2e9ae80ad3b57cbf",
+    "ano": ""
+  },
+  "2fCxoHkhVU2cxZbGelPIlo": {
+    "audio": "https://p.scdn.co/mp3-preview/3e3f3cea292d776e4c00bc23318820c0ad5b794b",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27334a6489b2e9ae80ad3b57cbf",
+    "ano": ""
+  },
+  "3mpm4fPG1RIWHCz6VBfQgq": {
+    "audio": "https://p.scdn.co/mp3-preview/135a55b3ffee935cad078dc7e76be5765b698dd3",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27346d463fd499066713e125745",
+    "ano": ""
+  },
+  "5aIBMkNJ4Gfz1srs3mdQQj": {
+    "audio": "https://p.scdn.co/mp3-preview/59ce941bd57de73301c250b3ae6fe6bef3ad3c22",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27346d463fd499066713e125745",
+    "ano": ""
+  },
+  "2RxlRzPIZrIPmAEv0fVjZe": {
+    "audio": "https://p.scdn.co/mp3-preview/cff1996ae1fd576cb543be595f4169c16cf34171",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27346d463fd499066713e125745",
+    "ano": ""
+  },
+  "1y3MmmBH8UfKKUKWfaHuy4": {
+    "audio": "https://p.scdn.co/mp3-preview/9790e5acd3a38f0fce775a05f4e4266b7395395f",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27346d463fd499066713e125745",
+    "ano": ""
+  },
+  "6jJMhX5CuzeZBU1HsX7nFz": {
+    "audio": "https://p.scdn.co/mp3-preview/5e900eb6fef88d18657c62df59d10c00a2c3c946",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27346d463fd499066713e125745",
+    "ano": ""
+  },
+  "3VlF8xuYu1Qzr9k7wGaTPA": {
+    "audio": "https://p.scdn.co/mp3-preview/2c512299eb393e40f35acf4c5dc81aca8edc0b38",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27346d463fd499066713e125745",
+    "ano": ""
+  },
+  "2NSqSMc0wd01Km04JVBInL": {
+    "audio": "https://p.scdn.co/mp3-preview/ef9d1e6c1a55debbc482bf7c9fb711e43975b89f",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27346d463fd499066713e125745",
+    "ano": ""
+  },
+  "5EGm0I15EH6L1hOkFyO1FC": {
+    "audio": "https://p.scdn.co/mp3-preview/34184830c5bf7149929868f51320863a12029575",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27346d463fd499066713e125745",
+    "ano": ""
+  },
+  "3w9pLeERUMc6oGF02YU7ro": {
+    "audio": "https://p.scdn.co/mp3-preview/1e43c9f2c771d8e446c30a0956846e73b49157f4",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27346d463fd499066713e125745",
+    "ano": ""
+  },
+  "5f2InE6PenFPhBeCLXCvFC": {
+    "audio": "https://p.scdn.co/mp3-preview/027a70fe284ccf9c4831d2b6384ef2da3c0e306a",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27346d463fd499066713e125745",
+    "ano": ""
+  },
+  "752h4gcgAIH6gdlBTFAS6H": {
+    "audio": "https://p.scdn.co/mp3-preview/3e1aedeefde773a7ac28b3e344c1c6cf9c01b34b",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27346d463fd499066713e125745",
+    "ano": ""
+  },
+  "0bB6AoOHbBYYuaR9V26E7z": {
+    "audio": "https://p.scdn.co/mp3-preview/786233664f35a48dde46c3ba4ae47525fd1e2e94",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27346d463fd499066713e125745",
+    "ano": ""
+  },
+  "3ZBGVTCNbv5VkRg7vx5uQw": {
+    "audio": "https://p.scdn.co/mp3-preview/d9d2b912a9878a8dc4df5238ea9190f735938b74",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27346d463fd499066713e125745",
+    "ano": ""
+  },
+  "4zVlul17Z9SGqwgmbwm10Z": {
+    "audio": "https://p.scdn.co/mp3-preview/bd0c305d8bb5ec3295818e2e5b4fda621d9e501f",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27346d463fd499066713e125745",
+    "ano": ""
+  },
+  "2wRDSWplTOhbsG4Tr5YHA6": {
+    "audio": "https://p.scdn.co/mp3-preview/7f15291bdcbc90ea2aa49205e8e32a16b8aba56e",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27346d463fd499066713e125745",
+    "ano": ""
+  },
+  "3SXe3otoiV5dywpKe0wHdr": {
+    "audio": "https://p.scdn.co/mp3-preview/57e0d77f54953c6142e1edc2f79f927b73c476b9",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273f0ca9bc38c12b71f65e55afe",
+    "ano": ""
+  },
+  "6PaJaElx59xuI8TPxd7XAf": {
+    "audio": "https://p.scdn.co/mp3-preview/894226b151ee0cbaabe2226524ff341590b27030",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273f0ca9bc38c12b71f65e55afe",
+    "ano": ""
+  },
+  "0GZMMUuDB34uvhdSuAcfFF": {
+    "audio": "https://p.scdn.co/mp3-preview/fb8cd784b0f70aa26051df2ee4e32c911521e2b6",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273f0ca9bc38c12b71f65e55afe",
+    "ano": ""
+  },
+  "1FGRA5pMtBqJLNAaSBia2x": {
+    "audio": "https://p.scdn.co/mp3-preview/7301f881ec529154a17f8175a973b12be946e528",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2730367a4b146bb14d1b51136ee",
+    "ano": ""
+  },
+  "25SL3ZSbEGtu4oU14xllMQ": {
+    "audio": "https://p.scdn.co/mp3-preview/d27693a7d46b35919d2bb73dfbcafaf5cdec7205",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27359d95eeb37d902cc3287b574",
+    "ano": ""
+  },
+  "2RMOwSvOGQyy985Vx4VSGQ": {
+    "audio": "https://p.scdn.co/mp3-preview/722e6374044d0da1eb6d87dab36ee65fe13f2525",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27306de94ef6ce6293957be2d4d",
+    "ano": ""
+  },
+  "5jYEiTNR3FQXFouTX7Ju0N": {
+    "audio": "https://p.scdn.co/mp3-preview/297776b2e54ffafe7d6fe63969559f730ac685c4",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2731f1facdc0addf57213b9abbf",
+    "ano": ""
+  },
+  "5Uq1ta57YcmShqMyPmVyyO": {
+    "audio": "https://p.scdn.co/mp3-preview/2f954dfec74d342424fdb6d131ee9e82070ea6a8",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27347c1e81c73c72b84be4ebeb8",
+    "ano": ""
+  },
+  "2D1rmVTeaZrr5Ipow29t4b": {
+    "audio": "https://p.scdn.co/mp3-preview/4c9e5adbfc968bb1591854f8e04a72a3f0b9f08a",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2737d23c7496ec2b5aef06a2dc8",
+    "ano": ""
+  },
+  "2rC41weP3q2jhM0PDYOZGo": {
+    "audio": "https://p.scdn.co/mp3-preview/cfa4d9c656b4eefc799753732e8863805646e37b",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273852ba896e3854666bf636443",
+    "ano": ""
+  },
+  "6eJUG282cUKuIoa72sEsqO": {
+    "audio": "https://p.scdn.co/mp3-preview/7ecd2269495acad20a0e5286815e75f93029802d",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2733bc15b5807bd7e3500944a69",
+    "ano": ""
+  },
+  "321oxaH6WpQNyDToySTkRF": {
+    "audio": "https://p.scdn.co/mp3-preview/e39f98cd94dfde400f5722d4e781085e025078e3",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273852ba896e3854666bf636443",
+    "ano": ""
+  },
+  "1Tn0msQvQMbD6woO9VnEG3": {
+    "audio": "https://p.scdn.co/mp3-preview/547654c3fa8ea7a125c61166b209ab3df74e9b14",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27359d95eeb37d902cc3287b574",
+    "ano": ""
+  },
+  "3WLAcpFwRmC98f5UGRXAkI": {
+    "audio": "https://p.scdn.co/mp3-preview/b6b8cf53c3ea3e72b7f12c994ecc725056ee0f11",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273852ba896e3854666bf636443",
+    "ano": ""
+  },
+  "3hXCANK2ys6D2HZE3kuDfz": {
+    "audio": "https://p.scdn.co/mp3-preview/90afd76880fb632d08b0a9818a9bea84642d5665",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273c84afc3e7e25d41a3f8f17f3",
+    "ano": ""
+  },
+  "19IIiuViFv6TsPDXV2ZWB3": {
+    "audio": "https://p.scdn.co/mp3-preview/2be8b10ec548b8344195fd6b5b06e38e991adc3c",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273cd08fa190a11800c9e6ecc99",
+    "ano": ""
+  },
+  "3B7aR5W9WNzo9FeIsdGxI1": {
+    "audio": "https://p.scdn.co/mp3-preview/56632c10d4bdef08c1f691be9f1faf1a71b6bfee",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273cd08fa190a11800c9e6ecc99",
+    "ano": ""
+  },
+  "1Y7ShD0kGmHPwJTWOuBlHK": {
+    "audio": "https://p.scdn.co/mp3-preview/d95ef3dd827bfe3931a303057252ca5ba844aa16",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27347c1e81c73c72b84be4ebeb8",
+    "ano": ""
+  },
+  "7gGCGzNFmW0xjhA8dA3Y5w": {
+    "audio": "https://p.scdn.co/mp3-preview/9d75f51369cfdd16aa8242b3267841c880e543d0",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273cd08fa190a11800c9e6ecc99",
+    "ano": ""
+  },
+  "67RqkhyO4AI7RbgjTPNQF7": {
+    "audio": "https://p.scdn.co/mp3-preview/7aa76d571be2bf9799fff5875e0c4f9ad693d361",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273cd08fa190a11800c9e6ecc99",
+    "ano": ""
+  },
+  "6NHjL6DkSsaGjFz2KJN1q2": {
+    "audio": "https://p.scdn.co/mp3-preview/f2737cbf18ec710c388653da76bb541fdfb35501",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273cd08fa190a11800c9e6ecc99",
+    "ano": ""
+  },
+  "58RnbwfvEYB8VS5JHrUwc8": {
+    "audio": "https://p.scdn.co/mp3-preview/5af6aeb05b23d8f015707c8ec0160702747a1839",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27347c1e81c73c72b84be4ebeb8",
+    "ano": ""
+  },
+  "7M1YydD0jJ9teSC62fhfY9": {
+    "audio": "https://p.scdn.co/mp3-preview/bceff0818a31fe91fc120d0926efe1bbf9842858",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273cd08fa190a11800c9e6ecc99",
+    "ano": ""
+  },
+  "2hy9PyCleGC4HRe5MsPwfF": {
+    "audio": "https://p.scdn.co/mp3-preview/e2c56a272343332ea4eb43829b7364949d862023",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273d4470ce58d5b86671673d32c",
+    "ano": ""
+  },
+  "6Q3JFwQ0EoAO7gosrWI3na": {
+    "audio": "https://p.scdn.co/mp3-preview/45e5404ccb4d762f429acebea126631bf5d8c753",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273d4470ce58d5b86671673d32c",
+    "ano": ""
+  },
+  "3vCH7bgO37Cx4dOIUlX9sv": {
+    "audio": "https://p.scdn.co/mp3-preview/fd7c5549014084a250ae364e4b8191cf16ff57af",
+    "capa": "https://i.scdn.co/image/ab67616d0000b2738f82447fcbb8ca6e04581d02",
+    "ano": ""
+  },
+  "1CehxijvhSszrBS3FuCxBw": {
+    "audio": "https://p.scdn.co/mp3-preview/6439e71659c4346ce004f0bdd6015e92e42621b8",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273cd08fa190a11800c9e6ecc99",
+    "ano": ""
+  },
+  "7vzfaxzAl0YNLBp2xA7T0b": {
+    "audio": "https://p.scdn.co/mp3-preview/f317045711d55e48e381e7bb1310eb56a0b82c60",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273cd08fa190a11800c9e6ecc99",
+    "ano": ""
+  },
+  "0bkGRThWulixJ3hBPr5nlH": {
+    "audio": "https://p.scdn.co/mp3-preview/2bcffa7b3f869ed9d462e7a70d142530dcfaa782",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273d4470ce58d5b86671673d32c",
+    "ano": ""
+  },
+  "5NnXWsezmRvC5oxhguptYl": {
+    "audio": "https://p.scdn.co/mp3-preview/92884d2f2356606e5028bdd1acb05f804a6e895d",
+    "capa": "https://i.scdn.co/image/ab67616d0000b273cd08fa190a11800c9e6ecc99",
+    "ano": ""
+  },
+  "4J6Mo4lgXcVirTQzOVHQyx": {
+    "audio": "https://p.scdn.co/mp3-preview/afaae14e2800d4fff68eac1237c754f3bd302c08",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27347c1e81c73c72b84be4ebeb8",
+    "ano": ""
+  },
+  "07lEHXZYuhl0KpmXOYvwpc": {
+    "audio": "https://p.scdn.co/mp3-preview/103bc2038117778469824d18cde6fa50e43f1d8d",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27347c1e81c73c72b84be4ebeb8",
+    "ano": ""
+  },
+  "4KjHcvzmFeYo2ebthgKoJk": {
+    "audio": "https://p.scdn.co/mp3-preview/59643d49ffcb615a50460dea86eae5f6f0ac965e",
+    "capa": "https://i.scdn.co/image/ab67616d0000b27347c1e81c73c72b84be4ebeb8",
+    "ano": ""
+  }
+};
+
+const PREVIAS_ITUNES = {
+  "1L5tZi0izXsi5Kk5OJf4W0": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c0/7f/37/c07f37f1-a8e1-b093-f643-9e3bae02589b/mzaf_10374144630525520706.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/5a/72/3f/5a723fec-965d-3483-89f8-d66b79f88419/15UMGIM24224.rgb.jpg/600x600bb.jpg",
+    "ano": "2006"
+  },
+  "4zQuwW24dweWcaX0fEJkP2": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b8/9c/5a/b89c5aa9-5433-68c8-38d1-75fd85862ffb/mzaf_17195324683878243507.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/5a/72/3f/5a723fec-965d-3483-89f8-d66b79f88419/15UMGIM24224.rgb.jpg/600x600bb.jpg",
+    "ano": "2006"
+  },
+  "7or26qS3BfpTtWO3BFw5GE": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e4/5f/20/e45f200f-0d33-f243-0cf1-4a4d441c0ed7/mzaf_3845817776861087251.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/cf/3f/09/cf3f0994-980d-d8ed-088d-ae89af256b73/15UMGIM24224.rgb.jpg/600x600bb.jpg",
+    "ano": "2006"
+  },
+  "0sSdFMuYrn3N9moumV466B": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/33/12/d7/3312d7e0-aeff-0f22-2542-f2ff2e9455b9/mzaf_15336209522858658015.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/92/de/b8/92deb80d-066f-3dc1-4645-43121cb45879/13UAAIM81406.rgb.jpg/600x600bb.jpg",
+    "ano": "2006"
+  },
+  "0RatRR1mlxEVR6WATH4jV3": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4f/7c/98/4f7c9810-eff4-cd01-a4f7-06be45909e79/mzaf_5718745609670022368.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/5a/72/3f/5a723fec-965d-3483-89f8-d66b79f88419/15UMGIM24224.rgb.jpg/600x600bb.jpg",
+    "ano": "2006"
+  },
+  "37A5PvtftHtsISQUDFNGUk": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0d/f3/35/0df33576-4f54-5fe3-801f-e0fd4771e08f/mzaf_7288768040992996311.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/cf/3f/09/cf3f0994-980d-d8ed-088d-ae89af256b73/15UMGIM24224.rgb.jpg/600x600bb.jpg",
+    "ano": "2006"
+  },
+  "6yLX8QnxlnEqZfs3YKCfjF": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/da/95/46/da9546e7-19e0-a4b6-67bb-d8f7d8e8b0a1/mzaf_7162230293325845022.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/cf/3f/09/cf3f0994-980d-d8ed-088d-ae89af256b73/15UMGIM24224.rgb.jpg/600x600bb.jpg",
+    "ano": "2006"
+  },
+  "570ZDO2Lmh6NQChOU5xPUL": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/13/98/1b/13981b1d-168a-7d1d-6f02-2b55d74da023/mzaf_4732975566797542921.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/cf/3f/09/cf3f0994-980d-d8ed-088d-ae89af256b73/15UMGIM24224.rgb.jpg/600x600bb.jpg",
+    "ano": "2006"
+  },
+  "30FURVTCpbKyykjSEQzGkH": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e2/d7/bf/e2d7bffb-affd-eae0-dcb8-a47ba2bba259/mzaf_4498279717793174345.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/cf/3f/09/cf3f0994-980d-d8ed-088d-ae89af256b73/15UMGIM24224.rgb.jpg/600x600bb.jpg",
+    "ano": "2006"
+  },
+  "2i1S5Dq9SaFGcnw8mnb4ks": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f2/16/fa/f216fa76-f2e6-0496-94e0-7358a7718b5b/mzaf_15150181482436324878.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/cf/3f/09/cf3f0994-980d-d8ed-088d-ae89af256b73/15UMGIM24224.rgb.jpg/600x600bb.jpg",
+    "ano": "2006"
+  },
+  "5RqIM2vv5nw2PGJBqPD8Rg": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/39/16/6d/39166d69-9f63-3886-9da7-d972d9cf08af/mzaf_16068563076100282897.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/cf/3f/09/cf3f0994-980d-d8ed-088d-ae89af256b73/15UMGIM24224.rgb.jpg/600x600bb.jpg",
+    "ano": "2006"
+  },
+  "5it9RIRXDwiLpJKdce6Z7e": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f6/69/8d/f6698de6-689b-a71d-a8c8-1ba840cc8a7e/mzaf_6599080501759689929.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/6f/ad/756fad44-4db8-bf8a-c645-6b689c138668/15UMGIM53725.rgb.jpg/600x600bb.jpg",
+    "ano": "2006"
+  },
+  "12TAfwmQSufwlerS9UJaQB": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/31/1a/21/311a216d-7288-1385-ac2b-a7ed2e33989c/mzaf_16688924512484475848.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/6f/ad/756fad44-4db8-bf8a-c645-6b689c138668/15UMGIM53725.rgb.jpg/600x600bb.jpg",
+    "ano": "2011"
+  },
+  "1DYCdxNAVNUCAOlAi7aP5o": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9c/9a/7d/9c9a7db1-8223-3c29-9f56-17034e162bac/mzaf_16101766052578805319.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/6f/ad/756fad44-4db8-bf8a-c645-6b689c138668/15UMGIM53725.rgb.jpg/600x600bb.jpg",
+    "ano": "2006"
+  },
+  "1w3KJgj6x75PiQm8Ppe0sS": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7c/8f/dc/7c8fdc65-417c-e7bd-6973-e1a6fbe33e55/mzaf_588168689133064585.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/6f/ad/756fad44-4db8-bf8a-c645-6b689c138668/15UMGIM53725.rgb.jpg/600x600bb.jpg",
+    "ano": "2015"
+  },
+  "1MdMYZN0VnpjTy6nBCM2Qf": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5f/c4/d7/5fc4d765-730b-5b18-113b-16c3c549d7a6/mzaf_14554350062892030232.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/6f/ad/756fad44-4db8-bf8a-c645-6b689c138668/15UMGIM53725.rgb.jpg/600x600bb.jpg",
+    "ano": "2015"
+  },
+  "7taSJbOhxfc7Vfto48gFKj": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0e/72/19/0e7219a8-b234-d460-7dc1-5999273f1e15/mzaf_16065262369256435689.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/6f/ad/756fad44-4db8-bf8a-c645-6b689c138668/15UMGIM53725.rgb.jpg/600x600bb.jpg",
+    "ano": "2015"
+  },
+  "7E4dtl5gWROiMKibvedh0i": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/db/54/ff/db54ff77-1cc9-7008-5102-3f84278b40c2/mzaf_2350512444256696799.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/6f/ad/756fad44-4db8-bf8a-c645-6b689c138668/15UMGIM53725.rgb.jpg/600x600bb.jpg",
+    "ano": "2015"
+  },
+  "4vCyAAMCZZ9r4443negeQO": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cc/3f/d9/cc3fd97c-ded7-f170-4954-4b6d08d9500b/mzaf_9247842202743464803.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5e/c7/70/5ec7700c-e3d8-7ef3-118b-f0d3af87e650/00602517458383.rgb.jpg/600x600bb.jpg",
+    "ano": "2007"
+  },
+  "3GnlbPpTLBwz35Cg5sdxuX": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7f/45/6c/7f456c1c-dff7-38fd-69e1-2b6e53e515fc/mzaf_15394469072363643138.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5e/c7/70/5ec7700c-e3d8-7ef3-118b-f0d3af87e650/00602517458383.rgb.jpg/600x600bb.jpg",
+    "ano": "2007"
+  },
+  "6OaexwzJ7LXIykBzRqpOmD": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/95/f9/0b/95f90ba7-0138-749f-edc0-82ccc34c0b29/mzaf_11813371800779940260.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/6f/ad/756fad44-4db8-bf8a-c645-6b689c138668/15UMGIM53725.rgb.jpg/600x600bb.jpg",
+    "ano": "2007"
+  },
+  "34Owb4rZbbKapQ4YFeuhVl": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0a/d8/27/0ad827ee-6e03-d72f-0b68-793e01f803ca/mzaf_8559521455332514908.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/6f/ad/756fad44-4db8-bf8a-c645-6b689c138668/15UMGIM53725.rgb.jpg/600x600bb.jpg",
+    "ano": "2015"
+  },
+  "40GTKaedGtzka8dlV4NuqI": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b1/36/06/b13606b1-f3dd-8111-3d80-a18c9767a8f5/mzaf_11457683374274045009.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/6f/ad/756fad44-4db8-bf8a-c645-6b689c138668/15UMGIM53725.rgb.jpg/600x600bb.jpg",
+    "ano": "2015"
+  },
+  "5LC7nItIEFp4nzdFdEGbf9": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/31/b7/f0/31b7f0bf-f801-7028-a60a-db7efa53e849/mzaf_7777676706676508472.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/6f/ad/756fad44-4db8-bf8a-c645-6b689c138668/15UMGIM53725.rgb.jpg/600x600bb.jpg",
+    "ano": "2003"
+  },
+  "4NDpn6yfD5aqafYWFEaJDz": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ab/ff/70/abff707f-27b8-a5b9-d55a-feaffdbbbedf/mzaf_14760552962393985286.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ec/72/7d/ec727d2b-fd16-e9ac-141a-878c1d460e28/00602527920542.rgb.jpg/600x600bb.jpg",
+    "ano": "2011"
+  },
+  "0LbK1bodGLc9xmV1cS9jvL": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f2/dd/e1/f2dde195-0aee-95ba-3d45-1cedf3ed1676/mzaf_12657082655227117952.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ec/72/7d/ec727d2b-fd16-e9ac-141a-878c1d460e28/00602527920542.rgb.jpg/600x600bb.jpg",
+    "ano": "2011"
+  },
+  "2r45rookK2awLkiOHOef1o": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7a/34/05/7a3405d9-e3ed-6868-ca26-3cef79b024a4/mzaf_8037232924169241148.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/6f/ad/756fad44-4db8-bf8a-c645-6b689c138668/15UMGIM53725.rgb.jpg/600x600bb.jpg",
+    "ano": "2015"
+  },
+  "77RrNbeBUXb1Dtewp0HQuR": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fc/f1/a2/fcf1a2df-043b-5a2f-f979-99be672a1409/mzaf_17819018128689646002.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ec/72/7d/ec727d2b-fd16-e9ac-141a-878c1d460e28/00602527920542.rgb.jpg/600x600bb.jpg",
+    "ano": "2011"
+  },
+  "7F5rIyOI88zk36AiBXC8xq": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1a/3e/1a/1a3e1af9-cd64-6b25-dfde-07ab073d468c/mzaf_15892471367999308755.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ec/72/7d/ec727d2b-fd16-e9ac-141a-878c1d460e28/00602527920542.rgb.jpg/600x600bb.jpg",
+    "ano": "2011"
+  },
+  "1om5SLZiUA9DVEnjcZBBzA": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2e/f3/b3/2ef3b344-204b-f5fd-7139-696bee8eb022/mzaf_9552679745221494714.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ec/72/7d/ec727d2b-fd16-e9ac-141a-878c1d460e28/00602527920542.rgb.jpg/600x600bb.jpg",
+    "ano": "2011"
+  },
+  "2G4rsUWjuBb6vPrUm01etb": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/22/37/0f/22370f43-f1f8-b490-d255-64d7e81ccb36/mzaf_5738403698338272718.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ec/72/7d/ec727d2b-fd16-e9ac-141a-878c1d460e28/00602527920542.rgb.jpg/600x600bb.jpg",
+    "ano": "2011"
+  },
+  "7BizTaPDXSWVi8vdGeFg0W": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6e/72/9d/6e729d44-12db-3d54-046c-3ecfef21cd04/mzaf_5505102020901886518.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ec/72/7d/ec727d2b-fd16-e9ac-141a-878c1d460e28/00602527920542.rgb.jpg/600x600bb.jpg",
+    "ano": "2011"
+  },
+  "4fdPpmqn1eYLyWRcxZmx2D": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d8/a2/65/d8a26544-fe4d-c0b0-4b2f-d70c84311aad/mzaf_10471040507725425923.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ec/72/7d/ec727d2b-fd16-e9ac-141a-878c1d460e28/00602527920542.rgb.jpg/600x600bb.jpg",
+    "ano": "2011"
+  },
+  "4AyULNTWuCtbpxzY2qVowJ": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b2/c9/5a/b2c95a69-563d-c465-bbdc-146185f8e459/mzaf_8307132401601410020.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ec/72/7d/ec727d2b-fd16-e9ac-141a-878c1d460e28/00602527920542.rgb.jpg/600x600bb.jpg",
+    "ano": "2011"
+  },
+  "2qPwYT63eEx3JNWdVE6bb0": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/09/7a/c0/097ac09d-e54e-efdd-8566-2e4c4a0183d9/mzaf_15257602113671429637.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/23/e4/fd/23e4fddf-56d6-3e4b-a8e5-557c05b40583/15UMGIM31140.rgb.jpg/600x600bb.jpg",
+    "ano": "2003"
+  },
+  "1jLNxsmGsEQAM4CUkHemfS": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e0/c0/62/e0c062e7-ab24-fd91-308e-42aecb5fd98e/mzaf_12839762246679107063.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/75/3a/41/753a4173-a5c6-a699-948a-9d1719cca907/08UMGIM06584.rgb.jpg/600x600bb.jpg",
+    "ano": "2003"
+  },
+  "2zJv4HwUarNnI0My2n6YF8": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/55/3e/af/553eaf99-f990-60bb-9e20-72ef2f00dbb6/mzaf_8684491093351294496.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/65/65/1e/65651e8e-51b0-9297-37ab-9a5c204aa72e/15UMGIM31140.rgb.jpg/600x600bb.jpg",
+    "ano": "2003"
+  },
+  "4KNfNp4Et9nyLnouySvcFT": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e7/05/1e/e7051e4a-c311-059a-9939-7dac73abaa48/mzaf_7379594511274980489.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/65/65/1e/65651e8e-51b0-9297-37ab-9a5c204aa72e/15UMGIM31140.rgb.jpg/600x600bb.jpg",
+    "ano": "2003"
+  },
+  "6QIdkhQ33eTSPBHu4NWl7l": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/44/1e/f1/441ef1e0-6444-bfb2-d6f9-453e97dc931a/mzaf_13258849956067908421.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/65/65/1e/65651e8e-51b0-9297-37ab-9a5c204aa72e/15UMGIM31140.rgb.jpg/600x600bb.jpg",
+    "ano": "2003"
+  },
+  "5TImISmK9CQtBrt0rLbq0R": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c3/ff/fb/c3fffb8e-3256-292e-9468-a690f8d273f0/mzaf_3746781040322541303.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/75/3a/41/753a4173-a5c6-a699-948a-9d1719cca907/08UMGIM06584.rgb.jpg/600x600bb.jpg",
+    "ano": "2003"
+  },
+  "15vtCacFbCWnRpSjvony3z": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b4/2d/7a/b42d7ac3-f056-69cb-1810-e60733617ede/mzaf_14673220472857352656.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/75/3a/41/753a4173-a5c6-a699-948a-9d1719cca907/08UMGIM06584.rgb.jpg/600x600bb.jpg",
+    "ano": "2003"
+  },
+  "67c56hAEeU0cYTevlZQftv": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/31/5b/2f/315b2f80-ddae-8039-3546-b037e33b4bc7/mzaf_7989056733090991016.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/75/3a/41/753a4173-a5c6-a699-948a-9d1719cca907/08UMGIM06584.rgb.jpg/600x600bb.jpg",
+    "ano": "2008"
+  },
+  "1HPLJmxBPEue4VnVlRpdXB": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/aa/cf/6e/aacf6ef6-0128-e764-daa1-a8a71d69aea9/mzaf_11444607203413509636.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/23/e4/fd/23e4fddf-56d6-3e4b-a8e5-557c05b40583/15UMGIM31140.rgb.jpg/600x600bb.jpg",
+    "ano": "2003"
+  },
+  "7DKCNMc9Sc3bzWGvJXvVO5": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/55/3e/af/553eaf99-f990-60bb-9e20-72ef2f00dbb6/mzaf_8684491093351294496.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/65/65/1e/65651e8e-51b0-9297-37ab-9a5c204aa72e/15UMGIM31140.rgb.jpg/600x600bb.jpg",
+    "ano": "2003"
+  },
+  "7kqXftmU2lrjgvEXm84uEx": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e0/c0/62/e0c062e7-ab24-fd91-308e-42aecb5fd98e/mzaf_12839762246679107063.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/75/3a/41/753a4173-a5c6-a699-948a-9d1719cca907/08UMGIM06584.rgb.jpg/600x600bb.jpg",
+    "ano": "2003"
+  },
+  "0VWAQN2xGRDcLaSAdC5nF1": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/31/5b/2f/315b2f80-ddae-8039-3546-b037e33b4bc7/mzaf_7989056733090991016.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/75/3a/41/753a4173-a5c6-a699-948a-9d1719cca907/08UMGIM06584.rgb.jpg/600x600bb.jpg",
+    "ano": "2008"
+  },
+  "3KX4eOXIkNHtbXNyfVERSt": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1f/10/19/1f101912-9b24-cf9b-3d96-1f4454e9fd0c/mzaf_2940453075578367530.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/73/fd/80/73fd8074-8df0-c058-091b-0fd8bce8b0fd/21UMGIM04140.rgb.jpg/600x600bb.jpg",
+    "ano": "2007"
+  },
+  "7cXmS8a4SW2Wcm2Pca2S83": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/86/7c/bb/867cbbd1-ec0e-f97b-359f-869c4082fef5/mzaf_1874611345378932665.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/73/fd/80/73fd8074-8df0-c058-091b-0fd8bce8b0fd/21UMGIM04140.rgb.jpg/600x600bb.jpg",
+    "ano": "2007"
+  },
+  "7gkKpedYwOnimoWcSyq0CM": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9e/46/3b/9e463bfe-dccf-0c76-b56b-f29c5d0a625a/mzaf_621800606245243064.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/73/fd/80/73fd8074-8df0-c058-091b-0fd8bce8b0fd/21UMGIM04140.rgb.jpg/600x600bb.jpg",
+    "ano": "2007"
+  },
+  "4YsWbWozRpduVoiPIqZNt7": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7f/45/6c/7f456c1c-dff7-38fd-69e1-2b6e53e515fc/mzaf_15394469072363643138.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5e/c7/70/5ec7700c-e3d8-7ef3-118b-f0d3af87e650/00602517458383.rgb.jpg/600x600bb.jpg",
+    "ano": "2007"
+  },
+  "6zphGshodNvFpQwBphwueX": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d9/34/ba/d934ba42-6d45-edec-3e17-2f2e3c46cff3/mzaf_8171484266840326420.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/73/fd/80/73fd8074-8df0-c058-091b-0fd8bce8b0fd/21UMGIM04140.rgb.jpg/600x600bb.jpg",
+    "ano": "2007"
+  },
+  "5Qnm8Jwf3KsTopNnBlSAhp": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9f/b5/8e/9fb58edc-1dc4-0c1c-007c-4e539b46ba5d/mzaf_12707955426133942168.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/73/fd/80/73fd8074-8df0-c058-091b-0fd8bce8b0fd/21UMGIM04140.rgb.jpg/600x600bb.jpg",
+    "ano": "2007"
+  },
+  "60InztMDeV2ZBuHWHBwNnF": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8c/38/53/8c3853ae-e300-e081-fa92-a2900390a273/mzaf_7055452965974749123.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/73/fd/80/73fd8074-8df0-c058-091b-0fd8bce8b0fd/21UMGIM04140.rgb.jpg/600x600bb.jpg",
+    "ano": "2007"
+  },
+  "1SXkCvTFO4CBuA6j2VJ4Ud": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ce/e1/1b/cee11b9e-5478-a01b-907f-e2389a8089cf/mzaf_3776736810431372379.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/73/fd/80/73fd8074-8df0-c058-091b-0fd8bce8b0fd/21UMGIM04140.rgb.jpg/600x600bb.jpg",
+    "ano": "2007"
+  },
+  "4lcOoKiLjBddCcg9FkeIJL": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/91/95/93/9195932a-ec1d-8deb-5665-dad9e993e04c/mzaf_6522838992137644711.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e9/f1/5c/e9f15caa-0c19-cdf7-4793-a8aa983e68d8/20UMGIM89613.rgb.jpg/600x600bb.jpg",
+    "ano": "2020"
+  },
+  "0ofHAoxe9vBkTCp2UQIavz": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d4/37/e7/d437e72a-c41b-332c-f196-bee295a9d673/mzaf_11574904347171701919.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4d/13/ba/4d13bac3-d3d5-7581-2c74-034219eadf2b/081227970949.jpg/600x600bb.jpg",
+    "ano": "1977"
+  },
+  "4xh7W7tlNMIczFhupCPniY": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4d/e7/93/4de79341-dec4-1beb-55c3-fd8286397135/mzaf_2240684441350405624.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2a/eb/dc/2aebdc18-c2c0-0fdd-fb85-07538a925700/603497925766.jpg/600x600bb.jpg",
+    "ano": "1977"
+  },
+  "5e9TFTbltYBg2xThimr0rU": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9e/f8/31/9ef83126-c5cf-f526-c26d-0c25895e4d9b/mzaf_9883179573566934970.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4d/13/ba/4d13bac3-d3d5-7581-2c74-034219eadf2b/081227970949.jpg/600x600bb.jpg",
+    "ano": "1977"
+  },
+  "2ssyECwAX5JxtcAUTFw7wI": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e3/a1/bc/e3a1bce0-47bc-f6be-1e18-bf1253d0e7e9/mzaf_4082174660549720233.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2a/eb/dc/2aebdc18-c2c0-0fdd-fb85-07538a925700/603497925766.jpg/600x600bb.jpg",
+    "ano": "1977"
+  },
+  "4nZi6XNe36Ut4Nij3IQ1yC": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/12/ac/1f/12ac1f8a-a3ca-8e49-4d5a-b0e5460938f3/mzaf_6633595999647848631.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2a/eb/dc/2aebdc18-c2c0-0fdd-fb85-07538a925700/603497925766.jpg/600x600bb.jpg",
+    "ano": "1977"
+  },
+  "5HY7oAMG0FSMewubwIf3iS": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d4/37/e7/d437e72a-c41b-332c-f196-bee295a9d673/mzaf_11574904347171701919.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4d/13/ba/4d13bac3-d3d5-7581-2c74-034219eadf2b/081227970949.jpg/600x600bb.jpg",
+    "ano": "1977"
+  },
+  "5m5XW67LO8x72K0GusruVA": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9e/f8/31/9ef83126-c5cf-f526-c26d-0c25895e4d9b/mzaf_9883179573566934970.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4d/13/ba/4d13bac3-d3d5-7581-2c74-034219eadf2b/081227970949.jpg/600x600bb.jpg",
+    "ano": "1977"
+  },
+  "1nWyUagJmVzvBGTMDeY73L": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d6/fd/73/d6fd7304-d92c-9145-d485-e81c7745f028/mzaf_15501725321895003254.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/dd/77/35/dd773533-06a7-4566-bef4-2c43c24d08f6/603497925759.jpg/600x600bb.jpg",
+    "ano": "2013"
+  },
+  "254bXAqt3zP6P50BdQvEsq": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d9/99/d8/d999d8b6-dbd7-a418-23b7-205b9b284392/mzaf_13069957188222082320.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/07/7a/2f/077a2f8e-d348-34be-fd5f-f7b655e1dc7c/603497872893.jpg/600x600bb.jpg",
+    "ano": "1987"
+  },
+  "4CoSCPlKNrWli7E5kFtbcl": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6f/b9/8e/6fb98ecf-6cb9-2127-b171-0fc7e0db5229/mzaf_14043629361759092347.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/07/7a/2f/077a2f8e-d348-34be-fd5f-f7b655e1dc7c/603497872893.jpg/600x600bb.jpg",
+    "ano": "1987"
+  },
+  "1QEzs30PUAJJPbHL1e4NYH": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e4/22/40/e4224082-edbd-079f-f531-67ef21b433c6/mzaf_1610916575224738253.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0c/73/fc/0c73fcc7-0d61-d994-af89-2909a39ea097/mzi.bfzyhzca.jpg/600x600bb.jpg",
+    "ano": "1997"
+  },
+  "6ogxNURdCpRGmtOYbECyqg": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c3/ef/2a/c3ef2a01-cc0d-289b-f947-4c6d7da4c2e2/mzaf_5634252641783524654.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0c/73/fc/0c73fcc7-0d61-d994-af89-2909a39ea097/mzi.bfzyhzca.jpg/600x600bb.jpg",
+    "ano": "1997"
+  },
+  "2hwFQrMDzCPUr8vCanCw0E": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cf/77/7b/cf777b09-5625-9a6f-d85d-f9d740d9b49f/mzaf_502147765358824084.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0c/73/fc/0c73fcc7-0d61-d994-af89-2909a39ea097/mzi.bfzyhzca.jpg/600x600bb.jpg",
+    "ano": "1997"
+  },
+  "6PgcfHSocgnc4pjDgTuJcm": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6e/65/24/6e65249a-6249-d60f-a826-09f0575bd7eb/mzaf_1946366880625937275.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0c/73/fc/0c73fcc7-0d61-d994-af89-2909a39ea097/mzi.bfzyhzca.jpg/600x600bb.jpg",
+    "ano": "1997"
+  },
+  "6xTtThCvuvIYHl1ddntJGj": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/69/53/ca/6953ca74-9812-1880-b73b-ca43e336cbbe/mzaf_13866092718243848878.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0c/73/fc/0c73fcc7-0d61-d994-af89-2909a39ea097/mzi.bfzyhzca.jpg/600x600bb.jpg",
+    "ano": "1997"
+  },
+  "1EyAx19s8jM6gbCISGGqQW": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/13/12/eb/1312eba6-700a-7f99-7807-181f763d017b/mzaf_11629796470084915247.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/26/4e/ef/264eef1f-fcd6-4b3e-391b-828e585565b1/dj.cgxlkzjn.jpg/600x600bb.jpg",
+    "ano": "2004"
+  },
+  "5pJoX8CeMlTYA8z5nXOtKG": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4d/e7/93/4de79341-dec4-1beb-55c3-fd8286397135/mzaf_2240684441350405624.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2a/eb/dc/2aebdc18-c2c0-0fdd-fb85-07538a925700/603497925766.jpg/600x600bb.jpg",
+    "ano": "1977"
+  },
+  "6wJF4lU4YBCz24Y6Se898w": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d4/37/e7/d437e72a-c41b-332c-f196-bee295a9d673/mzaf_11574904347171701919.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4d/13/ba/4d13bac3-d3d5-7581-2c74-034219eadf2b/081227970949.jpg/600x600bb.jpg",
+    "ano": "1977"
+  },
+  "4f9aRCqzooZAh6zePGsElG": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/af/2e/90/af2e90f7-675b-1d0a-6cbd-ee8dcbcf92fc/mzaf_15148833979242920655.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ce/ed/d9/ceedd97b-2aea-6152-8d99-37a061b88fba/603497863099.jpg/600x600bb.jpg",
+    "ano": "1975"
+  },
+  "7fbnfPQni0EeRSdC4x5uq4": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c2/88/e5/c288e5f6-d8dc-d8a7-8d90-f8a609b3249e/mzaf_11381701045348127730.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/64/cc/0b/64cc0b3b-92fb-66cf-1240-e2afba504e4b/603497863105.jpg/600x600bb.jpg",
+    "ano": "1975"
+  },
+  "6IPwKM3fUUzlElbvKw2sKl": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9a/b8/7b/9ab87b47-d974-1ad9-74ac-cb4b13b1e5f6/mzaf_4557361008487214760.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/31/bd/f4/31bdf42e-33aa-7968-c345-d09428c14856/5054526166202.jpg/600x600bb.jpg",
+    "ano": "2018"
+  },
+  "6JrJFxjeZPkhXE41DGnS65": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0a/62/b3/0a62b30b-d3e5-e892-937a-e58266b8c6f0/mzaf_13775902061194432305.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/8f/e9/68/8fe968ce-cae9-698c-c060-08289214a660/dj.actuezjx.jpg/600x600bb.jpg",
+    "ano": "2022"
+  },
+  "5vFuoZLvUmAzzIiLSEhk0K": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/94/06/33/94063303-c732-6813-86aa-48a0376ceb1c/mzaf_12868923810003288836.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/31/bd/f4/31bdf42e-33aa-7968-c345-d09428c14856/5054526166202.jpg/600x600bb.jpg",
+    "ano": "2018"
+  },
+  "7tLTxOJY6cjQz4aJYMs8Nu": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/06/cf/2a/06cf2a7f-61cd-873d-a141-b546f62fa9d2/mzaf_6901782489901429607.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/8d/10/e4/8d10e444-169b-7bf3-2333-f726905aeda0/5056167163121_1.jpg/600x600bb.jpg",
+    "ano": "2021"
+  },
+  "6GFrELGVKBXRcrTNkwjSfF": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9b/ec/5e/9bec5ea0-afed-547a-adcd-81237e8e09a9/mzaf_12765913767746660823.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c2/b0/43/c2b04314-f52f-3ef2-bb96-f03c0c5d1e54/5056167163206_1.jpg/600x600bb.jpg",
+    "ano": "2021"
+  },
+  "32XaqPVTVkkuOiOPQZ3SpA": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5b/77/06/5b770679-ed45-4e14-5179-d9f99ff63591/mzaf_18169998579289029802.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c2/b0/43/c2b04314-f52f-3ef2-bb96-f03c0c5d1e54/5056167163206_1.jpg/600x600bb.jpg",
+    "ano": "2021"
+  },
+  "65wEZxhPlAERKLcSbTD7qc": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bd/0b/7e/bd0b7e3b-a2ff-a04e-278e-2985b15cbeb6/mzaf_10467372698849847128.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/8d/10/e4/8d10e444-169b-7bf3-2333-f726905aeda0/5056167163121_1.jpg/600x600bb.jpg",
+    "ano": "2021"
+  },
+  "4EoE743bWWiZ4ttkdPCNbA": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d8/ed/07/d8ed070b-912b-8791-28ac-dbf1cf7c8997/mzaf_14201176557862104535.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/8d/10/e4/8d10e444-169b-7bf3-2333-f726905aeda0/5056167163121_1.jpg/600x600bb.jpg",
+    "ano": "2021"
+  },
+  "1IvX2Dtx4OGoRy6E7fxcA6": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/96/71/d3/9671d339-f90f-cb08-a5e1-072d404ff5ee/mzaf_11526134664215845203.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c2/b0/43/c2b04314-f52f-3ef2-bb96-f03c0c5d1e54/5056167163206_1.jpg/600x600bb.jpg",
+    "ano": "2021"
+  },
+  "6rYgEHuyhO064Lgj48qlIe": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e0/66/a0/e066a081-33a1-291d-5340-216bca0bf0f5/mzaf_1521501850289028541.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c2/b0/43/c2b04314-f52f-3ef2-bb96-f03c0c5d1e54/5056167163206_1.jpg/600x600bb.jpg",
+    "ano": "2021"
+  },
+  "0o2KnhHD5nFFgbfL6cQtY7": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b7/c1/7e/b7c17e21-7a51-0fc9-6ad4-12ac2e0558ee/mzaf_9304262526073745448.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c2/b0/43/c2b04314-f52f-3ef2-bb96-f03c0c5d1e54/5056167163206_1.jpg/600x600bb.jpg",
+    "ano": "2021"
+  },
+  "5PjdC2gMATetx5xdnwGUu7": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/93/6a/2f/936a2f87-c849-f17b-6ef3-e6528ca97649/mzaf_14706820197094868485.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c3/53/08/c35308ff-7946-7612-ec72-ede771acc570/5054960920149_1.jpg/600x600bb.jpg",
+    "ano": "2017"
+  },
+  "04OSnqlwlBJMvidYccraVz": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/74/c0/ad/74c0ad9e-a69b-5c54-e5bf-c472df933053/mzaf_9757947503008447386.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/fe/5a/0d/fe5a0ddd-614c-7d9d-c35a-7754b4098278/5054526224872_1.jpg/600x600bb.jpg",
+    "ano": "2018"
+  },
+  "57j65yC2HggQfmYNc6rdOK": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/02/15/89/021589fa-2644-b48b-918f-b4104565224f/mzaf_2547726146153599989.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c2/b0/43/c2b04314-f52f-3ef2-bb96-f03c0c5d1e54/5056167163206_1.jpg/600x600bb.jpg",
+    "ano": "2021"
+  },
+  "14tud1FLjpHMYHpD2c7NbO": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cf/e3/2d/cfe32d3c-ef32-82ce-4988-a1adf129aff5/mzaf_15127178911392842859.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/e7/cf/1b/e7cf1b0a-2a9a-fe4f-0f7c-986a8cfb8a37/5054526896222_1.jpg/600x600bb.jpg",
+    "ano": "2019"
+  },
+  "3SEZEyvEALlomED5xFeqOs": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/02/15/89/021589fa-2644-b48b-918f-b4104565224f/mzaf_2547726146153599989.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c2/b0/43/c2b04314-f52f-3ef2-bb96-f03c0c5d1e54/5056167163206_1.jpg/600x600bb.jpg",
+    "ano": "2021"
+  },
+  "6tMwheKgpMHBcHtr8aYMn8": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e2/eb/8a/e2eb8a25-8ff6-5b31-fbfb-a441d478f0b5/mzaf_15761411777706516685.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/6b/6f/e6/6b6fe6d5-68c7-46b4-c2a2-6d3736dbbf49/5054526402492_1.jpg/600x600bb.jpg",
+    "ano": "2019"
+  },
+  "75enpZYDT6k0PNKu6SJ4W5": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/02/15/89/021589fa-2644-b48b-918f-b4104565224f/mzaf_2547726146153599989.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c2/b0/43/c2b04314-f52f-3ef2-bb96-f03c0c5d1e54/5056167163206_1.jpg/600x600bb.jpg",
+    "ano": "2021"
+  },
+  "2wHmH8OGgU6qi8NrLl0VRY": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/02/15/89/021589fa-2644-b48b-918f-b4104565224f/mzaf_2547726146153599989.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c2/b0/43/c2b04314-f52f-3ef2-bb96-f03c0c5d1e54/5056167163206_1.jpg/600x600bb.jpg",
+    "ano": "2021"
+  },
+  "2dP8R44P2Lo3hdyevbYFfy": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/fc/f3/9a/fcf39ac2-315c-b652-39a1-a7f455f42e16/mzaf_15231200299467278846.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/da/1e/69/da1e692e-f952-e1fd-1eec-92549277a73f/5056167128588_1.jpg/600x600bb.jpg",
+    "ano": "2020"
+  },
+  "0g9BOSeEnmv7L2qoFQKyBB": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/02/15/89/021589fa-2644-b48b-918f-b4104565224f/mzaf_2547726146153599989.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c2/b0/43/c2b04314-f52f-3ef2-bb96-f03c0c5d1e54/5056167163206_1.jpg/600x600bb.jpg",
+    "ano": "2021"
+  },
+  "53jbdPQBaH6WaQvW0zmGBs": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/65/23/20/652320c3-3804-ae65-a005-301c19bf992f/mzaf_14862424303889946417.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/4b/c3/bc/4bc3bca4-d8c1-256c-eace-f21dabb762a5/886447003992.jpg/600x600bb.jpg",
+    "ano": "2018"
+  },
+  "1RujvyGPMWFGKAASzXmCpU": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3b/15/19/3b15199b-4058-47c3-a612-8a8b462fff65/mzaf_6172017267416861492.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/90/8f/88/908f8880-7559-84e2-0471-fb3d23dd1adb/886447885291.jpg/600x600bb.jpg",
+    "ano": "2019"
+  },
+  "4aGvs7y4hQIbGss7zmEXKf": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/78/a3/f3/78a3f3d1-46c8-c6ef-07ae-1cda61e16027/mzaf_9685816540798294242.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/90/8f/88/908f8880-7559-84e2-0471-fb3d23dd1adb/886447885291.jpg/600x600bb.jpg",
+    "ano": "2019"
+  },
+  "7zBPpr0lmDqho20xz1i4RI": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c9/6d/fe/c96dfec0-e12c-4423-d3f9-ba2498e6649b/mzaf_1152201194131841719.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/90/8f/88/908f8880-7559-84e2-0471-fb3d23dd1adb/886447885291.jpg/600x600bb.jpg",
+    "ano": "2019"
+  },
+  "3iiL6merNpFNX1bny9sfvM": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/62/7e/8a/627e8ae6-ba26-4668-97d6-283f357c8365/mzaf_4468538365926033610.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/90/8f/88/908f8880-7559-84e2-0471-fb3d23dd1adb/886447885291.jpg/600x600bb.jpg",
+    "ano": "2019"
+  },
+  "4R87lF4uKzgCNL1bEJeXqa": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bc/fe/e6/bcfee622-bdc3-bbe1-86de-eef470e3798e/mzaf_14733915314300312551.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/69/83/4c/69834c81-f58d-8261-97ce-433ae3a84a5d/886446970974.jpg/600x600bb.jpg",
+    "ano": "2018"
+  },
+  "3JjnGLK8IxkNLvo8Lb3KOM": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/49/cc/f3/49ccf3b1-204c-9db8-ad8c-83928a7cbfa5/mzaf_14305222560233955362.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/14/e4/98/14e49846-57a9-dc8d-6fa3-5e03ccf3606c/dj.ljogvxod.jpg/600x600bb.jpg",
+    "ano": "2014"
+  },
+  "5O2P9iiztwhomNh8xkR9lJ": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f6/ae/38/f6ae3840-e2c4-ff25-2546-cebe08431326/mzaf_15724118202843096992.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/14/e4/98/14e49846-57a9-dc8d-6fa3-5e03ccf3606c/dj.ljogvxod.jpg/600x600bb.jpg",
+    "ano": "2014"
+  },
+  "4JaLkM90MJutDAl5jD9BZX": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/62/c7/71/62c771be-eebf-018c-147c-763bce2390ed/mzaf_9286965153948544843.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/14/e4/98/14e49846-57a9-dc8d-6fa3-5e03ccf3606c/dj.ljogvxod.jpg/600x600bb.jpg",
+    "ano": "2014"
+  },
+  "4nVBt6MZDDP6tRVdQTgxJg": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/90/74/8c/90748caf-15d6-3434-4ebc-9ee2baa5b23e/mzaf_15186977162537594006.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/66/75/88/6675882c-3685-2b6b-f9de-c6d3e06602b5/dj.fuklqvvg.jpg/600x600bb.jpg",
+    "ano": "2013"
+  },
+  "6twW4ma6w0mOeejejPK0nY": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/79/5c/60/795c6017-cce4-69a4-3742-5a10a86df852/mzaf_12861205455764900157.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/66/75/88/6675882c-3685-2b6b-f9de-c6d3e06602b5/dj.fuklqvvg.jpg/600x600bb.jpg",
+    "ano": "2013"
+  },
+  "2afCBiru10AFckfOa49wIa": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c2/e8/e0/c2e8e031-0855-c419-39d5-408f0c0069b1/mzaf_1784843304112430882.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/66/75/88/6675882c-3685-2b6b-f9de-c6d3e06602b5/dj.fuklqvvg.jpg/600x600bb.jpg",
+    "ano": "2013"
+  },
+  "1dQQ2QlnvXUehsRUrukKmf": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f2/05/3b/f2053b95-50a5-6ab0-cc7a-8ddbe68b10f7/mzaf_5926780739100615611.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/66/75/88/6675882c-3685-2b6b-f9de-c6d3e06602b5/dj.fuklqvvg.jpg/600x600bb.jpg",
+    "ano": "2013"
+  },
+  "2K87XMYnUMqLcX3zvtAF4G": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/be/1a/ae/be1aaef9-4493-ad7a-3dfa-d84f0d095dc6/mzaf_15552895106210973679.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/45/ac/db/45acdb3d-1a85-52e3-43d5-195f8f58067d/mzm.qyfviqnb.jpg/600x600bb.jpg",
+    "ano": "2015"
+  },
+  "3NLnwwAQbbFKcEcV8hDItk": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f4/03/d0/f403d010-8a00-91bf-b319-b331d49d1094/mzaf_12207467144119246085.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/45/ac/db/45acdb3d-1a85-52e3-43d5-195f8f58067d/mzm.qyfviqnb.jpg/600x600bb.jpg",
+    "ano": "2015"
+  },
+  "5AezhHjX3R1bmxcAEgrFpS": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/dd/7a/3c/dd7a3c5d-f8fa-d7b6-bd10-8d57dd13d33d/mzaf_6026134963481278600.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/45/ac/db/45acdb3d-1a85-52e3-43d5-195f8f58067d/mzm.qyfviqnb.jpg/600x600bb.jpg",
+    "ano": "2015"
+  },
+  "5CRVwXGikmqzoRO6q7FeAg": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cf/68/ad/cf68adb9-5299-974b-bb6b-04e80afd7f78/mzaf_14465453770788432211.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/45/ac/db/45acdb3d-1a85-52e3-43d5-195f8f58067d/mzm.qyfviqnb.jpg/600x600bb.jpg",
+    "ano": "2015"
+  },
+  "5dONhl6aXFuN86UBdayF6W": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cd/e6/1e/cde61ea9-c8ff-c68f-1eaf-75aa87bc4faf/mzaf_15726095580404785737.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/45/ac/db/45acdb3d-1a85-52e3-43d5-195f8f58067d/mzm.qyfviqnb.jpg/600x600bb.jpg",
+    "ano": "2015"
+  },
+  "5omYVLodGmaxnhua99xIE8": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6e/72/69/6e726993-8e71-cc87-642a-d6f265034aee/mzaf_6292012639383276277.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/45/ac/db/45acdb3d-1a85-52e3-43d5-195f8f58067d/mzm.qyfviqnb.jpg/600x600bb.jpg",
+    "ano": "2015"
+  },
+  "0TAmnCzOtqRfvA38DDLTjj": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a2/c6/fb/a2c6fb1f-c639-896b-e383-03576feca3be/mzaf_13232667208922084017.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/b0/36/5c/b0365c80-52f1-5698-5644-10802ba93472/886443503168.jpg/600x600bb.jpg",
+    "ano": "2012"
+  },
+  "5G2c6FsfTzgYUzageCmfXY": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/30/5e/45/305e458f-0ceb-32f2-ed8f-e126c1e62a3b/mzaf_2309664765528282421.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c3/d4/76/c3d4765f-006e-c9ac-6b83-50ae04894eff/dj.dqbxwvpe.jpg/600x600bb.jpg",
+    "ano": "2011"
+  },
+  "1Hv1VTm8zeOeybub15mA2R": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c6/db/56/c6db5666-4464-a6e5-d6e8-8d481b926e70/mzaf_17727462257578713488.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5f/ad/2a/5fad2aca-d998-701d-7b27-c074339d5fd0/886972262628.jpg/600x600bb.jpg",
+    "ano": "1984"
+  },
+  "5qehd5xIsEaifMFy3jcoYr": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f7/12/14/f712148a-f95b-965b-c69e-acb424ae63be/mzaf_8109552396201461660.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5f/ad/2a/5fad2aca-d998-701d-7b27-c074339d5fd0/886972262628.jpg/600x600bb.jpg",
+    "ano": "1985"
+  },
+  "7erXAfnatmoUow8DnbseOY": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ea/1e/db/ea1edb55-53a7-0fa8-0648-f1593c70e44c/mzaf_5960685573840656187.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5f/ad/2a/5fad2aca-d998-701d-7b27-c074339d5fd0/886972262628.jpg/600x600bb.jpg",
+    "ano": "1984"
+  },
+  "1SvET7grrtsHT0CkyJjJcZ": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/76/8b/52/768b52b1-5074-8c8d-5c94-c620cb3c91da/mzaf_3056761753785207334.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5f/ad/2a/5fad2aca-d998-701d-7b27-c074339d5fd0/886972262628.jpg/600x600bb.jpg",
+    "ano": "1985"
+  },
+  "4tReFKumS5bcFahdXDiM1b": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ab/07/fc/ab07fc55-b991-faf5-93d6-f5a1df92448a/mzaf_12283016280239904498.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5f/ad/2a/5fad2aca-d998-701d-7b27-c074339d5fd0/886972262628.jpg/600x600bb.jpg",
+    "ano": "1988"
+  },
+  "064wRZsHDLuoCJYw65gh7N": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/82/b3/8b/82b38b5b-7366-cc64-bf23-222aef2b4103/mzaf_16429939827520951049.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5f/ad/2a/5fad2aca-d998-701d-7b27-c074339d5fd0/886972262628.jpg/600x600bb.jpg",
+    "ano": "1992"
+  },
+  "65krtHkaYLPr0mEbjL61UP": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/66/d5/bd/66d5bdb0-be65-446c-7c1c-3bcdb4a32bdb/mzaf_15655078427481649690.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5f/ad/2a/5fad2aca-d998-701d-7b27-c074339d5fd0/886972262628.jpg/600x600bb.jpg",
+    "ano": "1993"
+  },
+  "38QnxZJMktnt96bxalqgEl": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d5/db/8f/d5db8fdb-7f7e-4865-0e1a-a5e4257757eb/mzaf_18087237138601545636.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5f/ad/2a/5fad2aca-d998-701d-7b27-c074339d5fd0/886972262628.jpg/600x600bb.jpg",
+    "ano": "1992"
+  },
+  "57R1nBluakXaayH9EzgwZa": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/55/cb/80/55cb8048-f6c0-9eef-1576-69a4271187aa/mzaf_4351851122006109774.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5f/ad/2a/5fad2aca-d998-701d-7b27-c074339d5fd0/886972262628.jpg/600x600bb.jpg",
+    "ano": "1992"
+  },
+  "1oaaSrDJimABpOdCEbw2DJ": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/de/ba/4b/deba4b91-edf0-1b06-6e19-ea4e07ae8070/mzaf_14195090635642668997.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/18/c8/d7/18c8d7bc-8491-09e6-df0d-6e0a83ead680/mzi.wsikzifg.jpg/600x600bb.jpg",
+    "ano": "1992"
+  },
+  "4PEGwWH4tL6H7dGl4uVSPg": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/54/31/fb/5431fba7-f8e2-78a3-680b-29f53f19f326/mzaf_4568317637618415745.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/18/c8/d7/18c8d7bc-8491-09e6-df0d-6e0a83ead680/mzi.wsikzifg.jpg/600x600bb.jpg",
+    "ano": "1992"
+  },
+  "4S0NYVAQdIb81uLoZoQmgq": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4d/4d/10/4d4d1099-d3f7-06a6-c4af-f82ad3c3fab8/mzaf_10268299450496380808.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/18/c8/d7/18c8d7bc-8491-09e6-df0d-6e0a83ead680/mzi.wsikzifg.jpg/600x600bb.jpg",
+    "ano": "1992"
+  },
+  "22QiTJqDn1BIRSh4mkNJ5w": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f5/ef/53/f5ef5337-385c-804b-1716-09e6f7821d53/mzaf_1360705290361924160.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/18/c8/d7/18c8d7bc-8491-09e6-df0d-6e0a83ead680/mzi.wsikzifg.jpg/600x600bb.jpg",
+    "ano": "1992"
+  },
+  "1XR1X1VTyTOVdPgH18RdME": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f0/7b/9e/f07b9e57-cd4e-3193-194f-7f777adaca90/mzaf_13093027703892715269.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/8b/22/0b/8b220bf9-7a5f-d266-3d39-c17d0070f3fa/dj.ylfbscrn.jpg/600x600bb.jpg",
+    "ano": "1985"
+  },
+  "7pLuEMFougkSHXrPBtNxTR": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c6/db/56/c6db5666-4464-a6e5-d6e8-8d481b926e70/mzaf_17727462257578713488.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5f/ad/2a/5fad2aca-d998-701d-7b27-c074339d5fd0/886972262628.jpg/600x600bb.jpg",
+    "ano": "1984"
+  },
+  "5nHNgVNXzsZLLBz29tfjkB": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/22/3e/12/223e12a4-89b8-26ce-881d-6cf412585871/mzaf_6329442913212196503.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/03/b9/57/03b957e5-8be0-59ac-4446-7cb65cb18c4c/mzi.kjlomnvf.jpg/600x600bb.jpg",
+    "ano": "2002"
+  },
+  "16rxF3KcGLPtySHTCZCCVZ": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/57/b8/3b/57b83baa-7f06-8dba-33fe-b2336c4a821c/mzaf_16456257676510333199.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/03/b9/57/03b957e5-8be0-59ac-4446-7cb65cb18c4c/mzi.kjlomnvf.jpg/600x600bb.jpg",
+    "ano": "2002"
+  },
+  "4Y8qyqXEspJyiaFhTiiPoy": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/84/9a/a1/849aa1b1-0c78-3673-2d99-56e8b27b5c41/mzaf_7298743206648729850.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/03/b9/57/03b957e5-8be0-59ac-4446-7cb65cb18c4c/mzi.kjlomnvf.jpg/600x600bb.jpg",
+    "ano": "2002"
+  },
+  "1WFao0rkH7gKrxvTowXxnq": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/30/29/82/302982f2-bd07-32f1-5820-f4e3aed88476/mzaf_17594068525709394388.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/03/b9/57/03b957e5-8be0-59ac-4446-7cb65cb18c4c/mzi.kjlomnvf.jpg/600x600bb.jpg",
+    "ano": "2002"
+  },
+  "0Q0IVlqMV64kNLlwjPj0Hl": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/88/40/26/88402662-329d-8c34-ef72-863f9f2926bf/mzaf_3130005416732108579.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0e/d1/5b/0ed15b14-271c-35d5-5909-49f18fbfb32b/886445600605.jpg/600x600bb.jpg",
+    "ano": "1996"
+  },
+  "2GFExyKXf9383tSRSrEHEt": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0b/68/f0/0b68f0ee-3355-a22d-92a5-0a2085879b85/mzaf_12954119042381142514.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/09/6b/55/096b55c4-ee8f-23bd-df8f-0ca0821f3028/886446727189.jpg/600x600bb.jpg",
+    "ano": "1998"
+  },
+  "1EXotCuzdXR34W1MoP6Um7": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/56/ab/c5/56abc530-a0b4-063f-a3fd-ae4fa8f8ef57/mzaf_9993714916275924721.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/04/40/43/04404388-5f59-d20d-a12e-b99d5b3bc748/886447376317.jpg/600x600bb.jpg",
+    "ano": "2018"
+  },
+  "4clA3kZ6nDN7f0nOV9SGtA": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bf/1b/a8/bf1ba8f2-0988-b9e3-3da5-9eb7c53b6e20/mzaf_7771590099010817608.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/79/93/c4/7993c48e-8872-7a38-27b9-9b3333ec64ea/5056167168010_1.jpg/600x600bb.jpg",
+    "ano": "2021"
+  },
+  "69JDuGOWSe7rPHZukh8XeR": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0f/40/27/0f4027cb-7e2b-1091-fb3e-86b3f68fdd59/mzaf_1565931610991699768.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/79/93/c4/7993c48e-8872-7a38-27b9-9b3333ec64ea/5056167168010_1.jpg/600x600bb.jpg",
+    "ano": "2021"
+  },
+  "7ziPRO2vBbYDzpqpkual3s": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cd/08/87/cd088703-3f37-be87-f110-1703834d7813/mzaf_9400409505217087083.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/79/93/c4/7993c48e-8872-7a38-27b9-9b3333ec64ea/5056167168010_1.jpg/600x600bb.jpg",
+    "ano": "2021"
+  },
+  "1ksODCBCw4UEuWC0yRHpPZ": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/96/ea/23/96ea2382-2812-7b45-0b57-d4ad006ce894/mzaf_5001506400989028046.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b7/ac/bc/b7acbc61-6670-cecc-cfb5-123722f44dea/075679834478.jpg/600x600bb.jpg",
+    "ano": "2020"
+  },
+  "1wiphSU5URcMkpMoGK5mFO": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/c1/4b/eb/c14beb6d-be75-2bdb-0bde-113f8cd691d3/mzaf_17081894283990063824.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/dc/8f/e8/dc8fe837-6a22-9791-8795-c5ee347647dc/50ft._Originally_Performed_by_Lauren_Jauregui_Karaoke_No_Guide_Melody_Version.png/600x600bb.jpg",
+    "ano": "2020"
+  },
+  "180WImKPbvdUrboKUov5f4": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ce/61/7e/ce617e39-d5fd-9fd5-162b-f6dd39220441/mzaf_16842709177527223421.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fa/a1/a6/faa1a6b3-463f-9e5c-4cab-6fb85b96f71b/886447441367.jpg/600x600bb.jpg",
+    "ano": "2019"
+  },
+  "3NpsflsHTAoand4Jl3ruP7": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cf/bc/71/cfbc7171-8e56-fd88-4bec-1fa40f081149/mzaf_4556404143605317605.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ab/fd/5a/abfd5a4e-a425-d5c0-c739-6341e2347d45/17UMGIM00863.rgb.jpg/600x600bb.jpg",
+    "ano": "2016"
+  },
+  "3NgCzSW98SsqBdpYcnm4kv": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/52/28/b8/5228b8ea-9979-2fab-f430-efed6801e191/mzaf_14013187583556445790.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/60/61/42/60614202-6e1e-5938-f898-0461898d0b94/886446506159.jpg/600x600bb.jpg",
+    "ano": "2017"
+  },
+  "4xBjsLUSjcx2h7PcRikpQp": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/20/b9/6b/20b96b1d-1810-7b4a-c607-234d9b5f1e0c/mzaf_16750380198334044155.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/17/60/94/17609416-ae53-8fea-393b-baa73f4d5428/886446672960.jpg/600x600bb.jpg",
+    "ano": "2017"
+  },
+  "4eWQlBRaTjPPUlzacqEeoQ": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4e/7b/a2/4e7ba217-b7cb-0df2-2ea4-19120bd497bc/mzaf_3130532990706214969.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/85/28/70/85287029-19b9-cbe3-d1ab-300781875bf4/886446870298.jpg/600x600bb.jpg",
+    "ano": "2017"
+  },
+  "4XLu3tTSZiPFVC9mmuR6Zp": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2e/02/b2/2e02b2ef-eff7-5a9a-1044-3e59796b6e2f/mzaf_17304395196343968876.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/85/28/70/85287029-19b9-cbe3-d1ab-300781875bf4/886446870298.jpg/600x600bb.jpg",
+    "ano": "2018"
+  },
+  "5HwnezK198pJCEj1l2Adjy": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/80/3f/82/803f8244-0bbd-b834-2b51-efe5d118da59/mzaf_1682700246221642754.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/85/28/70/85287029-19b9-cbe3-d1ab-300781875bf4/886446870298.jpg/600x600bb.jpg",
+    "ano": "2018"
+  },
+  "7sTtHHrD0zDpmzQzH3zegz": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b1/61/ed/b161ed94-26bc-381b-cd81-ed6ec757b42f/mzaf_12796758337392836688.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/85/28/70/85287029-19b9-cbe3-d1ab-300781875bf4/886446870298.jpg/600x600bb.jpg",
+    "ano": "2018"
+  },
+  "7IL3UOlcJ6nmcCMwpnlfcA": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/93/f3/01/93f3017e-cb7d-5c0a-7990-4c0997083527/mzaf_7920629274684178187.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/85/28/70/85287029-19b9-cbe3-d1ab-300781875bf4/886446870298.jpg/600x600bb.jpg",
+    "ano": "2018"
+  },
+  "1GO9vCm5Cra5uWGSWQ5mGK": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cc/03/dd/cc03dd27-548c-8bf1-3137-79471decbac5/mzaf_2315205273614510124.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/85/28/70/85287029-19b9-cbe3-d1ab-300781875bf4/886446870298.jpg/600x600bb.jpg",
+    "ano": "2018"
+  },
+  "2gxqozTaq2NYylvS8jd57G": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8e/12/ba/8e12ba2c-e985-3c2b-0506-976af91d712a/mzaf_8118349790125337413.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/85/28/70/85287029-19b9-cbe3-d1ab-300781875bf4/886446870298.jpg/600x600bb.jpg",
+    "ano": "2018"
+  },
+  "2ogKhhoMClkFXek7ZgxAhN": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ce/59/7d/ce597d1a-1c55-7a0c-a19e-0b052a4250a8/mzaf_6182093257318354435.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c5/d5/7e/c5d57e36-4270-8730-d009-5e82a71016f7/886448121220.jpg/600x600bb.jpg",
+    "ano": "2019"
+  },
+  "4jFD7byoPdGkEdjHLMduR9": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/85/6c/dd/856cdde4-b1b5-21d7-3e48-b021f6952312/mzaf_8296541274300983641.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c5/d5/7e/c5d57e36-4270-8730-d009-5e82a71016f7/886448121220.jpg/600x600bb.jpg",
+    "ano": "2019"
+  },
+  "0sHc1EEeOnmgjP6QmsR7px": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/62/9e/f3/629ef3fb-13b6-a4c4-c75f-bd7a61fe7d98/mzaf_18007425983513003467.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c5/d5/7e/c5d57e36-4270-8730-d009-5e82a71016f7/886448121220.jpg/600x600bb.jpg",
+    "ano": "2019"
+  },
+  "3yOlyBJuViE2YSGn3nVE1K": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e3/c2/28/e3c22828-281c-b3e6-3553-a1690784f677/mzaf_2558720137181385830.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c5/d5/7e/c5d57e36-4270-8730-d009-5e82a71016f7/886448121220.jpg/600x600bb.jpg",
+    "ano": "2019"
+  },
+  "0Q2kFlgnqusKAqCDpCKAIY": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/48/b7/ba/48b7baed-6291-6dd9-2bfa-4c76e2fea0d8/mzaf_18090733568625729028.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c5/d5/7e/c5d57e36-4270-8730-d009-5e82a71016f7/886448121220.jpg/600x600bb.jpg",
+    "ano": "2019"
+  },
+  "7DoNtK2gVFRwJh0hkHe5wQ": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e7/ec/e6/e7ece676-4102-3a44-91e0-34f946773e66/mzaf_4775089895321400876.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c5/d5/7e/c5d57e36-4270-8730-d009-5e82a71016f7/886448121220.jpg/600x600bb.jpg",
+    "ano": "2019"
+  },
+  "39jcp8zJH7nHWbB7Hr3sFJ": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9b/fc/8e/9bfc8eb7-9827-4a75-7793-f13f545326dd/mzaf_12593336639049316666.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c5/d5/7e/c5d57e36-4270-8730-d009-5e82a71016f7/886448121220.jpg/600x600bb.jpg",
+    "ano": "2019"
+  },
+  "1Ff71LUQO0KBk5Slu3K6Vu": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e2/20/b1/e220b16d-95f5-5764-5450-d9635064ad83/mzaf_8327042490839835599.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c5/d5/7e/c5d57e36-4270-8730-d009-5e82a71016f7/886448121220.jpg/600x600bb.jpg",
+    "ano": "2019"
+  },
+  "3r73OmpBtQAwMgawxOmlg0": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ea/12/b7/ea12b7dc-5c97-78f4-d50f-245556fae18e/mzaf_15370711589140953574.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c5/d5/7e/c5d57e36-4270-8730-d009-5e82a71016f7/886448121220.jpg/600x600bb.jpg",
+    "ano": "2019"
+  },
+  "5FLzLuPyBEppywIJprqwDz": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/12/90/77/129077ec-6f28-e6a4-3bd6-fa2e187c8ab4/mzaf_1332984076385830541.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/79/92/02/799202e0-e353-18e6-3bfc-171c52befd3b/196589070869.jpg/600x600bb.jpg",
+    "ano": "2022"
+  },
+  "0hO71r8vbnrXSaXVrR9ptF": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/65/69/88/656988cd-b2ef-578a-450d-f94db066b2f0/mzaf_11535660420044123436.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/68/18/2b/68182bf5-9966-592a-9b4d-23bc598ae786/dj.ehopqips.jpg/600x600bb.jpg",
+    "ano": "2015"
+  },
+  "0gL0Xf8CN95HmgfEYYLRZV": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/35/48/87/35488757-268d-47aa-2b7f-5c6c356a42da/mzaf_7300996354403807667.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/aa/68/d5/aa68d527-9c7a-4663-0e63-cec717a39a8f/886444055055.jpg/600x600bb.jpg",
+    "ano": "2013"
+  },
+  "22kXvw7mAvMvyZxPnhYzaa": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/af/58/cc/af58ccbf-01c2-47a5-eeff-7b4c054d78f9/mzaf_17751447875769911094.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/73/3b/da/733bda99-d0c8-02b2-db8f-ae9a87a5d933/886445740448.jpg/600x600bb.jpg",
+    "ano": "2016"
+  },
+  "2GiJYvgVaD2HtM8GqD9EgQ": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/19/8e/bd/198ebd2a-f7b5-b82c-9db2-cadbfe2f9240/mzaf_9391082379687958798.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/07/37/8e/07378ef3-7950-ba76-4280-9acb0e5d032a/15UMGIM42534.rgb.jpg/600x600bb.jpg",
+    "ano": "2014"
+  },
+  "1Dr5JexwA15wmKe7Y7maA9": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ba/b6/5b/bab65b54-b62b-afe7-7b2c-42d17c175479/mzaf_180048884343447783.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/07/37/8e/07378ef3-7950-ba76-4280-9acb0e5d032a/15UMGIM42534.rgb.jpg/600x600bb.jpg",
+    "ano": "2014"
+  },
+  "7sq2z9oX2S0CvgTqCZ0ko4": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/37/6d/7c/376d7c8d-de15-4c80-5fe2-0f28cd10b0b6/mzaf_17174043259588204388.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/de/70/ae/de70ae46-fdc3-6c8f-142c-6f3df6561860/20UMGIM07683.rgb.jpg/600x600bb.jpg",
+    "ano": "2019"
+  },
+  "09IStsImFySgyp0pIQdqAc": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/09/2e/bd/092ebd02-095a-42a6-d791-906ba123f334/mzaf_15154380144930132309.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/8d/86/72/8d867252-5fb7-a83f-ab81-07d07db8c628/18UMGIM02231.rgb.jpg/600x600bb.jpg",
+    "ano": "2018"
+  },
+  "1JO1xLtVc8mWhIoE3YaCL0": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/14/48/23/14482339-0094-4661-a759-5a63725d4b64/mzaf_10375692303356175728.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/28/95/77/289577d1-0b0a-400d-0698-17b784b76c15/dj.kwkktnnd.jpg/600x600bb.jpg",
+    "ano": "1967"
+  },
+  "1IF5UcqRO42D12vYwceOY6": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c2/fc/19/c2fc19bd-c105-f2eb-6de8-d2dbda81b184/mzaf_3048822265976901940.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/600x600bb.jpg",
+    "ano": "2017"
+  },
+  "33bURv895AN4FkBvgFo2dx": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/18/29/21/182921a6-724e-2eb6-d610-c4bc7428c4dd/mzaf_3846959371352939087.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/600x600bb.jpg",
+    "ano": "2017"
+  },
+  "5LABCxgmP7DATATIJXOh6n": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a4/f3/e8/a4f3e886-cf0a-eff7-0c37-2fd2858acee5/mzaf_8128832497495704388.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/600x600bb.jpg",
+    "ano": "2017"
+  },
+  "33SNO8AaciGbNaQFkxvPrW": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/53/3a/2e/533a2efe-0834-9e27-2385-23f55b607431/mzaf_14398611850523120023.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/600x600bb.jpg",
+    "ano": "2017"
+  },
+  "5Lbsc65org0b85kNsPkluY": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/23/8b/e0/238be042-92ae-fc80-93bb-2f4b18523f3a/mzaf_14737965379104639207.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/600x600bb.jpg",
+    "ano": "2017"
+  },
+  "5kRPPEWFJIMox5qIkQkiz5": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/41/01/18/41011809-5d2f-4fea-b8a2-b34a65a1e827/mzaf_9324748603234100318.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/600x600bb.jpg",
+    "ano": "2017"
+  },
+  "4B1rpPmQXwj78wk6aIGwwU": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a6/60/76/a66076b3-146e-d139-b4e5-b886b415b233/mzaf_8641977997012641675.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/600x600bb.jpg",
+    "ano": "2017"
+  },
+  "3Dwq1oiOFys6Sxr5SslmXw": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b6/6c/75/b66c75c1-9559-d188-241d-fbecbe1b3f4b/mzaf_9753067714686421764.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/600x600bb.jpg",
+    "ano": "2017"
+  },
+  "5Ohxk2dO5COHF1krpoPigN": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bd/58/37/bd5837c2-3b3b-5f32-c292-fc0af38f6ea6/mzaf_10433939766410649853.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/600x600bb.jpg",
+    "ano": "2017"
+  },
+  "4u9Y4Z9i9VaAbBK7rW1Rha": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0d/aa/a7/0daaa737-6b41-c4df-2700-c6aa4cfcd7b9/mzaf_16055171738506954102.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/600x600bb.jpg",
+    "ano": "2017"
+  },
+  "6VzcQuzTNTMFnJ6rBSaLH9": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/37/37/a8/3737a83f-e7f0-1b31-f6ed-ee36e50df7d5/mzaf_1789723567790379268.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/600x600bb.jpg",
+    "ano": "2019"
+  },
+  "03mMSLEJCPoGJwQhHpN5y0": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2c/07/31/2c07316a-38d6-994c-6595-de4fc9edd984/mzaf_5008321787014484240.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/600x600bb.jpg",
+    "ano": "2019"
+  },
+  "5IhzJOXNE7ki0IIJbZbnGq": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f4/37/7b/f4377bf1-d852-a021-7a04-f724b3a00c21/mzaf_6049511224391402809.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/600x600bb.jpg",
+    "ano": "2019"
+  },
+  "6iYMfxznTBlcVOgRHab2W0": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/75/1a/30/751a301b-9a03-41d6-7e80-c6df43e69c52/mzaf_6273049013570652218.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/600x600bb.jpg",
+    "ano": "2019"
+  },
+  "6SQLk9HSNketfgs2AyIiMs": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/33/21/1c/33211c9d-94ba-6c18-ad6c-32f37a8d3d3a/mzaf_3367571137930866528.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/600x600bb.jpg",
+    "ano": "2019"
+  },
+  "5JiH89mHrv9oWHlD0T326z": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/15/2c/cc/152ccc0d-afb1-b795-f397-33b370f9078c/mzaf_787150696217791240.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/600x600bb.jpg",
+    "ano": "2019"
+  },
+  "1ZMiCix7XSAbfAJlEZWMCp": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c9/0f/88/c90f88a8-df5d-96bf-fd25-43d554a2e897/mzaf_6453555596864780419.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/600x600bb.jpg",
+    "ano": "2019"
+  },
+  "2IOFZdYYkFxEHVz1w34PoL": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/17/95/77/1795778d-8d67-0adc-98c9-7a2d093a052a/mzaf_10611827638416768514.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/600x600bb.jpg",
+    "ano": "2019"
+  },
+  "4jAIqgrPjKLTY9Gbez25Qb": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/aa/ce/b6/aaceb698-4192-e4ee-9fa2-e1c764bf6a6f/mzaf_4355979813716857628.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/600x600bb.jpg",
+    "ano": "2019"
+  },
+  "3jjujdWJ72nww5eGnfs2E7": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/75/41/de/7541ded7-1699-85a7-0723-65f913ecc8a8/mzaf_8413154903682037570.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/600x600bb.jpg",
+    "ano": "2019"
+  },
+  "45S5WTQEGOB1VHr1Q4FuPl": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ea/30/a6/ea30a68d-a13a-39fe-2b03-6d568c8cf735/mzaf_15210582114357314440.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/600x600bb.jpg",
+    "ano": "2019"
+  },
+  "5LYMamLv12UPbemOaTPyeV": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/db/30/2b/db302b37-7cfd-947d-b168-2288df0594d9/mzaf_4879334278137199118.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/600x600bb.jpg",
+    "ano": "2022"
+  },
+  "1qEmFfgcLObUfQm0j1W2CK": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e3/a2/04/e3a204b5-c3f6-f49d-a97c-4472f8b045d7/mzaf_18322387550227682410.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/600x600bb.jpg",
+    "ano": "2022"
+  },
+  "4j6kId9QIqhoXvqHKgSKa0": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/91/e9/fa/91e9faf4-c012-2b83-f2e3-9204635561d9/mzaf_1722014334768721753.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/600x600bb.jpg",
+    "ano": "2022"
+  },
+  "51Zw1cKDgkad0CXv23HCMU": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0e/d7/aa/0ed7aacf-6c72-39b2-7731-05ad74ac85e2/mzaf_11719631527113093480.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/600x600bb.jpg",
+    "ano": "2022"
+  },
+  "3i058E8uxTsYqJ5NWZzqSj": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4b/cf/21/4bcf213b-4fad-9304-8752-34ef30e1716a/mzaf_11010657058817410926.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/600x600bb.jpg",
+    "ano": "2022"
+  },
+  "6uvh0In7u1Xn4HgxOfAn8O": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/03/29/7d/03297dd4-5dbe-4ec6-9480-f40846b7181c/mzaf_15378071810157311314.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/600x600bb.jpg",
+    "ano": "2022"
+  },
+  "2NcQic8JxdjAlAHuNbOIRE": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/86/86/a3/8686a35e-5715-c687-1b58-4bcbc63d8460/mzaf_8394697523670552560.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/600x600bb.jpg",
+    "ano": "2022"
+  },
+  "0rzaRSujxA0bKyjJl6vHYq": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b0/ff/d0/b0ffd005-3f1c-34d6-3123-ae829457a409/mzaf_865652897910996010.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/600x600bb.jpg",
+    "ano": "2022"
+  },
+  "6qj02zSeEJGWZ4c0dn5QzJ": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1b/d2/bf/1bd2bfaf-601f-36ab-ec50-63d7d91cf8bb/mzaf_15843941691377993426.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/600x600bb.jpg",
+    "ano": "2022"
+  },
+  "1mw0RgNXIpYRyyCdBQbLgA": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3e/37/ed/3e37edc2-b02e-c3fd-bd1e-6f9548b910c2/mzaf_10631950686010316714.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/600x600bb.jpg",
+    "ano": "2022"
+  },
+  "1GDF5AusV7p0wwi4OVNz3i": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a6/60/76/a66076b3-146e-d139-b4e5-b886b415b233/mzaf_8641977997012641675.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/600x600bb.jpg",
+    "ano": "2017"
+  },
+  "4rUqU8SKMG22liqDKsiIp9": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0d/17/87/0d178776-0f79-81f7-482c-ea58b6352176/mzaf_8040985485906892156.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f7/c4/10/f7c410b9-676b-b2c7-dad6-ac8a03ce8267/196873640891.jpg/600x600bb.jpg",
+    "ano": "2025"
+  },
+  "2t4RCWbICUqhPKVQeA7VPq": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ce/dd/2a/cedd2a90-0cef-e7a2-e9b1-ac724cd5f3d4/mzaf_3700786235502049142.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8b/6b/33/8b6b338b-5173-8d3f-312b-a32e00aec6ba/196873640938.jpg/600x600bb.jpg",
+    "ano": "2025"
+  },
+  "7B9zspndqbrSXXUwVNeTCe": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/22/8e/7f/228e7f49-8ba1-4526-1283-9ecb7ee09a89/mzaf_4046373902822662971.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/76/88/13/7688131c-724a-d488-da1a-efdf04168cfb/196873640747.jpg/600x600bb.jpg",
+    "ano": "2025"
+  },
+  "5hYP7TDRmkJPrgYdIy500S": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/49/5b/12/495b12e7-85a2-85d3-17c5-319e0bdc4669/mzaf_17272739587319701231.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/76/88/13/7688131c-724a-d488-da1a-efdf04168cfb/196873640747.jpg/600x600bb.jpg",
+    "ano": "2025"
+  },
+  "1BK1d7b9bhlbKpQPbYGsol": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/de/b7/77/deb777f3-bf12-ea4c-5c32-00b73bdc99bd/mzaf_14366057556300539104.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/76/88/13/7688131c-724a-d488-da1a-efdf04168cfb/196873640747.jpg/600x600bb.jpg",
+    "ano": "2025"
+  },
+  "4pt5fDVTg5GhEvEtlz9dKk": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c0/9f/bf/c09fbf98-c985-0f52-fd3d-298d229359ef/mzaf_2166255199165340532.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/09/aa/f1/09aaf1a6-8670-433c-91c8-694623103964/4582649363396.jpg/600x600bb.jpg",
+    "ano": "2024"
+  },
+  "776AftMmFFAWUIEAb3lHhw": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5a/1f/86/5a1f869d-8fdd-e0eb-e4a6-69130eed7657/mzaf_14131122941770077941.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5e/76/14/5e761416-1c55-1b56-e8c3-177fb475bef2/886449160334.jpg/600x600bb.jpg",
+    "ano": "2021"
+  },
+  "3Wrjm47oTz2sjIgck11l5e": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/76/5f/db/765fdb18-6421-bf37-813d-fd00f14fbfd4/mzaf_5193356525080895049.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/67/08/e0/6708e014-c1be-76b1-c520-a6567bf946a2/886446867755.jpg/600x600bb.jpg",
+    "ano": "2017"
+  },
+  "7HMz8o0m7ASQ3ImFPfhWTY": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0c/01/fe/0c01fee0-dba9-7e92-8fb7-020a216a693d/mzaf_14535768332441163296.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/4b/1a/72/4b1a7220-bee2-8664-7153-adffa8d3df1e/886449063819.jpg/600x600bb.jpg",
+    "ano": "2021"
+  },
+  "5Njbm0SdToCWO5bgLY8Yqw": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d1/9b/b8/d19bb8cc-e648-be4d-da84-e4eb62dfd31d/mzaf_12091612914889722522.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/98/76/d3/9876d335-084c-deae-a8dc-c8ab1d1fe251/4099964207323.jpg/600x600bb.jpg",
+    "ano": "2025"
+  },
+  "0XdZ6YWnTtkQcMlDXE2qFN": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b4/b3/6a/b4b36a31-baf9-71c0-4d7a-edb3036e07d3/mzaf_13534444769281484063.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ba/bb/07/babb07da-7aa5-265d-45fb-8ddbad824b14/4050538836639.jpg/600x600bb.jpg",
+    "ano": "2022"
+  },
+  "15JkWkQqlUffU29B1oKUKH": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5a/f3/ee/5af3eea1-c168-293f-7f1c-ae58d7f9058f/mzaf_2346272619575079462.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ba/bb/07/babb07da-7aa5-265d-45fb-8ddbad824b14/4050538836639.jpg/600x600bb.jpg",
+    "ano": "2022"
+  },
+  "4QU579S6uCG9vWaHUeGnLp": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8f/ad/d8/8fadd82f-4e86-7a9b-40e0-ed1245d2f43f/mzaf_15357249155273114151.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ba/bb/07/babb07da-7aa5-265d-45fb-8ddbad824b14/4050538836639.jpg/600x600bb.jpg",
+    "ano": "2022"
+  },
+  "3zxrecYFao03IrrcyFiaMU": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9c/1d/8b/9c1d8b6d-0fbb-5ab4-344d-f3355a8d9fed/mzaf_8816367376419252685.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/51/02/30/5102301b-17c2-80e5-7f4a-677d9c334375/886446898995.jpg/600x600bb.jpg",
+    "ano": "2017"
+  },
+  "4emicu3yCflgo7z6cAuw5j": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ce/3f/15/ce3f15b8-7ab2-9226-9cd8-d5dff8d24d25/mzaf_9790825792877102172.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f4/74/9b/f4749bfd-8cc6-e581-e4f0-acb390f856e6/886446622071.jpg/600x600bb.jpg",
+    "ano": "2020"
+  },
+  "1eqwjXdMTed8Pz3PLNcHe9": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/21/6b/9f/216b9fa1-fee8-0014-e888-04679163e38f/mzaf_8199023787408026096.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f4/74/9b/f4749bfd-8cc6-e581-e4f0-acb390f856e6/886446622071.jpg/600x600bb.jpg",
+    "ano": "2020"
+  },
+  "2Ov6faSCGlnn4tbbZQYAJQ": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/75/ea/c2/75eac2d2-3be7-7756-5545-81fd598a1d2e/mzaf_1329123445586476486.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f4/74/9b/f4749bfd-8cc6-e581-e4f0-acb390f856e6/886446622071.jpg/600x600bb.jpg",
+    "ano": "2020"
+  },
+  "5KcT9rJDqQJUSFF3O9wPJ5": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/98/b9/20/98b92003-f1c1-29d5-a534-6588f55307c6/mzaf_16599694099996016777.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f4/74/9b/f4749bfd-8cc6-e581-e4f0-acb390f856e6/886446622071.jpg/600x600bb.jpg",
+    "ano": "2020"
+  },
+  "74YzCrLzu7fw0AasX3CEwv": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f0/af/d6/f0afd611-d9e6-510e-8991-ebdce1533b84/mzaf_5714620718265556527.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f4/74/9b/f4749bfd-8cc6-e581-e4f0-acb390f856e6/886446622071.jpg/600x600bb.jpg",
+    "ano": "2020"
+  },
+  "7A7RygcHdNH0iJHgwteajF": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c5/9d/8a/c59d8a0a-1f70-5549-4ba8-2b9974e1627e/mzaf_1840755413754953817.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f4/74/9b/f4749bfd-8cc6-e581-e4f0-acb390f856e6/886446622071.jpg/600x600bb.jpg",
+    "ano": "2020"
+  },
+  "55n9yjI6qqXh5F2mYvUc2y": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/94/14/20/94142074-e264-15cb-77ea-a0821d86c5ca/mzaf_5791146158719480684.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/e5/9b/1e/e59b1eaa-92d3-df4b-73f2-9bd798feb630/17UMGIM01263.rgb.jpg/600x600bb.jpg",
+    "ano": "2016"
+  },
+  "0PDUDa38GO8lMxLCRc4lL1": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/87/28/8d/87288dea-b272-249c-053c-daa136b8b666/mzaf_10402874086059121663.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/19/62/50/19625022-d397-6de4-7918-c24c7dcc6609/886445922097.jpg/600x600bb.jpg",
+    "ano": "2016"
+  },
+  "6lvsJDZ7336YmpBzcNGhbe": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/71/f0/c5/71f0c5bc-fcac-36cb-8d29-72f279ca5ab0/mzaf_9355346378130721605.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/17/40/c4/1740c467-3fc5-d1b9-6a94-b45b445da794/886445750775.jpg/600x600bb.jpg",
+    "ano": "2016"
+  },
+  "2G2YzndIA6jeWFPBXhUjh5": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d5/54/d7/d554d723-0518-a447-603b-a8fd52b70d8d/mzaf_1392428010167942483.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/94/45/82/94458262-998b-3a64-5461-b9230a55643e/mzi.xefbhabm.jpg/600x600bb.jpg",
+    "ano": "1963"
+  },
+  "1WN4uNclrDuczTO3bCr8s1": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/06/ce/70/06ce701e-ac41-6211-e2f5-2d8ad2c9a214/mzaf_1045130405855876957.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/17/05/50/17055031-c0c1-7e73-42d9-5e3517236f02/886443431355.jpg/600x600bb.jpg",
+    "ano": "1963"
+  },
+  "5J2CHimS7dWYMImCHkEFaJ": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ff/fc/b6/fffcb61c-6eae-4bfc-0aeb-2c108e37daa5/mzaf_8090789301194267540.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/db/a2/7a/dba27a46-3685-508d-d32e-a0e73cc82251/00602567713296.rgb.jpg/600x600bb.jpg",
+    "ano": "1964"
+  },
+  "1hgvykolO4kBIEozATmpyj": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/64/e5/74/64e574ae-bc3c-5f15-2111-622ecf974e82/mzaf_9634985036031355975.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/db/a2/7a/dba27a46-3685-508d-d32e-a0e73cc82251/00602567713296.rgb.jpg/600x600bb.jpg",
+    "ano": "1964"
+  },
+  "65vdMBskhx3akkG9vQlSH1": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/43/e0/95/43e095c6-ef7c-d45a-7fbe-ab89b37e0336/mzaf_18008742720880760686.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/db/a2/7a/dba27a46-3685-508d-d32e-a0e73cc82251/00602567713296.rgb.jpg/600x600bb.jpg",
+    "ano": "1964"
+  },
+  "3SdingSsFcZDZAyvcJbgAw": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1c/1d/4b/1c1d4b36-db20-02bd-d867-0808fdbb120d/mzaf_12888580731973632250.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/db/a2/7a/dba27a46-3685-508d-d32e-a0e73cc82251/00602567713296.rgb.jpg/600x600bb.jpg",
+    "ano": "1964"
+  },
+  "2EqlS6tkEnglzr7tkKAAYD": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/97/b5/e4/97b5e459-d7e7-9806-2a87-96a760eca8ea/mzaf_16460868857902969803.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/48/53/43/485343e3-dd6a-0034-faec-f4b6403f8108/13UMGIM63890.rgb.jpg/600x600bb.jpg",
+    "ano": "1969"
+  },
+  "0pNeVovbiZHkulpGeOx1Gj": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/55/7f/fe/557ffe43-d824-a8a0-5103-3c7dd14f3cb6/mzaf_7875382923244631250.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/48/53/43/485343e3-dd6a-0034-faec-f4b6403f8108/13UMGIM63890.rgb.jpg/600x600bb.jpg",
+    "ano": "1969"
+  },
+  "2mxByJWOajjiVsLWjNXvDJ": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b3/f1/e2/b3f1e21d-bd25-8651-5c76-86e7cdd9477c/mzaf_6540308084326367590.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/48/53/43/485343e3-dd6a-0034-faec-f4b6403f8108/13UMGIM63890.rgb.jpg/600x600bb.jpg",
+    "ano": "2019"
+  },
+  "3Z25k4ZF6QENy2d9YatsM5": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cf/75/f5/cf75f550-6a92-a71d-d7b7-982353eebfab/mzaf_11197924861025522154.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/48/53/43/485343e3-dd6a-0034-faec-f4b6403f8108/13UMGIM63890.rgb.jpg/600x600bb.jpg",
+    "ano": "1969"
+  },
+  "2jtUGFsqanQ82zqDlhiKIp": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1c/7d/78/1c7d7860-2143-a1f1-52b2-a58dfceb20b4/mzaf_18115840505977285360.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/48/53/43/485343e3-dd6a-0034-faec-f4b6403f8108/13UMGIM63890.rgb.jpg/600x600bb.jpg",
+    "ano": "1969"
+  },
+  "7DD7eSuYSC5xk2ArU62esN": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/90/c1/c1/90c1c133-02e3-255d-3a0d-e70c5a404bc5/mzaf_14127376946151186172.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/1a/19/db/1a19db26-17ad-b986-11a9-f72ac7a6194b/18UMGIM31214.rgb.jpg/600x600bb.jpg",
+    "ano": "1965"
+  },
+  "3BQHpFgAp4l80e1XslIjNI": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d1/69/2d/d1692d74-fe32-c676-7a1d-00deacae1644/mzaf_11316115358642175957.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/1a/19/db/1a19db26-17ad-b986-11a9-f72ac7a6194b/18UMGIM31214.rgb.jpg/600x600bb.jpg",
+    "ano": "1965"
+  },
+  "6EHuOufBeL6vk3TvVJB5qo": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/81/eb/a3/81eba328-af34-074b-42e4-282347200e52/mzaf_16859398385869441809.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/9c/ff/b5/9cffb5a6-a37f-c84a-7240-0333a071bc92/00602567725275.rgb.jpg/600x600bb.jpg",
+    "ano": "1963"
+  },
+  "3VbGCXWRiouAq8VyMYN2MI": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0d/cd/b5/0dcdb53d-e336-d5f5-be7c-927bda09785e/mzaf_2684842830409832377.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/9c/ff/b5/9cffb5a6-a37f-c84a-7240-0333a071bc92/00602567725275.rgb.jpg/600x600bb.jpg",
+    "ano": "1962"
+  },
+  "7Msq9qojB7yORuJvz49iUy": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/30/89/ad/3089ad65-3d94-33e2-4c8d-e60219c0522f/mzaf_10077895806964988015.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/9c/ff/b5/9cffb5a6-a37f-c84a-7240-0333a071bc92/00602567725275.rgb.jpg/600x600bb.jpg",
+    "ano": "1962"
+  },
+  "5ZBeML7Lf3FMEVviTyvi8l": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a1/da/74/a1da7475-c355-8ecf-f46a-2ba0e8571561/mzaf_6982524764313957424.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/9c/ff/b5/9cffb5a6-a37f-c84a-7240-0333a071bc92/00602567725275.rgb.jpg/600x600bb.jpg",
+    "ano": "1963"
+  },
+  "3Am0IbOxmvlSXro7N5iSfZ": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/50/dc/3e/50dc3ea7-0c12-3a54-cbfa-874c8e1e9730/mzaf_8056056744713597418.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/43/0e/37/430e3790-75d5-c96a-1380-f9d9803aa700/18UMGIM31245.rgb.jpg/600x600bb.jpg",
+    "ano": "1967"
+  },
+  "0BowNHHxtXVyLMXxS31LBe": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d4/a8/89/d4a889e9-39df-cc1c-2386-4bc00670b2f1/mzaf_17078299930052458204.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f2/98/fb/f298fb48-1e0e-6ad4-4cff-fb824b77f02e/15UMGIM59587.rgb.jpg/600x600bb.jpg",
+    "ano": "1962"
+  },
+  "6dCq7bLa4j3ZFkOGeUbInk": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/81/eb/a3/81eba328-af34-074b-42e4-282347200e52/mzaf_16859398385869441809.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/9c/ff/b5/9cffb5a6-a37f-c84a-7240-0333a071bc92/00602567725275.rgb.jpg/600x600bb.jpg",
+    "ano": "1963"
+  },
+  "39js8qHOPRhKMxl6Qxg55F": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a1/da/74/a1da7475-c355-8ecf-f46a-2ba0e8571561/mzaf_6982524764313957424.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/9c/ff/b5/9cffb5a6-a37f-c84a-7240-0333a071bc92/00602567725275.rgb.jpg/600x600bb.jpg",
+    "ano": "1963"
+  },
+  "72cBk2iqWcax9eoIXGNVM6": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fb/97/51/fb975149-e17d-e5a4-40df-322da7bed1bc/mzaf_11720271898412889158.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/2a/4a/e6/2a4ae63d-ada7-fa57-6f16-02eebcf72f95/18UMGIM29770.rgb.jpg/600x600bb.jpg",
+    "ano": "1963"
+  },
+  "0g1NjFyzJ6FFEOTsuiJLdv": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/99/d4/84/99d48419-cbd2-4d45-ad5c-60a581ff126e/mzaf_10364932228692401724.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/2a/4a/e6/2a4ae63d-ada7-fa57-6f16-02eebcf72f95/18UMGIM29770.rgb.jpg/600x600bb.jpg",
+    "ano": "1963"
+  },
+  "01K1zFyjJhG2Qk7PIkSAEA": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b0/00/12/b0001223-6811-a3e6-821b-fde710e23567/mzaf_8004256470886717691.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f2/98/fb/f298fb48-1e0e-6ad4-4cff-fb824b77f02e/15UMGIM59587.rgb.jpg/600x600bb.jpg",
+    "ano": "1963"
+  },
+  "4iVudOuRcKPGK8y7GqSZKP": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/09/4d/3a/094d3a23-b1b0-6e5b-1d26-52d84206bf09/mzaf_11776190903459074582.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f2/98/fb/f298fb48-1e0e-6ad4-4cff-fb824b77f02e/15UMGIM59587.rgb.jpg/600x600bb.jpg",
+    "ano": "1964"
+  },
+  "7nGA8YRPmsDmLZ55DIGEdC": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/80/d1/79/80d1794e-5436-d7be-6d87-4b1192ea82ce/mzaf_9751547977953400308.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/2a/4a/e6/2a4ae63d-ada7-fa57-6f16-02eebcf72f95/18UMGIM29770.rgb.jpg/600x600bb.jpg",
+    "ano": "1964"
+  },
+  "5VTVK2RtOj6tKH9OPKMht7": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a3/a2/2e/a3a22e01-7cce-ae80-be63-8e20c4977eeb/mzaf_1542177003021542830.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/2a/4a/e6/2a4ae63d-ada7-fa57-6f16-02eebcf72f95/18UMGIM29770.rgb.jpg/600x600bb.jpg",
+    "ano": "1964"
+  },
+  "0bGiTPrxCIFs7lZS9knvRS": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/27/33/05/273305ca-15ff-be2c-091f-54da6c33c7f4/mzaf_8961670725076409893.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f2/98/fb/f298fb48-1e0e-6ad4-4cff-fb824b77f02e/15UMGIM59587.rgb.jpg/600x600bb.jpg",
+    "ano": "1965"
+  },
+  "4eHbdreAnSOrDDsFfc4Fpm": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/03/d2/1a/03d21aca-c69e-09af-03ef-118004e68ab5/mzaf_17408932698913708736.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/82/f3/e9/82f3e968-8174-c5eb-7fc5-36384d050129/dj.mdauihuy.jpg/600x600bb.jpg",
+    "ano": "1992"
+  },
+  "31er9IGsfFbwqy1pH4aiTP": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b1/cc/e2/b1cce211-6605-59c1-a8b3-543eb5f9b831/mzaf_11628049711945620181.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/82/f3/e9/82f3e968-8174-c5eb-7fc5-36384d050129/dj.mdauihuy.jpg/600x600bb.jpg",
+    "ano": "1992"
+  },
+  "2tUBqZG2AbRi7Q0BIrVrEj": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7b/67/fd/7b67fd07-6a7a-0362-135c-878ac5799f2c/mzaf_11309521725869189721.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/86/b5/25/86b525b1-bff1-4bf6-6112-531251b3d672/dj.hthdmusj.jpg/600x600bb.jpg",
+    "ano": "1987"
+  },
+  "5ihS6UUlyQAfmp48eSkxuQ": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c2/88/e5/c288e5f6-d8dc-d8a7-8d90-f8a609b3249e/mzaf_11381701045348127730.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/64/cc/0b/64cc0b3b-92fb-66cf-1240-e2afba504e4b/603497863105.jpg/600x600bb.jpg",
+    "ano": "1975"
+  },
+  "4qO03RMQm88DdpTJcxlglY": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b1/13/b5/b113b569-8639-b071-9199-3c8f8fb0d3a9/mzaf_2541938402474802623.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/72/73/8f/72738f62-d8a1-f1f9-e84d-244ff697d1db/13UABIM56926.rgb.jpg/600x600bb.jpg",
+    "ano": "1980"
+  },
+  "4cQJ27R11K634x5qCOwKW5": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c0/62/a8/c062a813-3d6a-f54f-4b6f-a770c3e782b3/mzaf_12107545603743730957.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b0/1e/01/b01e0139-3640-a161-ef5c-027451d30c48/00724353359959.rgb.jpg/600x600bb.jpg",
+    "ano": "1978"
+  },
+  "4v2rkl1mC3zVAz0nXMx9r4": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1e/3c/36/1e3c3657-c14f-9d85-c8b0-7e0d7f0b9012/mzaf_17403835591168070190.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b0/1e/01/b01e0139-3640-a161-ef5c-027451d30c48/00724353359959.rgb.jpg/600x600bb.jpg",
+    "ano": "1978"
+  },
+  "6Qyc6fS4DsZjB2mRW9DsQs": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/60/17/35/60173512-3d5c-1d6f-549e-d8ddafa93e07/mzaf_5281658494050788067.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2c/13/18/2c131801-00af-58b1-3cc2-13abf4ad5416/093624919162.jpg/600x600bb.jpg",
+    "ano": "1998"
+  },
+  "1JSTJqkT5qHq8MDJnJbRE1": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fe/e4/66/fee46681-9bbc-358a-ba0f-51d39feabf8b/mzaf_16980938720718099101.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a4/67/ba/a467ba62-87df-9d10-98d2-c517f68ac870/16UMGIM60882.rgb.jpg/600x600bb.jpg",
+    "ano": "1983"
+  },
+  "5YciOakY5dB5dULkiLdCaf": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/15/18/b0/1518b009-495d-9be8-c370-c0efe47b11e4/mzaf_11095190664817243760.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/27/5c/61275c22-03c2-b92c-947e-db85c1ad7780/886444456593.jpg/600x600bb.jpg",
+    "ano": "2002"
+  },
+  "5yJaXWIErrrsjQ3J0eR5aK": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/64/b4/f3/64b4f3e5-d4f9-ec10-e6af-b6c26bde9b47/mzaf_8621887946764980860.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/55/41/4a/55414a18-861a-79d1-e575-5bf8cf205dbe/886445056839_Cover.jpg/600x600bb.jpg",
+    "ano": "2015"
+  },
+  "1uvyZBs4IZYRebHIB1747m": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/11/09/30/1109307b-cdbd-20b1-aebc-c39c632a73a4/mzaf_11384520489297938238.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/00/17/f2/0017f24f-e580-b77a-71a8-1bc7b75881bf/603497822065.jpg/600x600bb.jpg",
+    "ano": "1984"
+  },
+  "3FnP3j1TyiTwbJb5AR2ynT": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/11/09/30/1109307b-cdbd-20b1-aebc-c39c632a73a4/mzaf_11384520489297938238.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/00/17/f2/0017f24f-e580-b77a-71a8-1bc7b75881bf/603497822065.jpg/600x600bb.jpg",
+    "ano": "1984"
+  },
+  "0y5CnV2idm2KkQEudDjfDT": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/74/3e/05/743e0513-5cb5-623c-574a-d0275014c382/mzaf_18382697113497960163.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/26/d6/e3/26d6e339-a7a9-d61e-1b5f-0852a5515a55/886445517880.jpg/600x600bb.jpg",
+    "ano": "1994"
+  },
+  "1StXVL5gClph4z4XzanYko": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/13/bd/4b/13bd4b55-28f1-e7fa-10b9-0ec4f64f0596/mzaf_17532103369343179763.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/99/d6/ab/99d6abb0-4837-f397-3f56-c7dfd627e23e/886447700778.jpg/600x600bb.jpg",
+    "ano": "1994"
+  },
+  "3pRaLNL3b8x5uBOcsgvdqM": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3d/f9/7f/3df97f47-c0a4-bdf8-53fa-19e99fa891f1/mzaf_16433687184189443153.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/26/d6/e3/26d6e339-a7a9-d61e-1b5f-0852a5515a55/886445517880.jpg/600x600bb.jpg",
+    "ano": "1994"
+  },
+  "6Jv7kjGkhY2fT4yuBF3aTz": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/db/0c/4e/db0c4edc-9daa-e262-55b9-89984c3f6aa6/mzaf_16142695276315265640.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/26/d6/e3/26d6e339-a7a9-d61e-1b5f-0852a5515a55/886445517880.jpg/600x600bb.jpg",
+    "ano": "1994"
+  },
+  "6UuVONmxXwTKN1ISepuAoQ": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/99/22/e5/9922e5e7-fa32-21c6-5714-a49e2098eca2/mzaf_15269119448834441811.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/26/d6/e3/26d6e339-a7a9-d61e-1b5f-0852a5515a55/886445517880.jpg/600x600bb.jpg",
+    "ano": "1994"
+  },
+  "2bcvooA6HEmVUneEGJnNZD": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5e/bd/24/5ebd2488-d8d6-dd31-546b-6603d8f3bd3d/mzaf_2715829046640417409.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ce/b3/69/ceb369a5-f124-e519-01ac-d0d3035c7bcd/886447680827.jpg/600x600bb.jpg",
+    "ano": "1998"
+  },
+  "4oq6sHpGfB4UmX36jK9Cz0": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/90/e5/e7/90e5e766-57cd-5853-4303-3934faa9833e/mzaf_7647556181532812406.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ce/b3/69/ceb369a5-f124-e519-01ac-d0d3035c7bcd/886447680827.jpg/600x600bb.jpg",
+    "ano": "1998"
+  },
+  "4Dk6mrxXQzLMgpFHO2yRY9": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/4e/00/66/4e0066ab-3257-f00f-72d6-562d89e751ab/mzaf_10207856720735443059.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music22/v4/85/50/52/855052b9-704f-c774-6588-23011b1cdd8d/mzm.vqqwcfti.jpg/600x600bb.jpg",
+    "ano": "2016"
+  },
+  "2RTLIQRc8yogHh08waQDVa": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e9/f2/31/e9f231d1-3f90-99f6-bb06-005b45e2f9ab/mzaf_10970305320585828131.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/ac/84/18/ac8418ee-0a3d-6745-8a79-b85daa17617d/886447683941.jpg/600x600bb.jpg",
+    "ano": "2016"
+  },
+  "2vA8v1vyStXLOA4GHnQ5Vs": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0f/e7/bd/0fe7bd2a-e187-32ee-55d5-d5c19099066c/mzaf_16524959678100907025.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/ac/84/18/ac8418ee-0a3d-6745-8a79-b85daa17617d/886447683941.jpg/600x600bb.jpg",
+    "ano": "2019"
+  },
+  "3Z7OFraob1P0QscGaSoh0v": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fb/f6/67/fbf667f1-8ed3-78ca-3dae-b442027d0a42/mzaf_3560099085546507287.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/19/db/9d/19db9d89-d534-10d8-5001-829a3ced9324/886447832936.jpg/600x600bb.jpg",
+    "ano": "2019"
+  },
+  "4ZTOFxmGtYp9iDX1bZdGfM": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4a/e3/77/4ae3777c-a6a0-5651-619e-5a86d669d334/mzaf_14343249378801467276.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/0a/05/cc/0a05ccf6-6c7f-5ce8-536e-635c968c5544/884977211955.jpg/600x600bb.jpg",
+    "ano": "2009"
+  },
+  "5BKKy9fIJL5uM9fz1SnqyP": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/23/11/8f/23118fbe-d3de-63e7-71e5-0f2b8024b85c/mzaf_427303662240716556.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/83/15/cc/8315ccdd-5a8d-8344-fa15-72e4cb64145e/886444533171.jpg/600x600bb.jpg",
+    "ano": "2014"
+  },
+  "1AZXNAVDD9ZFIEKySgflFz": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c8/0c/b5/c80cb536-1a27-5571-090b-8451da1570f7/mzaf_5779869216913131925.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/dc/02/ef/dc02eff2-027c-a468-7d7b-aa9404e74f1a/mzi.mgytcnob.jpg/600x600bb.jpg",
+    "ano": "2001"
+  },
+  "6uW5fyyosEMBKfg2W1ye1l": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0b/a1/54/0ba1546e-cfef-325c-4e18-161f49a1346b/mzaf_6164216748683522629.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0a/0f/fa/0a0ffabf-43c3-c076-6d33-132c65859b33/17UMGIM86564.rgb.jpg/600x600bb.jpg",
+    "ano": "2017"
+  },
+  "49wOjOkS4pBK3PQnPnNYjb": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3a/d2/1f/3ad21f53-f1ed-dc2b-23b8-5d12a32c9c74/mzaf_6958812122059230382.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/9e/21/75/9e21750f-b22b-360d-ff8b-59c248bb51e6/08UMGIM01746.rgb.jpg/600x600bb.jpg",
+    "ano": "1994"
+  },
+  "1WYrTfvKjQYaYfVziGG1ET": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/02/d4/04/02d40481-45d6-677b-7a36-5e0070ab90d5/mzaf_3365845099127307523.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5c/cb/18/5ccb18f7-ab44-3478-cf33-7953837907d2/18UMGIM43740.rgb.jpg/600x600bb.jpg",
+    "ano": "1993"
+  },
+  "3d0WouFnFmr0K3kjeza3fF": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ac/c7/61/acc7619f-c1e3-e0a5-df9b-0329a35af062/mzaf_13106936727189536738.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0d/b5/8a/0db58a8b-7b17-dd53-3464-116a415d0f49/196872648836.jpg/600x600bb.jpg",
+    "ano": "2006"
+  },
+  "6mICuAdrwEjh6Y6lroV2Kg": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ce/25/45/ce254583-d1ac-db76-c02e-a4ceeab5e2de/mzaf_7277323164917214654.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/60/9f/7f/609f7f34-c239-73e8-32da-96fd5f2cba77/886446480060.jpg/600x600bb.jpg",
+    "ano": "2016"
+  },
+  "7o1Pm9jpH0wFpN5g793Lnq": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ad/a2/0a/ada20ac7-6406-60ae-698c-15ce540703b9/mzaf_5980925254679718590.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/06/a5/5f/06a55f7a-680f-f9de-79b9-3c9114ebe012/886444501262.jpg/600x600bb.jpg",
+    "ano": "2014"
+  },
+  "1zLBsSVxETQOfINOLYvT5m": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e7/23/ac/e723acc1-f3d1-9046-3e67-90c0974bb7ab/mzaf_13254358623537505240.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/67/ae/8c/67ae8ccf-54b0-8574-24b3-67f3aff2a326/886448555568.jpg/600x600bb.jpg",
+    "ano": "2020"
+  },
+  "42k1KeBehAd83lrGt1okiC": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/17/72/93/17729308-7699-6e23-18ab-9625ad9dad32/mzaf_7592221824890521830.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ec/15/38/ec1538d9-67b8-e561-6b11-bc5a266cba7c/886444681568.jpg/600x600bb.jpg",
+    "ano": "2010"
+  },
+  "4zy1s9GnxWsNzZp1688euA": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/56/a2/25/56a225f1-58fb-fdd3-7490-d740114a1106/mzaf_3542594892006900636.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ec/15/38/ec1538d9-67b8-e561-6b11-bc5a266cba7c/886444681568.jpg/600x600bb.jpg",
+    "ano": "2010"
+  },
+  "19t0Z7qsoV6A1CGJVYRnjm": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/eb/d7/f5/ebd7f53b-da75-435c-cfb3-0161f87318f5/mzaf_1124655576055969423.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ec/15/38/ec1538d9-67b8-e561-6b11-bc5a266cba7c/886444681568.jpg/600x600bb.jpg",
+    "ano": "2010"
+  },
+  "2nSd3kBslXIbBAdrmqvKM6": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/23/30/73/2330733c-fc37-a590-825b-efcd9e878dbc/mzaf_13943484523643200796.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e5/6d/96/e56d9688-0239-7c8f-f907-7614c0f9860b/mzi.uffuznlo.jpg/600x600bb.jpg",
+    "ano": "1998"
+  },
+  "7jxHeJLVpnP7S08JFF4GBi": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3a/18/63/3a1863ef-7849-d8ce-f7f3-b4dff44497d9/mzaf_15137099757104377555.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e5/6d/96/e56d9688-0239-7c8f-f907-7614c0f9860b/mzi.uffuznlo.jpg/600x600bb.jpg",
+    "ano": "1998"
+  },
+  "4qknM1pQz53QOyfDVTjcM9": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e8/7a/b6/e87ab668-96cd-ccfa-9dd1-8d6e971be5a4/mzaf_12704282283428769634.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/60/9f/7f/609f7f34-c239-73e8-32da-96fd5f2cba77/886446480060.jpg/600x600bb.jpg",
+    "ano": "2017"
+  },
+  "4M1lEbqPzlEw1JYWB6aE7K": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e6/1a/e6/e61ae6dc-71a0-c343-5e2a-b674afe5a454/mzaf_6838942877118141285.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/94/18/5e/94185e72-fc57-d3ad-51f6-485b8e188c21/dj.abqorqzf.jpg/600x600bb.jpg",
+    "ano": "1995"
+  },
+  "5yKQTwznar5I75UyYJ9CnR": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/43/a8/1c/43a81c4c-2e76-639f-1352-508447654573/mzaf_7206285468201938248.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/94/18/5e/94185e72-fc57-d3ad-51f6-485b8e188c21/dj.abqorqzf.jpg/600x600bb.jpg",
+    "ano": "1995"
+  },
+  "2lnzGkdtDj5mtlcOW2yRtG": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/03/db/c9/03dbc935-12c2-4922-51ff-76170883753a/mzaf_13989672290091509449.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c5/4b/ff/c54bffa0-2333-1a55-e67e-a9c640e06f6f/mzi.hwxgzhsl.jpg/600x600bb.jpg",
+    "ano": "2001"
+  },
+  "3TY1PFZXmYeiLcXygB74My": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0b/c6/91/0bc69140-e8c8-07ba-d18c-70b76298d724/mzaf_13908437874271354692.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c5/4b/ff/c54bffa0-2333-1a55-e67e-a9c640e06f6f/mzi.hwxgzhsl.jpg/600x600bb.jpg",
+    "ano": "2001"
+  },
+  "4l9fZ75WzPZlAIkqJIWlo8": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7a/f2/e1/7af2e169-2536-5f1f-a21e-fccc8ca76f11/mzaf_2228399971126578468.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music/51/e4/1a/mzi.hvpbrkmc.jpg/600x600bb.jpg",
+    "ano": "2009"
+  },
+  "0FpB2Hw5qx9SeMMQuw1G5P": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/66/4c/94/664c94a6-d422-4fb6-a5b2-cac522b7fc98/mzaf_13543331719844744447.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music/51/e4/1a/mzi.hvpbrkmc.jpg/600x600bb.jpg",
+    "ano": "2009"
+  },
+  "6M1M6cRtVkm5d0qTzkSEuK": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f1/3d/c7/f13dc794-e173-58fc-b328-c3200ddce33b/mzaf_14829078399732190343.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/82/f3/e9/82f3e968-8174-c5eb-7fc5-36384d050129/dj.mdauihuy.jpg/600x600bb.jpg",
+    "ano": "1992"
+  },
+  "28zcTRqgD2iVOE4KEKCAxi": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/66/92/64/66926456-405e-7830-7c05-285cf96d857f/mzaf_733124805661969399.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/28/a4/22/28a42283-3859-6492-abad-0e95cdec4ec9/842812149931.jpg/600x600bb.jpg",
+    "ano": "2021"
+  },
+  "3BvwBnmbsKs7dBkU6PKBrT": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ee/5d/a0/ee5da06c-4cd7-d9f0-d371-a2ae8a091b87/mzaf_8424454688632681670.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0b/c7/9b/0bc79b59-f9f8-f0a4-caab-70088cc3ae98/886449030675.jpg/600x600bb.jpg",
+    "ano": "2021"
+  },
+  "6JZYMxvcoeLD4IifJPvDux": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/65/6a/8d/656a8d49-e1bc-72fe-a1c0-8937e92715cc/mzaf_5193099882319798206.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/67/c6/c9/67c6c9b0-e879-7e4d-fcda-dc52f758ec43/888880457066.jpg/600x600bb.jpg",
+    "ano": "1987"
+  },
+  "5WV7xL0fxsy6zGfHUu0I9N": {
+    "audio": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/67/9e/26/679e2625-25c0-61f2-8e39-6babff84d0e0/mzaf_294756916033068403.plus.aac.p.m4a",
+    "capa": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/ee/48/68/ee4868c1-76e7-975f-d645-70bcaede9f9a/00602517396654.rgb.jpg/600x600bb.jpg",
+    "ano": "2007"
+  }
+};
+
 function criarFaixa(faixa, { exclusiva = false, artistaModo = null } = {}) {
+  const previaItunes = PREVIAS_ITUNES[faixa.spotifyId] || {};
+  const previaSpotify = PREVIAS_SPOTIFY[faixa.spotifyId] || {};
+  const previa = {
+    audio: previaSpotify.audio || previaItunes.audio || "",
+    capa: previaSpotify.capa || previaItunes.capa || "",
+    ano: previaSpotify.ano || previaItunes.ano || "",
+  };
   return {
     titulo: faixa.titulo,
     artistas: faixa.artistas,
     artista: faixa.artistas.join(", "),
     album: faixa.album,
-    ano: "",
+    ano: previa.ano || "",
     busca: `${faixa.titulo} ${faixa.artistas[0] || ""}`.trim(),
     spotifyId: faixa.spotifyId,
     playlistIndex: faixa.index,
@@ -6773,10 +10121,27 @@ function criarFaixa(faixa, { exclusiva = false, artistaModo = null } = {}) {
     artistaModo,
     audioLocal: "",
     capaLocal: "",
+    audioRemoto: previa.audio || "",
+    capaRemota: previa.capa || "",
   };
 }
 
-const MUSICAS_ALEATORIAS = PLAYLIST_SPOTIFY.map((faixa) => criarFaixa(faixa));
+function mesclarPlaylistsSemDuplicar(...playlists) {
+  const vistas = new Set();
+  return playlists.flat().filter((faixa) => {
+    const chave = faixa.spotifyId || `${normalizar(faixa.titulo)}:${normalizar(faixa.artistas[0] || "")}`;
+    if (vistas.has(chave)) return false;
+    vistas.add(chave);
+    return true;
+  });
+}
+
+const MUSICAS_ALEATORIAS = mesclarPlaylistsSemDuplicar(
+  PLAYLIST_SPOTIFY,
+  PLAYLIST_LATINAS,
+  PLAYLIST_ITALIANAS,
+  PLAYLIST_DAMIANO_DAVID,
+).map((faixa) => criarFaixa(faixa));
 const MUSICAS = [
   ...MUSICAS_ALEATORIAS,
   ...PLAYLIST_ANA_CAROLINA.map((faixa) =>
@@ -6787,6 +10152,18 @@ const MUSICAS = [
   ),
   ...PLAYLIST_LUDMILLA.map((faixa) =>
     criarFaixa(faixa, { exclusiva: true, artistaModo: "Ludmilla" }),
+  ),
+  ...PLAYLIST_LATINAS.map((faixa) =>
+    criarFaixa(faixa, { exclusiva: true, artistaModo: "Latinas" }),
+  ),
+  ...PLAYLIST_ITALIANAS.map((faixa) =>
+    criarFaixa(faixa, { exclusiva: true, artistaModo: "Italianas" }),
+  ),
+  ...PLAYLIST_CHIARA_CIVELLO.map((faixa) =>
+    criarFaixa(faixa, { exclusiva: true, artistaModo: "Chiara Civello" }),
+  ),
+  ...PLAYLIST_DAMIANO_DAVID.map((faixa) =>
+    criarFaixa(faixa, { exclusiva: true, artistaModo: "Damiano David" }),
   ),
 ];
 
@@ -6812,7 +10189,15 @@ function indicesDoArtista(artista) {
   }, []);
 }
 
-const ARTISTAS_FIXOS = ["Ana Carolina", "Descendentes", "Ludmilla"];
+const ARTISTAS_FIXOS = [
+  "Ana Carolina",
+  "Descendentes",
+  "Ludmilla",
+  "Latinas",
+  "Italianas",
+  "Chiara Civello",
+  "Damiano David",
+];
 const mapaArtistas = new Map(ARTISTAS_FIXOS.map((artista) => [normalizar(artista), artista]));
 MUSICAS_ALEATORIAS.flatMap((faixa) => faixa.artistas).forEach((artista) => {
   const chave = normalizar(artista);
@@ -6839,6 +10224,8 @@ const EH_IOS =
   (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
 const STORAGE_KEY = "ouvido-relampago:winstreak";
 const START_DURATION_STORAGE_KEY = "ouvido-relampago:duracao-inicial";
+const LIMITE_DICAS_STREAK = 3;
+const ERROS_PARA_DICA_AUTOMATICA = 3;
 const DURACAO_INICIAL_SALVA = lerDuracaoInicial();
 
 const refs = {
@@ -6918,6 +10305,8 @@ const state = {
   timerToast: null,
   pedidoAtual: 0,
   streak: lerStreak(),
+  errosRodada: 0,
+  sequenciaPerdidaPorDicas: false,
   cache: new Map(),
   palpitesErrados: new Set(),
   sugestoesAtuais: [],
@@ -6934,11 +10323,19 @@ function embaralhar(itens) {
 }
 
 function indicesDoModo() {
-  if (state.modo === "specific") return indicesDoArtista(state.artistaSelecionado);
-  return MUSICAS.reduce((indices, faixa, index) => {
-    if (!faixa.exclusiva) indices.push(index);
-    return indices;
-  }, []);
+  const indices = state.modo === "specific"
+    ? indicesDoArtista(state.artistaSelecionado)
+    : MUSICAS.reduce((lista, faixa, index) => {
+      if (!faixa.exclusiva) lista.push(index);
+      return lista;
+    }, []);
+
+  if (!EH_IOS) return indices;
+  const prontas = indices.filter((index) => {
+    const faixa = MUSICAS[index];
+    return Boolean(faixa.audioLocal || faixa.audioRemoto);
+  });
+  return prontas.length ? prontas : indices;
 }
 
 function normalizar(texto = "") {
@@ -7399,11 +10796,11 @@ async function buscarNoItunes(faixa) {
 async function resolverFaixa(faixa, pedido) {
   const fallback = {
     ...faixa,
-    audio: faixa.audioLocal,
-    capa: faixa.capaLocal || criarCapaFallback(faixa),
+    audio: faixa.audioLocal || faixa.audioRemoto,
+    capa: faixa.capaLocal || faixa.capaRemota || criarCapaFallback(faixa),
   };
 
-  if (faixa.audioLocal) return fallback;
+  if (faixa.audioLocal || faixa.audioRemoto) return fallback;
 
   try {
     return await buscarNoItunes(faixa);
@@ -7466,9 +10863,12 @@ async function criarFonteCompativelIOS(url, pedido) {
   const dados = await resposta.arrayBuffer();
   if (pedido !== state.pedidoAtual) return null;
 
-  // O servidor da Apple pode rotular um AAC/M4A como audio/x-m4p. Recriar o
-  // Blob com o MIME correto evita que o Safari do iPhone rejeite a prévia.
-  return URL.createObjectURL(new Blob([dados], { type: "audio/mp4" }));
+  const tipoRecebido = resposta.headers.get("content-type") || "";
+  const tipoCompativel = tipoRecebido.includes("mpeg") ? "audio/mpeg" : "audio/mp4";
+  // O servidor da Apple pode rotular um AAC/M4A como audio/x-m4p. As prévias
+  // do Spotify já são MP3. Em ambos os casos recriamos o Blob com o MIME que
+  // o Safari do iPhone reconhece de forma confiável.
+  return URL.createObjectURL(new Blob([dados], { type: tipoCompativel }));
 }
 
 async function prepararAudio(resolvida, pedido) {
@@ -7670,7 +11070,7 @@ function atualizarEstagio() {
   refs.clipLabel.textContent = `TRECHO LIBERADO · ${formatarSegundos(atual.segundos)}`;
   refs.playDuration.textContent = formatarSegundos(atual.segundos);
   refs.playButton.setAttribute("aria-label", `Tocar trecho de ${atual.rotulo} desde o início`);
-  refs.hintCount.textContent = `${dicasUsadas} DE ${totalDicas} USADAS`;
+  refs.hintCount.textContent = `${dicasUsadas} DE ${totalDicas} USADAS · LIMITE ${LIMITE_DICAS_STREAK}`;
 
   refs.hintItems.forEach((item, index) => {
     item.classList.toggle("is-skipped", index < estagioInicial);
@@ -7715,28 +11115,66 @@ function atualizarPistasReveladas() {
   refs.revealedHints.append(fragment);
 }
 
-function usarDica() {
+function dicasUsadasNaRodada() {
+  return Math.max(0, state.estagio - indiceEstagioInicial());
+}
+
+function verificarLimiteDeDicas() {
+  if (
+    state.sequenciaPerdidaPorDicas ||
+    dicasUsadasNaRodada() <= LIMITE_DICAS_STREAK
+  ) {
+    return false;
+  }
+
+  state.sequenciaPerdidaPorDicas = true;
+  state.streak = 0;
+  salvarStreak();
+  return true;
+}
+
+function usarDica({ automatica = false } = {}) {
   if (state.rodadaEncerrada || state.estagio >= ESTAGIOS.length - 1) return null;
   state.estagio += 1;
   atualizarEstagio();
   const atual = ESTAGIOS[state.estagio];
+  const perdeuSequencia = verificarLimiteDeDicas();
+  const prefixo = automatica ? `Após ${state.errosRodada} erros, dica automática: ` : "";
 
   if (atual.tipo === "audio") {
-    refs.formFeedback.textContent = `Agora você pode ouvir ${atual.rotulo}.`;
+    refs.formFeedback.textContent = `${prefixo}agora você pode ouvir ${atual.rotulo}.`;
     refs.formFeedback.className = "form-feedback";
-    mostrarToast(`Dica liberada: ${atual.rotulo} de áudio.`);
+    mostrarToast(
+      perdeuSequencia
+        ? `Limite de ${LIMITE_DICAS_STREAK} dicas ultrapassado: sequência zerada.`
+        : `${automatica ? "Dica automática" : "Dica liberada"}: ${atual.rotulo} de áudio.`,
+    );
   } else if (atual.tipo === "artista") {
-    refs.formFeedback.textContent = `Artista revelado: ${state.resolvida?.artista || state.faixa.artista}.`;
+    refs.formFeedback.textContent = `${prefixo}artista revelado: ${state.resolvida?.artista || state.faixa.artista}.`;
     refs.formFeedback.className = "form-feedback";
-    mostrarToast("Dica liberada: artista da faixa.");
+    mostrarToast(
+      perdeuSequencia
+        ? `Limite de ${LIMITE_DICAS_STREAK} dicas ultrapassado: sequência zerada.`
+        : `${automatica ? "Dica automática" : "Dica liberada"}: artista da faixa.`,
+    );
   } else {
     const letra = state.faixa.titulo.match(/[A-Za-zÀ-ÖØ-öø-ÿ0-9]/)?.[0]?.toUpperCase() || "?";
-    refs.formFeedback.textContent = `O título começa com “${letra}”.`;
+    refs.formFeedback.textContent = `${prefixo}o título começa com “${letra}”.`;
     refs.formFeedback.className = "form-feedback";
-    mostrarToast("Última dica liberada: primeira letra.");
+    mostrarToast(
+      perdeuSequencia
+        ? `Limite de ${LIMITE_DICAS_STREAK} dicas ultrapassado: sequência zerada.`
+        : `${automatica ? "Dica automática" : "Última dica liberada"}: primeira letra.`,
+    );
   }
 
-  return { estagio: state.estagio, tipo: atual.tipo, rotulo: atual.rotulo };
+  return {
+    estagio: state.estagio,
+    tipo: atual.tipo,
+    rotulo: atual.rotulo,
+    automatica,
+    perdeuSequencia,
+  };
 }
 
 function respostaCorreta(palpite) {
@@ -7797,13 +11235,33 @@ function validarPalpite(valor) {
   if (faixaTentada) {
     state.palpitesErrados.add(normalizarTituloDistinto(faixaTentada.titulo));
   }
+  state.errosRodada += 1;
   refs.guessInput.value = "";
   fecharSugestoes();
-  refs.formFeedback.textContent = faixaTentada
+  const mensagemErro = faixaTentada
     ? `“${faixaTentada.titulo}” não é a resposta e saiu da lista desta rodada.`
     : "Ainda não. Tente uma das sugestões ou peça uma dica.";
+  const dicaAutomatica =
+    state.errosRodada >= ERROS_PARA_DICA_AUTOMATICA
+      ? usarDica({ automatica: true })
+      : null;
+  refs.formFeedback.textContent = dicaAutomatica
+    ? `${mensagemErro} Dica automática: ${dicaAutomatica.rotulo}.${
+      dicaAutomatica.perdeuSequencia
+        ? ` O limite de ${LIMITE_DICAS_STREAK} dicas foi ultrapassado e a sequência voltou a zero.`
+        : ""
+    }`
+    : state.errosRodada >= ERROS_PARA_DICA_AUTOMATICA
+      ? `${mensagemErro} Todas as dicas já estão abertas.`
+      : `${mensagemErro} ${state.errosRodada}/${ERROS_PARA_DICA_AUTOMATICA} erros para liberar uma dica automática.`;
   refs.formFeedback.className = "form-feedback is-error";
-  return { ok: true, correto: false, streak: state.streak };
+  return {
+    ok: true,
+    correto: false,
+    streak: state.streak,
+    erros: state.errosRodada,
+    dicaAutomatica,
+  };
 }
 
 function revelarMetadados() {
@@ -7847,7 +11305,9 @@ function encerrarRodada(acertou) {
   refs.resultCover.src = faixa.capa;
   refs.resultCover.alt = `Capa de ${faixa.album}`;
   refs.resultMessage.textContent = acertou
-    ? `Acerto com ${ESTAGIOS[state.estagio].rotulo}. Sua sequência agora é de ${state.streak} ${state.streak === 1 ? "acerto" : "acertos"}.`
+    ? state.sequenciaPerdidaPorDicas
+      ? `Você acertou, mas ultrapassou o limite de ${LIMITE_DICAS_STREAK} dicas. A sequência foi reiniciada e agora está em ${state.streak}.`
+      : `Acerto com ${ESTAGIOS[state.estagio].rotulo}. Sua sequência agora é de ${state.streak} ${state.streak === 1 ? "acerto" : "acertos"}.`
     : "A sequência voltou a zero, mas a próxima faixa já está pronta para uma nova tentativa.";
 
   window.setTimeout(() => refs.resultDialog.showModal(), 360);
@@ -7873,6 +11333,8 @@ function resetarInterface() {
   state.estagio = indiceEstagioInicial();
   state.rodadaEncerrada = false;
   state.audioPronto = false;
+  state.errosRodada = 0;
+  state.sequenciaPerdidaPorDicas = false;
   state.palpitesErrados.clear();
   fecharSugestoes();
   refs.audioTime.textContent = "00:00.0";
@@ -7932,6 +11394,7 @@ async function iniciarRodada(tentativaDePrevia = 0) {
   if (pedido !== state.pedidoAtual || preparo?.pronto) return;
 
   const podeTentarOutra =
+    !EH_IOS &&
     ["sem_previa", "arquivo"].includes(preparo?.motivo) &&
     tentativaDePrevia < Math.min(5, state.ordem.length - 1);
   if (!podeTentarOutra) return;
@@ -7961,7 +11424,7 @@ function registrarEventos() {
     ativarModo("specific", refs.artistSelect.value);
   });
   refs.playButton.addEventListener("click", () => void tocarTrecho());
-  refs.hintButton.addEventListener("click", usarDica);
+  refs.hintButton.addEventListener("click", () => usarDica());
   refs.giveUpButton.addEventListener("click", desistir);
   refs.previewButton.addEventListener("click", () => void alternarPreviaCompleta());
   refs.nextButton.addEventListener("click", proximaRodada);
