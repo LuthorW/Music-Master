@@ -6904,12 +6904,13 @@ const state = {
   ),
   posicao: 0,
   modo: "random",
-  artistaSelecionado: ARTISTAS.includes("ABBA") ? "ABBA" : ARTISTAS[0],
+  artistaSelecionado: ARTISTAS.includes("Ana Carolina") ? "Ana Carolina" : ARTISTAS[0],
   duracaoInicial: DURACAO_INICIAL_SALVA,
   estagio: DURACAO_INICIAL_SALVA === 1 ? 1 : 0,
   faixa: null,
   resolvida: null,
   audioPronto: false,
+  audioObjectUrl: null,
   rodadaEncerrada: false,
   tocandoTrecho: false,
   tocandoPrevia: false,
@@ -7310,6 +7311,26 @@ function buscarJsonp(url, timeoutMs = 9000) {
   });
 }
 
+async function buscarCatalogo(url, timeoutMs = 9000) {
+  const controle = new AbortController();
+  const timer = window.setTimeout(() => controle.abort(), timeoutMs);
+
+  try {
+    const resposta = await fetch(url, {
+      cache: "force-cache",
+      mode: "cors",
+      signal: controle.signal,
+    });
+    if (!resposta.ok) throw new Error(`Catálogo respondeu ${resposta.status}`);
+    return await resposta.json();
+  } catch (erroFetch) {
+    console.warn("Busca direta do catálogo falhou; tentando JSONP.", erroFetch);
+    return buscarJsonp(url, timeoutMs);
+  } finally {
+    window.clearTimeout(timer);
+  }
+}
+
 async function buscarNoItunes(faixa) {
   const chaveCache = faixa.spotifyId || faixa.busca;
   if (state.cache.has(chaveCache)) return state.cache.get(chaveCache);
@@ -7332,7 +7353,7 @@ async function buscarNoItunes(faixa) {
       entity: "song",
       limit: "25",
     });
-    const dados = await buscarJsonp(`https://itunes.apple.com/search?${params}`);
+    const dados = await buscarCatalogo(`https://itunes.apple.com/search?${params}`);
     const resultados = Array.isArray(dados.results) ? dados.results : [];
     const candidatos = resultados
       .filter((item) => typeof item.previewUrl === "string" && item.previewUrl.startsWith("https://"))
@@ -7429,11 +7450,33 @@ function aguardarAudioCarregar() {
   });
 }
 
+function liberarAudioObjectUrl() {
+  if (!state.audioObjectUrl) return;
+  URL.revokeObjectURL(state.audioObjectUrl);
+  state.audioObjectUrl = null;
+}
+
+async function criarFonteCompativelIOS(url, pedido) {
+  const resposta = await fetch(url, {
+    cache: "force-cache",
+    mode: "cors",
+  });
+  if (!resposta.ok) throw new Error(`Prévia respondeu ${resposta.status}`);
+
+  const dados = await resposta.arrayBuffer();
+  if (pedido !== state.pedidoAtual) return null;
+
+  // O servidor da Apple pode rotular um AAC/M4A como audio/x-m4p. Recriar o
+  // Blob com o MIME correto evita que o Safari do iPhone rejeite a prévia.
+  return URL.createObjectURL(new Blob([dados], { type: "audio/mp4" }));
+}
+
 async function prepararAudio(resolvida, pedido) {
   state.audioPronto = false;
   refs.playButton.disabled = true;
   refs.previewButton.disabled = true;
   pararAudio();
+  liberarAudioObjectUrl();
   refs.audio.removeAttribute("src");
   if (!EH_IOS) refs.audio.load();
 
@@ -7452,7 +7495,27 @@ async function prepararAudio(resolvida, pedido) {
   }
 
   try {
-    refs.audio.src = resolvida.audio;
+    let fonteAudio = resolvida.audio;
+
+    if (EH_IOS && /^https:\/\//i.test(resolvida.audio)) {
+      definirStatus("loading", "PREPARANDO ÁUDIO");
+      try {
+        const fonteCompativel = await criarFonteCompativelIOS(resolvida.audio, pedido);
+        if (pedido !== state.pedidoAtual) {
+          if (fonteCompativel) URL.revokeObjectURL(fonteCompativel);
+          return { pronto: false, motivo: "cancelado" };
+        }
+        if (fonteCompativel) {
+          state.audioObjectUrl = fonteCompativel;
+          fonteAudio = fonteCompativel;
+        }
+      } catch (erro) {
+        // Se o download via fetch falhar, ainda tentamos a URL original.
+        console.warn("Conversão da prévia para iPhone falhou; usando a URL original.", erro);
+      }
+    }
+
+    refs.audio.src = fonteAudio;
 
     // No Safari do iPhone, load() pode permanecer bloqueado até um toque do
     // usuário. A URL já está pronta; o próprio play() do botão fará a carga.
@@ -7461,7 +7524,7 @@ async function prepararAudio(resolvida, pedido) {
       state.audioPronto = true;
       refs.playButton.disabled = false;
       refs.previewButton.disabled = false;
-      definirStatus("ready", "TOQUE PARA CARREGAR");
+      definirStatus("ready", state.audioObjectUrl ? "ÁUDIO PRONTO" : "TOQUE PARA CARREGAR");
       return { pronto: true, motivo: null };
     }
 
@@ -7480,7 +7543,8 @@ async function prepararAudio(resolvida, pedido) {
           : "PRÉVIA CONECTADA",
     );
     return { pronto: true, motivo: null };
-  } catch {
+  } catch (erro) {
+    console.warn("Falha ao preparar a prévia.", erro);
     if (pedido !== state.pedidoAtual) return { pronto: false, motivo: "cancelado" };
     state.audioPronto = false;
     refs.playButton.disabled = true;
@@ -7556,11 +7620,13 @@ async function tocarTrecho() {
       atualizarWaveform();
     }, segundos * 1000);
     return true;
-  } catch {
-    state.audioPronto = false;
-    refs.playButton.disabled = true;
-    definirStatus("error", "ÁUDIO BLOQUEADO");
-    mostrarToast("O navegador não conseguiu reproduzir esta prévia.");
+  } catch (erro) {
+    console.warn("Falha de reprodução.", erro, refs.audio.error);
+    state.audioPronto = EH_IOS;
+    refs.playButton.disabled = !EH_IOS;
+    definirStatus("error", EH_IOS ? "TOQUE NOVAMENTE" : "ÁUDIO BLOQUEADO");
+    const detalhe = erro?.name && erro.name !== "Error" ? ` (${erro.name})` : "";
+    mostrarToast(`O navegador não conseguiu reproduzir esta prévia${detalhe}.`);
     return false;
   }
 }
