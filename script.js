@@ -6947,6 +6947,15 @@ function normalizar(texto = "") {
     .trim();
 }
 
+function normalizarTituloDistinto(texto = "") {
+  return texto
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
 function escaparXml(texto = "") {
   return texto
     .replace(/&/g, "&amp;")
@@ -7090,7 +7099,7 @@ function obterSugestoes(termo) {
   const vistas = new Set();
 
   return faixasAtivas()
-    .filter((faixa) => !state.palpitesErrados.has(normalizar(faixa.titulo)))
+    .filter((faixa) => !state.palpitesErrados.has(normalizarTituloDistinto(faixa.titulo)))
     .map((faixa) => {
       const titulo = normalizar(faixa.titulo);
       const artista = normalizar(faixa.artista);
@@ -7103,13 +7112,15 @@ function obterSugestoes(termo) {
       return { faixa, pontos };
     })
     .filter(({ faixa, pontos }) => {
-      const chave = normalizar(faixa.titulo);
+      const chave = normalizarTituloDistinto(faixa.titulo);
       if (!Number.isFinite(pontos) || vistas.has(chave)) return false;
       vistas.add(chave);
       return true;
     })
     .sort((a, b) =>
-      a.pontos - b.pontos || a.faixa.titulo.localeCompare(b.faixa.titulo, "pt-BR"),
+      a.pontos - b.pontos ||
+      a.faixa.titulo.length - b.faixa.titulo.length ||
+      a.faixa.titulo.localeCompare(b.faixa.titulo, "pt-BR"),
     )
     .slice(0, 7)
     .map(({ faixa }) => faixa);
@@ -7649,7 +7660,17 @@ function usarDica() {
 
 function respostaCorreta(palpite) {
   const aceitas = [state.faixa.titulo, ...(state.faixa.aliases || [])].map(normalizar);
-  return aceitas.includes(normalizar(palpite));
+  if (!aceitas.includes(normalizar(palpite))) return false;
+
+  const mesmaBase = faixasAtivas().filter(
+    (faixa) => normalizar(faixa.titulo) === normalizar(state.faixa.titulo),
+  );
+  if (mesmaBase.length <= 1) return true;
+
+  const aceitasDistintas = [state.faixa.titulo, ...(state.faixa.aliases || [])].map(
+    normalizarTituloDistinto,
+  );
+  return aceitasDistintas.includes(normalizarTituloDistinto(palpite));
 }
 
 function validarPalpite(valor) {
@@ -7679,12 +7700,22 @@ function validarPalpite(valor) {
   void refs.guessInput.offsetWidth;
   refs.guessInput.classList.add("is-wrong");
   const palpiteNormalizado = normalizar(palpite);
-  const faixaTentada = faixasAtivas().find((faixa) =>
-    [faixa.titulo, ...(faixa.aliases || [])].some(
-      (titulo) => normalizar(titulo) === palpiteNormalizado,
-    ),
-  );
-  if (faixaTentada) state.palpitesErrados.add(normalizar(faixaTentada.titulo));
+  const palpiteDistinto = normalizarTituloDistinto(palpite);
+  const faixasDisponiveis = faixasAtivas();
+  const faixaTentada =
+    faixasDisponiveis.find((faixa) =>
+      [faixa.titulo, ...(faixa.aliases || [])].some(
+        (titulo) => normalizarTituloDistinto(titulo) === palpiteDistinto,
+      ),
+    ) ||
+    faixasDisponiveis.find((faixa) =>
+      [faixa.titulo, ...(faixa.aliases || [])].some(
+        (titulo) => normalizar(titulo) === palpiteNormalizado,
+      ),
+    );
+  if (faixaTentada) {
+    state.palpitesErrados.add(normalizarTituloDistinto(faixaTentada.titulo));
+  }
   refs.guessInput.value = "";
   fecharSugestoes();
   refs.formFeedback.textContent = faixaTentada
