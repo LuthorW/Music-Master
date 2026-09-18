@@ -10291,7 +10291,7 @@ const state = {
   ),
   posicao: 0,
   modo: "random",
-  artistaSelecionado: ARTISTAS.includes("Ana Carolina") ? "Ana Carolina" : ARTISTAS[0],
+  artistaSelecionado: ARTISTAS.includes("ABBA") ? "ABBA" : ARTISTAS[0],
   duracaoInicial: DURACAO_INICIAL_SALVA,
   estagio: DURACAO_INICIAL_SALVA === 1 ? 1 : 0,
   faixa: null,
